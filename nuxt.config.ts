@@ -5,12 +5,6 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
     compatibilityDate: "2024-11-01",
     devtools: { enabled: true },
-    content: {
-        documentDriven: true,
-        experimental: {
-            localDb: false,
-        },
-    },
     vite: {
         plugins: [tsconfigPaths(), tailwindcss()],
     },
@@ -29,7 +23,6 @@ export default defineNuxtConfig({
     },
     modules: [
         "@nuxtjs/color-mode",
-        "@nuxt/content",
         "@nuxt/eslint",
         "@nuxt/fonts",
         "@nuxt/icon",
