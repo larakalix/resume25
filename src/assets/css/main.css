@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+    --color-white: #fff0e3;
+    --color-black: #282829;
+    --color-gray: #ccc;
+    --color-dark-gray: #333;
+    --color-orange: #fea75f;
+
+    --color-background: var(--color-white);
+    --color-title: var(--color-black);
+    --color-paragraph: var(--color-dark-gray);
+}
+
+.dark {
+    --color-background: var(--color-black);
+    --color-title: var(--color-white);
+    --color-paragraph: var(--color-gray);
+}
+
+body {
+    font-family: Inter, sans-serif;
+    background-color: var(--color-background);
+}
+
+::selection {
+    background-color: transparent;
+}
+
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection,
+p::selection {
+    background-color: var(--color-orange);
+    color: var(--color-orange-950);
+}
