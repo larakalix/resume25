@@ -2,21 +2,34 @@
 @import "@nuxt/ui";
 
 @theme {
+    /* white variants */
     --color-white: #fff0e3;
+    --color-white-100: #eddbca;
+
+    /* black variants */
     --color-black: #282829;
+
+    /* gray variants */
     --color-gray: #ccc;
-    --color-dark-gray: #333;
+    --color-dark-gray-100: #333;
+    --color-dark-gray-400: #1f1f1f;
+
+    /* orange variants */
     --color-orange: #fea75f;
+
+    --color-card: #1f1f1f;
 
     --color-background: var(--color-white);
     --color-title: var(--color-black);
-    --color-paragraph: var(--color-dark-gray);
+    --color-paragraph: var(--color-dark-gray-100);
+    --color-no-rows-found: var(--color-white-100);
 }
 
 .dark {
     --color-background: var(--color-black);
     --color-title: var(--color-white);
     --color-paragraph: var(--color-gray);
+    --color-no-rows-found: var(--color-dark-gray-400);
 }
 
 body {
@@ -35,6 +48,6 @@ h4::selection,
 h5::selection,
 h6::selection,
 p::selection {
-    background-color: var(--color-orange);
-    color: var(--color-orange-950);
+    background-color: transparent;
+    color: var(--color-orange);
 }

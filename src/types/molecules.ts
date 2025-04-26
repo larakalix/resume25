@@ -1,4 +1,4 @@
-export type MLPageHeaderProps = {
+export type MLPageHeader = {
     title: string;
     subtitle?: string;
     description: string[];

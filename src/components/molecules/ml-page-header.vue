@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import type { MLPageHeaderProps } from './types.ts'
+import type { MLPageHeader } from '~/types/molecules';
 
-const props = defineProps<MLPageHeaderProps>()
+const props = defineProps<MLPageHeader>()
 </script>
 
 <template>

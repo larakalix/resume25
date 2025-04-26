@@ -7,9 +7,6 @@ const { config } = useContentStore()
     <nav class="container mx-auto flex justify-between items-center px-2 py-2 lg:px-4 lg:py-8">
       <div class="flex items-center gap-x-2">
         <div class="flex items-center gap-4 text-xl">
-          <!-- <a v-for="{ name, href, icon } in config?.socials" :key="name" :href="href" target="_blank" :aria-label="name">
-            <Icon :name="icon" />
-          </a> -->
           <MlSocials v-if="config?.socials" :socials="config?.socials" />
         </div>
       </div>

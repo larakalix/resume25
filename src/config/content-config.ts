@@ -120,11 +120,9 @@ export const contentConfig = {
             } as PageConfig,
         ],
     ]),
+    blog: [],
 };
+
 export type ContentConfig = typeof contentConfig;
-
-export const projects = [];
-
-export type Project = (typeof projects)[number];
 
 export type NavItem = (typeof contentConfig)["navItems"][number];

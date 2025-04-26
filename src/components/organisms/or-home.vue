@@ -3,6 +3,7 @@ import type { Page } from '~/types/page'
 
 const { page } = defineProps<Page>()
 const { config } = useContentStore()
+const { projects } = useProjectStore()
 
 const { description, ...rest } = page
 
@@ -22,6 +23,8 @@ const first = paragraphs.shift() || ''
 
         <template #default>
             <AtParagraph v-for="(text, index) in paragraphs" :key="index" :text="text" />
+
+            <MlProjects :projects="projects ?? []" />
         </template>
     </MlPageContainer>
 </template>
