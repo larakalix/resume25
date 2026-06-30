@@ -76,7 +76,7 @@ export async function fetchProjects(): Promise<Project[]> {
                 "Drag and Drop",
                 "Task Management",
             ],
-            url: "https://github.com/larakalix/task-dnd-app",
+            url: "https://task-dnd-app.vercel.app",
         },
         {
             id: "cm9xsg3ev000108ky9b80ek45",
@@ -91,7 +91,7 @@ export async function fetchProjects(): Promise<Project[]> {
                 "Job Search",
                 "InfoJobs",
             ],
-            url: "https://github.com/larakalix/task-dnd-app",
+            url: "https://github.com/larakalix/info-jobs-app",
         },
         {
             id: "cm9xsfxh7000008kyb21ib9km",
@@ -107,7 +107,7 @@ export async function fetchProjects(): Promise<Project[]> {
                 "DatoCMS",
                 "Content Management",
             ],
-            url: "https://github.com/larakalix/task-dnd-app",
+            url: "https://github.com/larakalix/blog-app",
         },
         {
             id: "cm9xsfxh7000008kyb21ib9kn",
