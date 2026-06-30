@@ -2,8 +2,8 @@
 import type { Page } from '~/types/page'
 
 const { page } = defineProps<Page>()
-const { config } = useContentStore()
-const { projects } = useProjectStore()
+const { config } = useContent()
+const { recentProjects } = useProjects()
 
 const { description, ...rest } = page
 
@@ -24,7 +24,7 @@ const first = paragraphs.shift() || ''
         <template #default>
             <AtParagraph v-for="(text, index) in paragraphs" :key="index" :text="text" />
 
-            <MlProjects :projects="projects ?? []" />
+            <MlProjects :projects="recentProjects" title="Recent projects" />
         </template>
     </MlPageContainer>
 </template>

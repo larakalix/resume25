@@ -3,11 +3,79 @@ import type { Project } from "~/types/schemas";
 export async function fetchProjects(): Promise<Project[]> {
     return [
         {
+            id: "cm9xsg6r6000208ky665y9123",
+            name: "Booqself",
+            description:
+                "A booking page for customers. An appointment system for businesses.",
+            image: "/img/booqself.gif",
+            tags: [
+                "Nuxt",
+                "TypeScript",
+                "Tailwind CSS",
+                "Booking",
+                "Businesses",
+                "Book Management",
+                "Appointments",
+            ],
+            url: "https://www.booqself.com/",
+        },
+        {
+            id: "cm9xsg6r6000208ky665y9124",
+            name: "Drag and drop website builder",
+            description:
+                "A drag and drop website builder that allows you to create websites without coding.",
+            image: "/img/dnd-tool.gif",
+            tags: [
+                "React",
+                "TypeScript",
+                "Tailwind CSS",
+                "Drag and Drop",
+                "Website Builder",
+            ],
+            url: "https://bq-dnd-tool.vercel.app",
+        },
+        {
+            id: "cm9xsg6r6000208ky665y9126",
+            name: "Lummiq",
+            description: "School management system for teachers and students.",
+            image: "/img/lummiq.png",
+            tags: [
+                "NextJS",
+                "TypeScript",
+                "Tailwind CSS",
+                "School Management",
+                "Teachers",
+                "Students",
+            ],
+            url: "https://lummiq.com/",
+        },
+        {
+            id: "cm9xsg6r6000208ky665y9125",
+            name: "Gamer shop",
+            description:
+                "A simple e-commerce website for selling gaming products.",
+            image: "/img/gamer-shop.gif",
+            tags: [
+                "NextJS",
+                "TypeScript",
+                "Tailwind CSS",
+                "E-commerce",
+                "Gaming",
+            ],
+            url: "https://ad-frontend-test-sooty.vercel.app/",
+        },
+        {
             id: "cm9xsg6r6000208ky665y9jfu",
             name: "Task App DnD",
             description: "A simple task app with drag and drop functionality.",
-            image: "https://resume-22.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fz8vobr2s%2Fproduction%2Fa453326286d4409a21b1fa57e032e7e79921efca-580x432.gif&w=640&q=75",
-            tags: ["React", "TypeScript", "Tailwind CSS"],
+            image: "/img/tasks-app.gif",
+            tags: [
+                "React",
+                "TypeScript",
+                "Tailwind CSS",
+                "Drag and Drop",
+                "Task Management",
+            ],
             url: "https://github.com/larakalix/task-dnd-app",
         },
         {
@@ -15,8 +83,14 @@ export async function fetchProjects(): Promise<Project[]> {
             name: "InfoJobs App",
             description:
                 "A job search app that allows you to search for jobs and save them.",
-            image: "https://resume-22.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fz8vobr2s%2Fproduction%2F6f99d8e8cab1accb21e19b9af527789f00b154ab-540x470.gif&w=640&q=75",
-            tags: ["NextJS", "TypeScript", "Tailwind CSS"],
+            image: "/img/infojobs.gif",
+            tags: [
+                "NextJS",
+                "TypeScript",
+                "Tailwind CSS",
+                "Job Search",
+                "InfoJobs",
+            ],
             url: "https://github.com/larakalix/task-dnd-app",
         },
         {
@@ -24,9 +98,25 @@ export async function fetchProjects(): Promise<Project[]> {
             name: "Blog with DatoCMS",
             description:
                 "A simple blog with DatoCMS. It uses the DatoCMS API to fetch posts and display them.",
-            image: "https://resume-22.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fz8vobr2s%2Fproduction%2F0f957bdd9d8aae91f3b0246561633db6899f5af9-580x432.gif&w=640&q=75",
-            tags: ["React", "TypeScript", "Tailwind CSS"],
+            image: "/img/blog.gif",
+            tags: [
+                "React",
+                "TypeScript",
+                "Tailwind CSS",
+                "Blog",
+                "DatoCMS",
+                "Content Management",
+            ],
             url: "https://github.com/larakalix/task-dnd-app",
+        },
+        {
+            id: "cm9xsfxh7000008kyb21ib9kn",
+            name: "Mweeter App",
+            description:
+                "A simple Twitter clone that allows you to post tweets and view them.",
+            image: "/img/mweeter.png",
+            tags: ["React", "TypeScript", "Tailwind CSS", "Twitter Clone"],
+            url: "https://github.com/larakalix/monogram-challenge",
         },
     ];
 }

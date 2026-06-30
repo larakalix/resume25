@@ -1,9 +1,8 @@
 import { useRouter } from "vue-router";
-import { useContentStore } from "~/stores/use-content-store";
 import type { PageConfig } from "~/types/page";
 
 export const usePage = (pageKey: string) => {
-    const content = useContentStore();
+    const content = useContent();
     const router = useRouter();
     const page = content.getPage(pageKey);
 

@@ -28,8 +28,6 @@ export default defineNuxtConfig({
         "@nuxt/icon",
         "@nuxt/image",
         "@nuxt/ui",
-        "@pinia/nuxt",
-        "pinia-plugin-persistedstate/nuxt",
     ],
     components: [{ path: "~/components", pathPrefix: false }],
     ui: {
@@ -44,8 +42,5 @@ export default defineNuxtConfig({
                 "error",
             ],
         },
-    },
-    pinia: {
-        autoImports: ["defineStore", "acceptHMRUpdate"],
     },
 });

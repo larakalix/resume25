@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const year = new Date().getFullYear()
-const { config } = useContentStore()
+const { config } = useContent()
 </script>
 
 <template>

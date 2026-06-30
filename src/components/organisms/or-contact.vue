@@ -2,7 +2,7 @@
 import type { Page } from '~/types/page'
 
 const { page } = defineProps<Page>()
-const { config } = useContentStore()
+const { config } = useContent()
 
 const { description, ...rest } = page
 

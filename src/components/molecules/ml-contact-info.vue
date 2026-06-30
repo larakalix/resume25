@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { config } = useContentStore()
+const { config } = useContent()
 </script>
 
 <template>

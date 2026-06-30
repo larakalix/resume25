@@ -2,8 +2,6 @@
 import type { PageConfig } from '~/types/page';
 
 const page = usePage('home') as PageConfig;
-const { refreshProjects } = useProjectStore()
-await refreshProjects()
 </script>
 
 <template>
