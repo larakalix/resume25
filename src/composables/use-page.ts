@@ -1,13 +1,11 @@
-import { useRouter } from "vue-router";
 import type { PageConfig } from "~/types/page";
 
-export const usePage = (pageKey: string) => {
+export const usePage = (pageKey: string): PageConfig | undefined => {
     const content = useContent();
-    const router = useRouter();
     const page = content.getPage(pageKey);
 
     if (!page) {
-        router.push("/not-found");
+        navigateTo("/not-found", { replace: true });
         return;
     }
 

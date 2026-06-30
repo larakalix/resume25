@@ -3,7 +3,7 @@ import type { Page } from '~/types/page'
 
 const { page } = defineProps<Page>()
 const { config } = useContent()
-const { posts } = usePosts()
+const { posts, isLoading, isError, error } = usePosts()
 
 const { description, ...rest } = page
 </script>
@@ -15,7 +15,7 @@ const { description, ...rest } = page
         </template>
 
         <template #default>
-            <MlPosts :posts="posts ?? []" />
+            <MlPosts :posts="posts ?? []" :is-loading="isLoading" :is-error="isError" :error="error" />
         </template>
     </MlPageContainer>
 </template>

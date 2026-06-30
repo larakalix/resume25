@@ -1,6 +1,5 @@
 <script setup lang="ts">
 const route = useRoute()
-const router = useRouter()
 const slug = route.params.slug as string
 
 const { post, isLoading } = usePost(slug)
@@ -16,7 +15,7 @@ const formattedDate = computed(() => {
 
 watchEffect(() => {
     if (!isLoading.value && !post.value) {
-        router.push('/not-found')
+        navigateTo('/not-found', { replace: true })
     }
 })
 
