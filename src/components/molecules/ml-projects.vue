@@ -12,6 +12,11 @@ const { projects, isLoading = false, isError = false, error = null, showViewAll 
 }>()
 
 const hoveredIndex = ref<number | null>(null)
+const posthog = usePostHog()
+
+function trackViewAllProjects() {
+    posthog?.capture('view_all_projects_clicked')
+}
 </script>
 
 <template>
@@ -26,10 +31,13 @@ const hoveredIndex = ref<number | null>(null)
 
         <MlEmptyRows v-else-if="!projects.length" />
 
-        <MlProjectCard v-for="(project, i) in projects" :key="project.id" :project="project" :index="i"
+        <MlProjectCard
+v-for="(project, i) in projects" :key="project.id" :project="project" :index="i"
             :hovered-index="hoveredIndex" :variant="variant" @hover="hoveredIndex = i" @unhover="hoveredIndex = null" />
 
-        <AtNavLink v-if="showViewAll && !isLoading && !isError" to="/projects" class="group col-span-full">
+        <AtNavLink
+v-if="showViewAll && !isLoading && !isError" to="/projects" class="group col-span-full"
+            @click="trackViewAllProjects">
             View all projects <span class="ml-2 transition-transform group-hover:rotate-45 group-hover:text-orange/80">↗
             </span>
         </AtNavLink>

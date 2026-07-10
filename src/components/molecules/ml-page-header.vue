@@ -2,6 +2,14 @@
 import type { MLPageHeader } from '~/types/molecules';
 
 const props = defineProps<MLPageHeader>()
+const posthog = usePostHog()
+
+function trackCtaClick() {
+    posthog?.capture('contact_cta_clicked', {
+        cta_text: props.action?.text,
+        cta_href: props.action?.href,
+    })
+}
 </script>
 
 <template>
@@ -18,7 +26,9 @@ const props = defineProps<MLPageHeader>()
         </div>
 
         <template v-if="props?.action">
-            <AtLinkButton :label="props?.action.text" :to="props?.action.href" />
+            <div @click="trackCtaClick">
+                <AtLinkButton :label="props?.action.text" :to="props?.action.href" />
+            </div>
         </template>
     </header>
 </template>

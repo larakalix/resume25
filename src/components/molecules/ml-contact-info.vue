@@ -1,5 +1,13 @@
 <script setup lang="ts">
 const { config } = useContent()
+const posthog = usePostHog()
+
+function trackContactLinkClick(name: string) {
+    posthog?.capture('contact_link_clicked', {
+        link_name: name,
+        link_type: name === 'Email' ? 'email' : 'external',
+    })
+}
 </script>
 
 <template>
@@ -9,7 +17,9 @@ const { config } = useContent()
 
         <ul class="list-disc pl-4 space-y-2 marker:text-black/50 dark:marker:text-white/50">
             <li v-for="{ href, name } in config.contactLinks" :key="name">
-                <a :href="href" target="_blank" rel="noopener noreferrer" class="text-sm md:text-base font-medium text-black dark:text-white">
+                <a
+:href="href" target="_blank" rel="noopener noreferrer" class="text-sm md:text-base font-medium text-black dark:text-white"
+                    @click="trackContactLinkClick(name)">
                     <template v-if="name === 'Email'">
                         <span class="font-medium text-black dark:text-white">Email:</span>
                         <span class="ml-1">{{ href.replace('mailto:', '') }}</span>

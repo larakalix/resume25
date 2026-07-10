@@ -28,7 +28,26 @@ export default defineNuxtConfig({
         "@nuxt/icon",
         "@nuxt/image",
         "@nuxt/ui",
+        "@posthog/nuxt",
     ],
+    runtimeConfig: {
+        public: {
+            posthog: {
+                publicKey: process.env.NUXT_PUBLIC_POSTHOG_PROJECT_TOKEN || '',
+                host: process.env.NUXT_PUBLIC_POSTHOG_HOST || 'https://us.i.posthog.com',
+            },
+        },
+    },
+    posthogConfig: {
+        publicKey: process.env.NUXT_PUBLIC_POSTHOG_PROJECT_TOKEN || '',
+        host: process.env.NUXT_PUBLIC_POSTHOG_HOST || 'https://us.i.posthog.com',
+        clientConfig: {
+            capture_exceptions: true,
+        },
+        serverConfig: {
+            enableExceptionAutocapture: true,
+        },
+    },
     components: [{ path: "~/components", pathPrefix: false }],
     ui: {
         theme: {

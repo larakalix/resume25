@@ -13,11 +13,27 @@ const formattedDate = computed(() => {
     }).format(new Date(post.value.date))
 })
 
+const posthog = usePostHog()
+
 watchEffect(() => {
     if (!isLoading.value && !post.value) {
         navigateTo('/not-found', { replace: true })
     }
 })
+
+watch(
+    () => !isLoading.value && !!post.value,
+    (ready) => {
+        if (ready && post.value) {
+            posthog?.capture('blog_post_viewed', {
+                post_slug: post.value.slug,
+                post_title: post.value.title,
+                post_tags: post.value.tags,
+            })
+        }
+    },
+    { once: true },
+)
 
 useHead(() => ({
     title: post.value ? `${post.value.title} - Ivan Lara` : 'Post',

@@ -12,6 +12,16 @@ const emit = defineEmits<{
     hover: []
     unhover: []
 }>()
+
+const posthog = usePostHog()
+
+function trackProjectClick() {
+    posthog?.capture('project_link_clicked', {
+        project_name: project.name,
+        project_url: project.url,
+        variant,
+    })
+}
 </script>
 
 <template>
@@ -24,7 +34,8 @@ const emit = defineEmits<{
             }
         ]" @mouseenter="emit('hover')" @mouseleave="emit('unhover')">
             <a v-if="project.url" :href="project.url" target="_blank" rel="noopener noreferrer"
-                class="block overflow-hidden rounded" :class="variant === 'large' ? 'w-full' : 'min-w-32'">
+                class="block overflow-hidden rounded" :class="variant === 'large' ? 'w-full' : 'min-w-32'"
+                @click="trackProjectClick">
                 <img :src="project.image" :alt="project.name"
                     class="object-cover rounded transition-transform duration-300 group-hover:scale-105"
                     :class="variant === 'large' ? 'w-full h-48' : 'min-w-32 h-20'" />

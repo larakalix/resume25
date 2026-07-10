@@ -7,8 +7,11 @@
 
 <script setup lang="ts">
 const colorMode = useColorMode()
+const posthog = usePostHog()
 
 const toggleTheme = () => {
-    colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark'
+    const newTheme = colorMode.value === 'dark' ? 'light' : 'dark'
+    colorMode.preference = newTheme
+    posthog?.capture('theme_toggled', { theme: newTheme })
 }
 </script>
