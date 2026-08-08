@@ -39,7 +39,7 @@ export async function fetchProjects(): Promise<Project[]> {
             name: "Nuxt UI Kit",
             description: "A UI kit for Nuxt.js applications.",
             image: "/img/nuxt-ui-kit.gif",
-            tags: ["Nuxt", "TypeScript", "Tailwind CSS", "UI Kit"],
+            tags: ["Nuxt", "TypeScript", "Tailwind CSS", "Storybook"],
             url: "https://ct-starter-storybook.vercel.app/",
         },
         {
