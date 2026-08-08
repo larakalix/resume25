@@ -35,6 +35,14 @@ export async function fetchProjects(): Promise<Project[]> {
             url: "https://bq-dnd-tool.vercel.app",
         },
         {
+            id: "cm9xsg6r6000208ky665y9127",
+            name: "Nuxt UI Kit",
+            description: "A UI kit for Nuxt.js applications.",
+            image: "/img/nuxt-ui-kit.gif",
+            tags: ["Nuxt", "TypeScript", "Tailwind CSS", "UI Kit"],
+            url: "https://ct-starter-storybook.vercel.app/",
+        },
+        {
             id: "cm9xsg6r6000208ky665y9126",
             name: "Lummiq",
             description: "School management system for teachers and students.",
