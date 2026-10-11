@@ -1,23 +1,7 @@
-import { useQuery } from "@tanstack/vue-query";
-import { fetchPostBySlug } from "~/services/get-posts";
+import type { MaybeRefOrGetter } from 'vue';
+import type { ArticleContent } from '~/domain/content/models';
 
-export const usePost = (slug: string) => {
-    const {
-        data: post,
-        isLoading,
-        isError,
-        error,
-        refetch,
-    } = useQuery({
-        queryKey: ["post", slug],
-        queryFn: () => fetchPostBySlug(slug),
-    });
-
-    return {
-        post,
-        isLoading,
-        isError,
-        error,
-        refreshPost: refetch,
-    };
-};
+export function usePost(slug: MaybeRefOrGetter<string>) {
+    const request = useRequestFetch();
+    return useAsyncData<ArticleContent>(() => `portfolio:article:${toValue(slug)}`, () => request(`/api/portfolio/articles/${encodeURIComponent(toValue(slug))}`, { responseType: 'json' }));
+}

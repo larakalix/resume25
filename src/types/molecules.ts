@@ -1,11 +1,2 @@
-export type MLPageHeader = {
-    title: string;
-    subtitle?: string;
-    description: string[];
-    action?:
-        | {
-              text: string;
-              href: string;
-          }
-        | undefined;
-};
+import type { PageConfig } from './page';
+export type MLPageHeader = Omit<PageConfig, 'description' | 'meta'> & { description: string[] };

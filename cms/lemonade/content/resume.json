@@ -1,0 +1,172 @@
+[
+  {
+    "seed_key": "resume:main",
+    "content_type": "resume",
+    "fields": {
+      "schema_version": 1,
+      "source_document": "RS_IL2026.pdf",
+      "profile": {
+        "$ref": "profile:main"
+      },
+      "experience": [
+        {
+          "$ref": "experience:apply-digital"
+        },
+        {
+          "$ref": "experience:fpfx-tech"
+        },
+        {
+          "$ref": "experience:novatech"
+        },
+        {
+          "$ref": "experience:stefanini"
+        },
+        {
+          "$ref": "experience:hypernova-labs"
+        },
+        {
+          "$ref": "experience:godigital-group"
+        },
+        {
+          "$ref": "experience:online"
+        }
+      ],
+      "skill_groups": [
+        {
+          "id": "cf1ec190-409e-5213-aead-fe89a87c4d8c",
+          "type": "portfolio_skill_group",
+          "fields": {
+            "content_id": "frontend",
+            "label": "Frontend",
+            "items": [
+              "React",
+              "Next.js",
+              "Angular",
+              "TypeScript",
+              "Zustand",
+              "React Query",
+              "Tailwind CSS"
+            ]
+          }
+        },
+        {
+          "id": "efbe4066-8162-5080-8a40-a8de976fcd39",
+          "type": "portfolio_skill_group",
+          "fields": {
+            "content_id": "backend",
+            "label": "Backend & data",
+            "items": [
+              "Java",
+              "C#",
+              ".NET Core / .NET 8",
+              "Node.js",
+              "Python",
+              "SQL Server",
+              "MySQL",
+              "MongoDB",
+              "REST APIs",
+              "GraphQL"
+            ]
+          }
+        },
+        {
+          "id": "4a2d7c85-0d2e-5cdf-a0b9-532604fb49de",
+          "type": "portfolio_skill_group",
+          "fields": {
+            "content_id": "architecture",
+            "label": "Architecture",
+            "items": [
+              "SOLID",
+              "Clean Architecture",
+              "Repository",
+              "Factory",
+              "CQRS",
+              "Mediator"
+            ]
+          }
+        },
+        {
+          "id": "2ddb7890-f804-508d-8c2a-85e4f9b4e164",
+          "type": "portfolio_skill_group",
+          "fields": {
+            "content_id": "delivery",
+            "label": "Delivery & tooling",
+            "items": [
+              "Agile / Scrum",
+              "Code reviews",
+              "Git / GitFlow",
+              "CI/CD",
+              "Azure",
+              "AWS",
+              "Docker",
+              "Figma",
+              "Swagger",
+              "Postman",
+              "VS Code",
+              "Visual Studio"
+            ]
+          }
+        },
+        {
+          "id": "aead9413-2cc9-5f26-af0a-8c94446121d7",
+          "type": "portfolio_skill_group",
+          "fields": {
+            "content_id": "content",
+            "label": "Content & product",
+            "items": [
+              "Contentful",
+              "Strapi",
+              "UI/UX principles",
+              "Digital marketing fundamentals"
+            ]
+          }
+        }
+      ],
+      "education": [
+        {
+          "id": "6965e581-1c2a-5147-a617-af6c48a22e64",
+          "type": "portfolio_education",
+          "fields": {
+            "content_id": "upn",
+            "institution": "Universidad Politecnica de Nicaragua",
+            "qualification": "System Engineering",
+            "date": "2016-01",
+            "status": "Degree paperwork pending"
+          }
+        }
+      ],
+      "certifications": [
+        {
+          "id": "10f33375-3456-5324-a860-b021d47f48ed",
+          "type": "portfolio_certification",
+          "fields": {
+            "content_id": "microsoft-70-480",
+            "issuer": "Microsoft",
+            "name": "70-480: Programming in HTML5 with JavaScript and CSS3",
+            "date": "2017-11"
+          }
+        }
+      ],
+      "languages": [
+        {
+          "id": "a13f2535-ac9b-5c9d-a47b-822212366ed1",
+          "type": "portfolio_language",
+          "fields": {
+            "name": "Spanish",
+            "proficiency": "Native"
+          }
+        },
+        {
+          "id": "4774a688-b1ad-55a0-b32a-dc1791884048",
+          "type": "portfolio_language",
+          "fields": {
+            "name": "English",
+            "proficiency": "Fluent (B2–C1)"
+          }
+        }
+      ],
+      "pdf_path": "/ivan-lara-resume.pdf",
+      "text_path": "/ivan-lara-resume.txt"
+    }
+  }
+]

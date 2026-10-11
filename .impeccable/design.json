@@ -1,0 +1,1080 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-04T23:19:13.682183+00:00",
+  "title": "Design System: Ivan Lara",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Action Blue",
+        "canonical": "#0066cc",
+        "tonalRamp": [
+          "oklch(15.00% 0.1771 255.83)",
+          "oklch(26.43% 0.1771 255.83)",
+          "oklch(37.86% 0.1771 255.83)",
+          "oklch(49.29% 0.1771 255.83)",
+          "oklch(60.71% 0.1771 255.83)",
+          "oklch(72.14% 0.1771 255.83)",
+          "oklch(83.57% 0.1771 255.83)",
+          "oklch(95.00% 0.1771 255.83)"
+        ]
+      },
+      "background": {
+        "role": "neutral",
+        "displayName": "Background",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15.00% 0.0000 89.88)",
+          "oklch(26.43% 0.0000 89.88)",
+          "oklch(37.86% 0.0000 89.88)",
+          "oklch(49.29% 0.0000 89.88)",
+          "oklch(60.71% 0.0000 89.88)",
+          "oklch(72.14% 0.0000 89.88)",
+          "oklch(83.57% 0.0000 89.88)",
+          "oklch(95.00% 0.0000 89.88)"
+        ]
+      },
+      "title": {
+        "role": "neutral",
+        "displayName": "Title",
+        "canonical": "#1d1d1f",
+        "tonalRamp": [
+          "oklch(15.00% 0.0038 286.10)",
+          "oklch(26.43% 0.0038 286.10)",
+          "oklch(37.86% 0.0038 286.10)",
+          "oklch(49.29% 0.0038 286.10)",
+          "oklch(60.71% 0.0038 286.10)",
+          "oklch(72.14% 0.0038 286.10)",
+          "oklch(83.57% 0.0038 286.10)",
+          "oklch(95.00% 0.0038 286.10)"
+        ]
+      },
+      "paragraph": {
+        "role": "neutral",
+        "displayName": "Paragraph",
+        "canonical": "#64646c",
+        "tonalRamp": [
+          "oklch(15.00% 0.0125 285.94)",
+          "oklch(26.43% 0.0125 285.94)",
+          "oklch(37.86% 0.0125 285.94)",
+          "oklch(49.29% 0.0125 285.94)",
+          "oklch(60.71% 0.0125 285.94)",
+          "oklch(72.14% 0.0125 285.94)",
+          "oklch(83.57% 0.0125 285.94)",
+          "oklch(95.00% 0.0125 285.94)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface",
+        "canonical": "#f5f5f7",
+        "tonalRamp": [
+          "oklch(15.00% 0.0027 286.35)",
+          "oklch(26.43% 0.0027 286.35)",
+          "oklch(37.86% 0.0027 286.35)",
+          "oklch(49.29% 0.0027 286.35)",
+          "oklch(60.71% 0.0027 286.35)",
+          "oklch(72.14% 0.0027 286.35)",
+          "oklch(83.57% 0.0027 286.35)",
+          "oklch(95.00% 0.0027 286.35)"
+        ]
+      },
+      "surface-muted": {
+        "role": "neutral",
+        "displayName": "Surface Muted",
+        "canonical": "#edf3fb",
+        "tonalRamp": [
+          "oklch(15.00% 0.0125 255.51)",
+          "oklch(26.43% 0.0125 255.51)",
+          "oklch(37.86% 0.0125 255.51)",
+          "oklch(49.29% 0.0125 255.51)",
+          "oklch(60.71% 0.0125 255.51)",
+          "oklch(72.14% 0.0125 255.51)",
+          "oklch(83.57% 0.0125 255.51)",
+          "oklch(95.00% 0.0125 255.51)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Border",
+        "canonical": "#dcdce1",
+        "tonalRamp": [
+          "oklch(15.00% 0.0068 286.26)",
+          "oklch(26.43% 0.0068 286.26)",
+          "oklch(37.86% 0.0068 286.26)",
+          "oklch(49.29% 0.0068 286.26)",
+          "oklch(60.71% 0.0068 286.26)",
+          "oklch(72.14% 0.0068 286.26)",
+          "oklch(83.57% 0.0068 286.26)",
+          "oklch(95.00% 0.0068 286.26)"
+        ]
+      },
+      "accent-soft": {
+        "role": "neutral",
+        "displayName": "Accent Soft",
+        "canonical": "#e8f2ff",
+        "tonalRamp": [
+          "oklch(15.00% 0.0205 254.91)",
+          "oklch(26.43% 0.0205 254.91)",
+          "oklch(37.86% 0.0205 254.91)",
+          "oklch(49.29% 0.0205 254.91)",
+          "oklch(60.71% 0.0205 254.91)",
+          "oklch(72.14% 0.0205 254.91)",
+          "oklch(83.57% 0.0205 254.91)",
+          "oklch(95.00% 0.0205 254.91)"
+        ]
+      },
+      "primary-dark": {
+        "role": "primary",
+        "displayName": "Sky Blue",
+        "canonical": "#72b6ff",
+        "tonalRamp": [
+          "oklch(15.00% 0.1264 251.37)",
+          "oklch(26.43% 0.1264 251.37)",
+          "oklch(37.86% 0.1264 251.37)",
+          "oklch(49.29% 0.1264 251.37)",
+          "oklch(60.71% 0.1264 251.37)",
+          "oklch(72.14% 0.1264 251.37)",
+          "oklch(83.57% 0.1264 251.37)",
+          "oklch(95.00% 0.1264 251.37)"
+        ]
+      },
+      "background-dark": {
+        "role": "neutral",
+        "displayName": "Background Dark",
+        "canonical": "#101114",
+        "tonalRamp": [
+          "oklch(15.00% 0.0064 271.04)",
+          "oklch(26.43% 0.0064 271.04)",
+          "oklch(37.86% 0.0064 271.04)",
+          "oklch(49.29% 0.0064 271.04)",
+          "oklch(60.71% 0.0064 271.04)",
+          "oklch(72.14% 0.0064 271.04)",
+          "oklch(83.57% 0.0064 271.04)",
+          "oklch(95.00% 0.0064 271.04)"
+        ]
+      },
+      "title-dark": {
+        "role": "neutral",
+        "displayName": "Title Dark",
+        "canonical": "#f5f5f7",
+        "tonalRamp": [
+          "oklch(15.00% 0.0027 286.35)",
+          "oklch(26.43% 0.0027 286.35)",
+          "oklch(37.86% 0.0027 286.35)",
+          "oklch(49.29% 0.0027 286.35)",
+          "oklch(60.71% 0.0027 286.35)",
+          "oklch(72.14% 0.0027 286.35)",
+          "oklch(83.57% 0.0027 286.35)",
+          "oklch(95.00% 0.0027 286.35)"
+        ]
+      },
+      "paragraph-dark": {
+        "role": "neutral",
+        "displayName": "Paragraph Dark",
+        "canonical": "#b0b3bc",
+        "tonalRamp": [
+          "oklch(15.00% 0.0132 271.24)",
+          "oklch(26.43% 0.0132 271.24)",
+          "oklch(37.86% 0.0132 271.24)",
+          "oklch(49.29% 0.0132 271.24)",
+          "oklch(60.71% 0.0132 271.24)",
+          "oklch(72.14% 0.0132 271.24)",
+          "oklch(83.57% 0.0132 271.24)",
+          "oklch(95.00% 0.0132 271.24)"
+        ]
+      },
+      "surface-dark": {
+        "role": "neutral",
+        "displayName": "Surface Dark",
+        "canonical": "#1b1d23",
+        "tonalRamp": [
+          "oklch(15.00% 0.0120 270.86)",
+          "oklch(26.43% 0.0120 270.86)",
+          "oklch(37.86% 0.0120 270.86)",
+          "oklch(49.29% 0.0120 270.86)",
+          "oklch(60.71% 0.0120 270.86)",
+          "oklch(72.14% 0.0120 270.86)",
+          "oklch(83.57% 0.0120 270.86)",
+          "oklch(95.00% 0.0120 270.86)"
+        ]
+      },
+      "surface-muted-dark": {
+        "role": "neutral",
+        "displayName": "Surface Muted Dark",
+        "canonical": "#1b293d",
+        "tonalRamp": [
+          "oklch(15.00% 0.0419 257.31)",
+          "oklch(26.43% 0.0419 257.31)",
+          "oklch(37.86% 0.0419 257.31)",
+          "oklch(49.29% 0.0419 257.31)",
+          "oklch(60.71% 0.0419 257.31)",
+          "oklch(72.14% 0.0419 257.31)",
+          "oklch(83.57% 0.0419 257.31)",
+          "oklch(95.00% 0.0419 257.31)"
+        ]
+      },
+      "border-dark": {
+        "role": "neutral",
+        "displayName": "Border Dark",
+        "canonical": "#383c46",
+        "tonalRamp": [
+          "oklch(15.00% 0.0182 268.17)",
+          "oklch(26.43% 0.0182 268.17)",
+          "oklch(37.86% 0.0182 268.17)",
+          "oklch(49.29% 0.0182 268.17)",
+          "oklch(60.71% 0.0182 268.17)",
+          "oklch(72.14% 0.0182 268.17)",
+          "oklch(83.57% 0.0182 268.17)",
+          "oklch(95.00% 0.0182 268.17)"
+        ]
+      },
+      "accent-soft-dark": {
+        "role": "neutral",
+        "displayName": "Accent Soft Dark",
+        "canonical": "#182f4d",
+        "tonalRamp": [
+          "oklch(15.00% 0.0620 255.74)",
+          "oklch(26.43% 0.0620 255.74)",
+          "oklch(37.86% 0.0620 255.74)",
+          "oklch(49.29% 0.0620 255.74)",
+          "oklch(60.71% 0.0620 255.74)",
+          "oklch(72.14% 0.0620 255.74)",
+          "oklch(83.57% 0.0620 255.74)",
+          "oklch(95.00% 0.0620 255.74)"
+        ]
+      },
+      "world-paper": {
+        "role": "neutral",
+        "displayName": "World Paper",
+        "canonical": "#fff9ed",
+        "tonalRamp": [
+          "oklch(15.00% 0.0171 84.59)",
+          "oklch(26.43% 0.0171 84.59)",
+          "oklch(37.86% 0.0171 84.59)",
+          "oklch(49.29% 0.0171 84.59)",
+          "oklch(60.71% 0.0171 84.59)",
+          "oklch(72.14% 0.0171 84.59)",
+          "oklch(83.57% 0.0171 84.59)",
+          "oklch(95.00% 0.0171 84.59)"
+        ]
+      },
+      "world-ink": {
+        "role": "neutral",
+        "displayName": "World Ink",
+        "canonical": "#263e59",
+        "tonalRamp": [
+          "oklch(15.00% 0.0560 252.29)",
+          "oklch(26.43% 0.0560 252.29)",
+          "oklch(37.86% 0.0560 252.29)",
+          "oklch(49.29% 0.0560 252.29)",
+          "oklch(60.71% 0.0560 252.29)",
+          "oklch(72.14% 0.0560 252.29)",
+          "oklch(83.57% 0.0560 252.29)",
+          "oklch(95.00% 0.0560 252.29)"
+        ]
+      },
+      "world-muted": {
+        "role": "neutral",
+        "displayName": "World Muted",
+        "canonical": "#53677a",
+        "tonalRamp": [
+          "oklch(15.00% 0.0388 247.26)",
+          "oklch(26.43% 0.0388 247.26)",
+          "oklch(37.86% 0.0388 247.26)",
+          "oklch(49.29% 0.0388 247.26)",
+          "oklch(60.71% 0.0388 247.26)",
+          "oklch(72.14% 0.0388 247.26)",
+          "oklch(83.57% 0.0388 247.26)",
+          "oklch(95.00% 0.0388 247.26)"
+        ]
+      },
+      "world-blue": {
+        "role": "primary",
+        "displayName": "World Blue",
+        "canonical": "#2761bc",
+        "tonalRamp": [
+          "oklch(15.00% 0.1557 259.33)",
+          "oklch(26.43% 0.1557 259.33)",
+          "oklch(37.86% 0.1557 259.33)",
+          "oklch(49.29% 0.1557 259.33)",
+          "oklch(60.71% 0.1557 259.33)",
+          "oklch(72.14% 0.1557 259.33)",
+          "oklch(83.57% 0.1557 259.33)",
+          "oklch(95.00% 0.1557 259.33)"
+        ]
+      },
+      "world-line": {
+        "role": "neutral",
+        "displayName": "World Line",
+        "canonical": "#ced8db",
+        "tonalRamp": [
+          "oklch(15.00% 0.0116 217.55)",
+          "oklch(26.43% 0.0116 217.55)",
+          "oklch(37.86% 0.0116 217.55)",
+          "oklch(49.29% 0.0116 217.55)",
+          "oklch(60.71% 0.0116 217.55)",
+          "oklch(72.14% 0.0116 217.55)",
+          "oklch(83.57% 0.0116 217.55)",
+          "oklch(95.00% 0.0116 217.55)"
+        ]
+      },
+      "world-soft": {
+        "role": "neutral",
+        "displayName": "World Soft",
+        "canonical": "#e9f1ff",
+        "tonalRamp": [
+          "oklch(15.00% 0.0207 261.77)",
+          "oklch(26.43% 0.0207 261.77)",
+          "oklch(37.86% 0.0207 261.77)",
+          "oklch(49.29% 0.0207 261.77)",
+          "oklch(60.71% 0.0207 261.77)",
+          "oklch(72.14% 0.0207 261.77)",
+          "oklch(83.57% 0.0207 261.77)",
+          "oklch(95.00% 0.0207 261.77)"
+        ]
+      },
+      "world-paper-dark": {
+        "role": "neutral",
+        "displayName": "World Paper Dark",
+        "canonical": "#24343d",
+        "tonalRamp": [
+          "oklch(15.00% 0.0265 233.35)",
+          "oklch(26.43% 0.0265 233.35)",
+          "oklch(37.86% 0.0265 233.35)",
+          "oklch(49.29% 0.0265 233.35)",
+          "oklch(60.71% 0.0265 233.35)",
+          "oklch(72.14% 0.0265 233.35)",
+          "oklch(83.57% 0.0265 233.35)",
+          "oklch(95.00% 0.0265 233.35)"
+        ]
+      },
+      "world-ink-dark": {
+        "role": "neutral",
+        "displayName": "World Ink Dark",
+        "canonical": "#edf0e3",
+        "tonalRamp": [
+          "oklch(15.00% 0.0175 117.30)",
+          "oklch(26.43% 0.0175 117.30)",
+          "oklch(37.86% 0.0175 117.30)",
+          "oklch(49.29% 0.0175 117.30)",
+          "oklch(60.71% 0.0175 117.30)",
+          "oklch(72.14% 0.0175 117.30)",
+          "oklch(83.57% 0.0175 117.30)",
+          "oklch(95.00% 0.0175 117.30)"
+        ]
+      },
+      "world-muted-dark": {
+        "role": "neutral",
+        "displayName": "World Muted Dark",
+        "canonical": "#becdc9",
+        "tonalRamp": [
+          "oklch(15.00% 0.0172 178.18)",
+          "oklch(26.43% 0.0172 178.18)",
+          "oklch(37.86% 0.0172 178.18)",
+          "oklch(49.29% 0.0172 178.18)",
+          "oklch(60.71% 0.0172 178.18)",
+          "oklch(72.14% 0.0172 178.18)",
+          "oklch(83.57% 0.0172 178.18)",
+          "oklch(95.00% 0.0172 178.18)"
+        ]
+      },
+      "world-blue-dark": {
+        "role": "primary",
+        "displayName": "World Blue Dark",
+        "canonical": "#acd7dc",
+        "tonalRamp": [
+          "oklch(15.00% 0.0454 205.09)",
+          "oklch(26.43% 0.0454 205.09)",
+          "oklch(37.86% 0.0454 205.09)",
+          "oklch(49.29% 0.0454 205.09)",
+          "oklch(60.71% 0.0454 205.09)",
+          "oklch(72.14% 0.0454 205.09)",
+          "oklch(83.57% 0.0454 205.09)",
+          "oklch(95.00% 0.0454 205.09)"
+        ]
+      },
+      "world-line-dark": {
+        "role": "neutral",
+        "displayName": "World Line Dark",
+        "canonical": "#62767c",
+        "tonalRamp": [
+          "oklch(15.00% 0.0254 217.86)",
+          "oklch(26.43% 0.0254 217.86)",
+          "oklch(37.86% 0.0254 217.86)",
+          "oklch(49.29% 0.0254 217.86)",
+          "oklch(60.71% 0.0254 217.86)",
+          "oklch(72.14% 0.0254 217.86)",
+          "oklch(83.57% 0.0254 217.86)",
+          "oklch(95.00% 0.0254 217.86)"
+        ]
+      },
+      "world-soft-dark": {
+        "role": "neutral",
+        "displayName": "World Soft Dark",
+        "canonical": "#344b53",
+        "tonalRamp": [
+          "oklch(15.00% 0.0313 221.48)",
+          "oklch(26.43% 0.0313 221.48)",
+          "oklch(37.86% 0.0313 221.48)",
+          "oklch(49.29% 0.0313 221.48)",
+          "oklch(60.71% 0.0313 221.48)",
+          "oklch(72.14% 0.0313 221.48)",
+          "oklch(83.57% 0.0313 221.48)",
+          "oklch(95.00% 0.0313 221.48)"
+        ]
+      },
+      "street-atmosphere": {
+        "role": "neutral",
+        "displayName": "Street Atmosphere",
+        "canonical": "#b9e4f1",
+        "tonalRamp": [
+          "oklch(15.00% 0.0480 218.11)",
+          "oklch(26.43% 0.0480 218.11)",
+          "oklch(37.86% 0.0480 218.11)",
+          "oklch(49.29% 0.0480 218.11)",
+          "oklch(60.71% 0.0480 218.11)",
+          "oklch(72.14% 0.0480 218.11)",
+          "oklch(83.57% 0.0480 218.11)",
+          "oklch(95.00% 0.0480 218.11)"
+        ]
+      },
+      "street-night": {
+        "role": "neutral",
+        "displayName": "Street Night",
+        "canonical": "#243d6c",
+        "tonalRamp": [
+          "oklch(15.00% 0.0871 261.89)",
+          "oklch(26.43% 0.0871 261.89)",
+          "oklch(37.86% 0.0871 261.89)",
+          "oklch(49.29% 0.0871 261.89)",
+          "oklch(60.71% 0.0871 261.89)",
+          "oklch(72.14% 0.0871 261.89)",
+          "oklch(83.57% 0.0871 261.89)",
+          "oklch(95.00% 0.0871 261.89)"
+        ]
+      },
+      "street-blue": {
+        "role": "neutral",
+        "displayName": "Street Blue",
+        "canonical": "#427eea",
+        "tonalRamp": [
+          "oklch(15.00% 0.1750 261.07)",
+          "oklch(26.43% 0.1750 261.07)",
+          "oklch(37.86% 0.1750 261.07)",
+          "oklch(49.29% 0.1750 261.07)",
+          "oklch(60.71% 0.1750 261.07)",
+          "oklch(72.14% 0.1750 261.07)",
+          "oklch(83.57% 0.1750 261.07)",
+          "oklch(95.00% 0.1750 261.07)"
+        ]
+      },
+      "street-ink": {
+        "role": "neutral",
+        "displayName": "Street Ink",
+        "canonical": "#263e59",
+        "tonalRamp": [
+          "oklch(15.00% 0.0560 252.29)",
+          "oklch(26.43% 0.0560 252.29)",
+          "oklch(37.86% 0.0560 252.29)",
+          "oklch(49.29% 0.0560 252.29)",
+          "oklch(60.71% 0.0560 252.29)",
+          "oklch(72.14% 0.0560 252.29)",
+          "oklch(83.57% 0.0560 252.29)",
+          "oklch(95.00% 0.0560 252.29)"
+        ]
+      },
+      "street-cream": {
+        "role": "neutral",
+        "displayName": "Street Cream",
+        "canonical": "#fff0ce",
+        "tonalRamp": [
+          "oklch(15.00% 0.0471 87.03)",
+          "oklch(26.43% 0.0471 87.03)",
+          "oklch(37.86% 0.0471 87.03)",
+          "oklch(49.29% 0.0471 87.03)",
+          "oklch(60.71% 0.0471 87.03)",
+          "oklch(72.14% 0.0471 87.03)",
+          "oklch(83.57% 0.0471 87.03)",
+          "oklch(95.00% 0.0471 87.03)"
+        ]
+      },
+      "street-sand": {
+        "role": "neutral",
+        "displayName": "Street Sand",
+        "canonical": "#e4bd8e",
+        "tonalRamp": [
+          "oklch(15.00% 0.0763 71.66)",
+          "oklch(26.43% 0.0763 71.66)",
+          "oklch(37.86% 0.0763 71.66)",
+          "oklch(49.29% 0.0763 71.66)",
+          "oklch(60.71% 0.0763 71.66)",
+          "oklch(72.14% 0.0763 71.66)",
+          "oklch(83.57% 0.0763 71.66)",
+          "oklch(95.00% 0.0763 71.66)"
+        ]
+      },
+      "street-grass": {
+        "role": "neutral",
+        "displayName": "Street Grass",
+        "canonical": "#98cfa1",
+        "tonalRamp": [
+          "oklch(15.00% 0.0861 149.14)",
+          "oklch(26.43% 0.0861 149.14)",
+          "oklch(37.86% 0.0861 149.14)",
+          "oklch(49.29% 0.0861 149.14)",
+          "oklch(60.71% 0.0861 149.14)",
+          "oklch(72.14% 0.0861 149.14)",
+          "oklch(83.57% 0.0861 149.14)",
+          "oklch(95.00% 0.0861 149.14)"
+        ]
+      },
+      "street-green": {
+        "role": "neutral",
+        "displayName": "Street Green",
+        "canonical": "#468b65",
+        "tonalRamp": [
+          "oklch(15.00% 0.0922 157.66)",
+          "oklch(26.43% 0.0922 157.66)",
+          "oklch(37.86% 0.0922 157.66)",
+          "oklch(49.29% 0.0922 157.66)",
+          "oklch(60.71% 0.0922 157.66)",
+          "oklch(72.14% 0.0922 157.66)",
+          "oklch(83.57% 0.0922 157.66)",
+          "oklch(95.00% 0.0922 157.66)"
+        ]
+      },
+      "street-mint": {
+        "role": "neutral",
+        "displayName": "Street Mint",
+        "canonical": "#b9e3c2",
+        "tonalRamp": [
+          "oklch(15.00% 0.0629 151.35)",
+          "oklch(26.43% 0.0629 151.35)",
+          "oklch(37.86% 0.0629 151.35)",
+          "oklch(49.29% 0.0629 151.35)",
+          "oklch(60.71% 0.0629 151.35)",
+          "oklch(72.14% 0.0629 151.35)",
+          "oklch(83.57% 0.0629 151.35)",
+          "oklch(95.00% 0.0629 151.35)"
+        ]
+      },
+      "street-wood": {
+        "role": "neutral",
+        "displayName": "Street Wood",
+        "canonical": "#a77050",
+        "tonalRamp": [
+          "oklch(15.00% 0.0836 50.73)",
+          "oklch(26.43% 0.0836 50.73)",
+          "oklch(37.86% 0.0836 50.73)",
+          "oklch(49.29% 0.0836 50.73)",
+          "oklch(60.71% 0.0836 50.73)",
+          "oklch(72.14% 0.0836 50.73)",
+          "oklch(83.57% 0.0836 50.73)",
+          "oklch(95.00% 0.0836 50.73)"
+        ]
+      },
+      "street-gold": {
+        "role": "neutral",
+        "displayName": "Street Gold",
+        "canonical": "#f8c760",
+        "tonalRamp": [
+          "oklch(15.00% 0.1324 83.74)",
+          "oklch(26.43% 0.1324 83.74)",
+          "oklch(37.86% 0.1324 83.74)",
+          "oklch(49.29% 0.1324 83.74)",
+          "oklch(60.71% 0.1324 83.74)",
+          "oklch(72.14% 0.1324 83.74)",
+          "oklch(83.57% 0.1324 83.74)",
+          "oklch(95.00% 0.1324 83.74)"
+        ]
+      },
+      "street-pale": {
+        "role": "neutral",
+        "displayName": "Street Pale",
+        "canonical": "#9edbdc",
+        "tonalRamp": [
+          "oklch(15.00% 0.0619 197.33)",
+          "oklch(26.43% 0.0619 197.33)",
+          "oklch(37.86% 0.0619 197.33)",
+          "oklch(49.29% 0.0619 197.33)",
+          "oklch(60.71% 0.0619 197.33)",
+          "oklch(72.14% 0.0619 197.33)",
+          "oklch(83.57% 0.0619 197.33)",
+          "oklch(95.00% 0.0619 197.33)"
+        ]
+      },
+      "street-skin": {
+        "role": "neutral",
+        "displayName": "Street Skin",
+        "canonical": "#f2c6a1",
+        "tonalRamp": [
+          "oklch(15.00% 0.0702 61.73)",
+          "oklch(26.43% 0.0702 61.73)",
+          "oklch(37.86% 0.0702 61.73)",
+          "oklch(49.29% 0.0702 61.73)",
+          "oklch(60.71% 0.0702 61.73)",
+          "oklch(72.14% 0.0702 61.73)",
+          "oklch(83.57% 0.0702 61.73)",
+          "oklch(95.00% 0.0702 61.73)"
+        ]
+      },
+      "street-hair": {
+        "role": "neutral",
+        "displayName": "Street Hair",
+        "canonical": "#37415a",
+        "tonalRamp": [
+          "oklch(15.00% 0.0450 267.41)",
+          "oklch(26.43% 0.0450 267.41)",
+          "oklch(37.86% 0.0450 267.41)",
+          "oklch(49.29% 0.0450 267.41)",
+          "oklch(60.71% 0.0450 267.41)",
+          "oklch(72.14% 0.0450 267.41)",
+          "oklch(83.57% 0.0450 267.41)",
+          "oklch(95.00% 0.0450 267.41)"
+        ]
+      },
+      "street-coral": {
+        "role": "neutral",
+        "displayName": "Street Coral",
+        "canonical": "#ed8c76",
+        "tonalRamp": [
+          "oklch(15.00% 0.1231 33.66)",
+          "oklch(26.43% 0.1231 33.66)",
+          "oklch(37.86% 0.1231 33.66)",
+          "oklch(49.29% 0.1231 33.66)",
+          "oklch(60.71% 0.1231 33.66)",
+          "oklch(72.14% 0.1231 33.66)",
+          "oklch(83.57% 0.1231 33.66)",
+          "oklch(95.00% 0.1231 33.66)"
+        ]
+      },
+      "street-sign-paper": {
+        "role": "neutral",
+        "displayName": "Street Sign Paper",
+        "canonical": "#fff5dc"
+      },
+      "street-stick": {
+        "role": "neutral",
+        "displayName": "Street Stick",
+        "canonical": "#fff9edde"
+      },
+      "street-stick-line": {
+        "role": "neutral",
+        "displayName": "Street Stick Line",
+        "canonical": "#536b6c66"
+      },
+      "street-stick-knob": {
+        "role": "neutral",
+        "displayName": "Street Stick Knob",
+        "canonical": "#427eea",
+        "tonalRamp": [
+          "oklch(15.00% 0.1750 261.07)",
+          "oklch(26.43% 0.1750 261.07)",
+          "oklch(37.86% 0.1750 261.07)",
+          "oklch(49.29% 0.1750 261.07)",
+          "oklch(60.71% 0.1750 261.07)",
+          "oklch(72.14% 0.1750 261.07)",
+          "oklch(83.57% 0.1750 261.07)",
+          "oklch(95.00% 0.1750 261.07)"
+        ]
+      },
+      "street-identity-shadow": {
+        "role": "neutral",
+        "displayName": "Street Identity Shadow",
+        "canonical": "#34414920"
+      },
+      "street-control-shadow": {
+        "role": "neutral",
+        "displayName": "Street Control Shadow",
+        "canonical": "#34414925"
+      },
+      "street-surface-shadow": {
+        "role": "neutral",
+        "displayName": "Street Surface Shadow",
+        "canonical": "#24363d25"
+      },
+      "street-red": {
+        "role": "scene",
+        "displayName": "Red",
+        "canonical": "#d85569"
+      },
+      "street-violet": {
+        "role": "scene",
+        "displayName": "Violet",
+        "canonical": "#9b8bc9"
+      },
+      "street-sign-ink": {
+        "role": "scene",
+        "displayName": "Sign-Ink",
+        "canonical": "#29455d"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Shared route typography."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Shared route typography."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Shared route typography."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Shared route typography."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Shared route typography."
+      },
+      "world-identity": {
+        "displayName": "World Identity",
+        "purpose": "Homepage HTML control or reading role extracted from source."
+      },
+      "world-content-heading": {
+        "displayName": "World Content Heading",
+        "purpose": "Homepage HTML control or reading role extracted from source."
+      },
+      "world-body": {
+        "displayName": "World Body",
+        "purpose": "Homepage HTML control or reading role extracted from source."
+      },
+      "world-action": {
+        "displayName": "World Action",
+        "purpose": "Homepage HTML control or reading role extracted from source."
+      },
+      "world-caption": {
+        "displayName": "World Caption",
+        "purpose": "Homepage HTML control or reading role extracted from source."
+      },
+      "world-loading": {
+        "displayName": "World Loading",
+        "purpose": "Homepage HTML control or reading role extracted from source."
+      },
+      "world-dialogue": {
+        "displayName": "World Dialogue",
+        "purpose": "Homepage HTML control or reading role extracted from source."
+      },
+      "world-resident-heading": {
+        "displayName": "World Resident Heading",
+        "purpose": "Homepage HTML control or reading role extracted from source."
+      },
+      "world-pet-heading": {
+        "displayName": "World Pet Heading",
+        "purpose": "Homepage HTML control or reading role extracted from source."
+      },
+      "world-pet-body": {
+        "displayName": "World Pet Body",
+        "purpose": "Homepage HTML control or reading role extracted from source."
+      }
+    },
+    "shadows": [
+      {
+        "name": "project-image",
+        "value": "0 12px 28px -12px #11182730",
+        "purpose": "Shared project imagery."
+      },
+      {
+        "name": "street-identity",
+        "value": "0 3px 6px #263e5920",
+        "purpose": "Compact identity surface."
+      },
+      {
+        "name": "street-control",
+        "value": "1px 3px 2px #263e5925",
+        "purpose": "Street icon controls."
+      },
+      {
+        "name": "street-dropdown",
+        "value": "0 8px 24px #24363d25",
+        "purpose": "Native street menus."
+      },
+      {
+        "name": "street-panel",
+        "value": "0 6px 28px #24363d25",
+        "purpose": "Readable street panel."
+      }
+    ],
+    "motion": [
+      {
+        "name": "shared-feedback",
+        "value": "160ms",
+        "purpose": "Shared action feedback."
+      },
+      {
+        "name": "shared-entrance",
+        "value": "280ms cubic-bezier(.22,1,.36,1)",
+        "purpose": "Shared entrance/shuffle."
+      },
+      {
+        "name": "project-preview",
+        "value": "360ms; translateY(-4px) scale(1.015)",
+        "purpose": "Shared project preview hover/focus."
+      },
+      {
+        "name": "street-entrance",
+        "value": "1.1s power2.out",
+        "purpose": "Single paused GSAP timeline, render-owned totalTime; distance/height only."
+      },
+      {
+        "name": "street-follow",
+        "value": "1 - exp(-delta * 7)",
+        "purpose": "Camera position/look; immediate under reduced motion."
+      },
+      {
+        "name": "original-character-gait",
+        "value": "1.25/1.9 unit walk/run strides; run blend2.6\u20134.2; greeting1.8s;25 samples",
+        "purpose": "Match the original shorter limbs; legacy mixer defaults are preserved."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "project-two-columns",
+        "value": "1024px"
+      },
+      {
+        "name": "mobile",
+        "value": "768px"
+      },
+      {
+        "name": "project-one-column",
+        "value": "540px"
+      },
+      {
+        "name": "short-viewport",
+        "value": "540px height"
+      },
+      {
+        "name": "small-stick",
+        "value": "375px"
+      }
+    ],
+    "materials": {
+      "activeSurface": "storybook neighborhood",
+      "model": "original runtime geometry",
+      "material": "MeshStandardMaterial",
+      "roughness": 0.76,
+      "metalness": 0,
+      "toneMapping": "ACESFilmicToneMapping",
+      "exposure": 1.1,
+      "lighting": {
+        "default": "day",
+        "sunDay": 3.3,
+        "hemisphereDay": 2.1,
+        "sunNight": 0.6,
+        "hemisphereNight": 0.85,
+        "shadowMap": "1536-square PCFShadowMap"
+      },
+      "historical": "Toon/ink street and globe modules are inactive homepage baselines."
+    },
+    "provenance": {
+      "authority": "src/experience/globe/ and shared original character, hats and pet utilities",
+      "source": "New original spherical terrain, architecture, interiors, shaders, wildlife and simulation. No scene/model/bitmap download or remote generation.",
+      "reference": "Broad stylized RPG exploration and original short cast, without shipping reference-site models, art or code.",
+      "raster": "Only original runtime CanvasTexture sign lettering; professional facts stay in HTML."
+    },
+    "surfaceOverrides": {
+      "homepage": {
+        "target": "src/components/molecules/ml-globe-world.vue",
+        "renderer": "src/experience/globe/scene.ts",
+        "contract": "docs/meadow-world.md",
+        "supersedes": "storybook street and village homepage",
+        "tokens": {
+          "paper": "#fffdf3",
+          "ink": "#263f38",
+          "muted": "#51675e",
+          "action": "#245a50",
+          "border": "#ced8c7",
+          "soft": "#eef3e6"
+        },
+        "sourcePolicy": "Existing profile, all lightweight roles and skill groups; scripted fictional hosts; separate projects",
+        "features": [
+          "fresh radius-40 sphere",
+          "wind/proximity grass",
+          "ripple/foam water",
+          "two walkable interiors",
+          "four hosts",
+          "eight animals",
+          "run/jump/crouch/wave",
+          "seasonal hats",
+          "day/night",
+          "HTML fallback"
+        ],
+        "evidence": ".impeccable/review/globe-rpg/"
+      },
+      "meadowPlanet": {
+        "target": "src/components/molecules/ml-globe-world.vue",
+        "renderer": "src/experience/globe/scene.ts",
+        "contract": "docs/meadow-world.md",
+        "supersedes": "storybook street and village homepage",
+        "tokens": {
+          "paper": "#fffdf3",
+          "ink": "#263f38",
+          "muted": "#51675e",
+          "action": "#245a50",
+          "border": "#ced8c7",
+          "soft": "#eef3e6"
+        },
+        "sourcePolicy": "Existing profile, all lightweight roles and skill groups; scripted fictional hosts; separate projects",
+        "features": [
+          "fresh radius-40 sphere",
+          "wind/proximity grass",
+          "ripple/foam water",
+          "two walkable interiors",
+          "four hosts",
+          "eight animals",
+          "run/jump/crouch/wave",
+          "seasonal hats",
+          "day/night",
+          "HTML fallback"
+        ],
+        "evidence": ".impeccable/review/globe-rpg/"
+      },
+      "historicalStorybookHomepage": {
+        "component": "src/components/molecules/ml-street-world.vue",
+        "scope": "/ only",
+        "targets": 6,
+        "villagers": [
+          "Mira"
+        ],
+        "pets": [
+          "Patch"
+        ],
+        "historical": "Previous street and globe are superseded artwork. Active files retain street names as integration boundaries."
+      }
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primary Button from the built portfolio.",
+      "html": "<button class=\"ds-button-primary\">Explore projects</button>",
+      "css": ".ds-button-primary{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;font-size:.875rem;min-height:44px;padding:.625rem 1.25rem;border-radius:9999px;font-weight:500;background:var(--color-accent,#0066cc);color:var(--color-background,#fff);border:1px solid transparent;cursor:pointer;transition:background-color 160ms,transform 160ms} .ds-button-primary:hover{filter:brightness(.95)} .ds-button-primary:active{transform:scale(.97)} .ds-button-primary:focus-visible{outline:2px solid var(--color-accent,#0066cc);outline-offset:5px} @media(prefers-reduced-motion:reduce){.ds-button-primary{transition:none!important;transform:none!important}}"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Outline Button from the built portfolio.",
+      "html": "<button class=\"ds-button-outline\">Explore projects</button>",
+      "css": ".ds-button-outline{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;font-size:.875rem;min-height:44px;padding:.625rem 1.25rem;border-radius:9999px;font-weight:500;background:transparent;color:var(--color-accent,#0066cc);border:1px solid currentColor;cursor:pointer;transition:background-color 160ms,transform 160ms} .ds-button-outline:hover{filter:brightness(.95)} .ds-button-outline:active{transform:scale(.97)} .ds-button-outline:focus-visible{outline:2px solid var(--color-accent,#0066cc);outline-offset:5px} @media(prefers-reduced-motion:reduce){.ds-button-outline{transition:none!important;transform:none!important}}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Ghost Button from the built portfolio.",
+      "html": "<button class=\"ds-button-ghost\">Explore projects</button>",
+      "css": ".ds-button-ghost{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;font-size:.875rem;min-height:44px;padding:.625rem 1.25rem;border-radius:9999px;font-weight:500;background:transparent;color:var(--color-accent,#0066cc);border:1px solid transparent;cursor:pointer;transition:background-color 160ms,transform 160ms} .ds-button-ghost:hover{filter:brightness(.95)} .ds-button-ghost:active{transform:scale(.97)} .ds-button-ghost:focus-visible{outline:2px solid var(--color-accent,#0066cc);outline-offset:5px} @media(prefers-reduced-motion:reduce){.ds-button-ghost{transition:none!important;transform:none!important}}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "navigation-link",
+      "description": "Navigation from the built portfolio.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main\"><a href=\"#home\" aria-current=\"page\">Home</a><a href=\"#projects\">Projects</a></nav>",
+      "css": ".ds-nav{display:flex;gap:1.75rem;font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;font-size:.875rem;}.ds-nav a{display:flex;align-items:center;min-height:44px;min-width:44px;justify-content:center;color:var(--color-paragraph,#64646c);text-decoration:none;border-bottom:2px solid transparent}.ds-nav a[aria-current]{color:var(--color-title,#1d1d1f);border-color:var(--color-accent,#0066cc)}.ds-nav a:hover{color:var(--color-accent,#0066cc)}.ds-nav a:focus-visible{outline:2px solid var(--color-accent,#0066cc);outline-offset:5px} @media(prefers-reduced-motion:reduce){.ds-nav{transition:none!important;transform:none!important}}"
+    },
+    {
+      "name": "Technology Tag",
+      "kind": "chip",
+      "refersTo": "technology-tag",
+      "description": "Technology Tag from the built portfolio.",
+      "html": "<span class=\"ds-tag\">TypeScript</span>",
+      "css": ".ds-tag{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;font-size:.875rem;display:inline-flex;padding:.2rem .65rem;background:var(--color-surface,#f5f5f7);color:var(--color-paragraph,#64646c);border-radius:6px;font-size:.75rem;font-weight:500;line-height:1.65} @media(prefers-reduced-motion:reduce){.ds-tag{transition:none!important;transform:none!important}}"
+    },
+    {
+      "name": "Project Image Surface",
+      "kind": "card",
+      "refersTo": "project-image",
+      "description": "Project Image Surface from the built portfolio.",
+      "html": "<a class=\"ds-project\" href=\"#project\" aria-label=\"Visit project\"><span class=\"ds-project-preview\">Original project preview</span></a>",
+      "css": ".ds-project{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;font-size:.875rem;display:block;aspect-ratio:1.6;padding:1.25rem;border-radius:16px;background:var(--color-surface,#f5f5f7);overflow:hidden;color:var(--color-title,#1d1d1f);text-decoration:none}.ds-project-preview{display:grid;place-items:center;height:100%;border-radius:8px;box-shadow:0 12px 28px -12px #11182730;transition:transform 360ms cubic-bezier(.22,1,.36,1)}.ds-project:hover .ds-project-preview,.ds-project:focus-visible .ds-project-preview{transform:translateY(-4px) scale(1.015)}.ds-project:focus-visible{outline:2px solid var(--color-accent,#0066cc);outline-offset:5px} @media(prefers-reduced-motion:reduce){.ds-project{transition:none!important;transform:none!important}.ds-project-preview{transition:none!important;transform:none!important}}"
+    },
+    {
+      "name": "Street Menu Control",
+      "kind": "button",
+      "refersTo": "street-hud-button",
+      "description": "Opaque street icon control; desktop 46px, phone 44px.",
+      "html": "<button class=\"ds-street-control\" aria-label=\"Menu\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M4 6h16M4 12h16M4 18h16\"/></svg></button>",
+      "css": ".ds-street-control{display:grid;place-items:center;min-width:46px;min-height:46px;border:1px solid var(--world-muted,#53677a);border-radius:14px;background:var(--world-paper,#fff9ed);color:var(--world-ink,#263e59);box-shadow:1px 3px 2px #34414925;cursor:pointer}.ds-street-control:hover{background:var(--world-soft,#e9f1ff);color:var(--world-blue,#2761bc)}.ds-street-control:focus-visible{outline:3px solid var(--world-blue,#2761bc);outline-offset:4px}.ds-street-control:active{transform:translateY(1px)}@media(max-width:767px){.ds-street-control{min-width:44px;min-height:44px}}"
+    },
+    {
+      "name": "Street Context Prompt",
+      "kind": "button",
+      "refersTo": "street-prompt",
+      "description": "Nearby/direct-entry action in a small readable pill.",
+      "html": "<button class=\"ds-street-prompt\">Take a little walk <span aria-hidden=\"true\">\u2192</span></button>",
+      "css": ".ds-street-prompt{display:inline-flex;align-items:center;justify-content:center;gap:.65rem;min-height:44px;padding:.5rem .85rem;border:1px solid var(--world-line,#ced8db);border-radius:999px;background:var(--world-paper,#fff9ed);color:var(--world-ink,#263e59);font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:.8125rem;cursor:pointer}.ds-street-prompt:hover{background:var(--world-soft,#e9f1ff)}.ds-street-prompt:focus-visible{outline:3px solid var(--world-blue,#2761bc);outline-offset:4px}"
+    },
+    {
+      "name": "Street Reading Panel",
+      "kind": "custom",
+      "refersTo": "street-panel",
+      "description": "One visible subject heading, separate Close and readable scrolling body.",
+      "html": "<section class=\"ds-street-panel\" aria-label=\"Selected place\"><button class=\"ds-street-close\" aria-label=\"Close place\">\u00d7</button><div class=\"ds-street-body\"><h2>About me</h2><p>Source-backed profile content appears here.</p></div><button class=\"ds-street-return\">Back to the street <span>E / Esc</span></button></section>",
+      "css": ".ds-street-panel{position:relative;width:min(390px,100%);display:flex;flex-direction:column;border:1px solid var(--world-line,#ced8db);border-radius:14px;background:var(--world-paper,#fff9ed);color:var(--world-ink,#263e59);box-shadow:0 6px 28px #24363d25;font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif}.ds-street-close{position:absolute;top:.65rem;right:.65rem;min-width:46px;min-height:46px;border:0;border-radius:9px;background:var(--world-paper,#fff9ed);color:var(--world-ink,#263e59);font-size:1.35rem;cursor:pointer}.ds-street-body{padding:1.3rem;overflow:auto}.ds-street-body h2{padding-right:2.6rem;font-family:\"Bricolage Grotesque\",sans-serif;font-size:clamp(1.8rem,3vw,2.5rem);font-weight:600;line-height:1.1;letter-spacing:-.025em}.ds-street-body p{font-size:.9375rem;line-height:1.75;color:var(--world-muted,#53677a)}.ds-street-return{display:flex;justify-content:space-between;gap:1rem;min-height:48px;padding:.6rem 1.3rem;border:0;border-top:1px solid var(--world-line,#ced8db);background:transparent;color:var(--world-blue,#2761bc);font-size:.8125rem;cursor:pointer}.ds-street-return span{font-size:.6875rem}.ds-street-close:hover,.ds-street-return:hover{background:var(--world-soft,#e9f1ff)}.ds-street-close:focus-visible,.ds-street-return:focus-visible{outline:3px solid var(--world-blue,#2761bc);outline-offset:4px}"
+    },
+    {
+      "name": "Explorer Hat Select",
+      "kind": "input",
+      "refersTo": "world-hat-select",
+      "description": "Self-contained HTML preview of the labelled Nuxt UI wardrobe treatment; production is USelect, Automatic plus five previews.",
+      "html": "<div class=\"ds-world-preview ds-world-wardrobe\"><label id=\"ds-hat-label\">Explorer hat</label><button class=\"ds-world-hat-select\" type=\"button\" role=\"combobox\" aria-labelledby=\"ds-hat-label\" aria-haspopup=\"listbox\" aria-expanded=\"false\" aria-describedby=\"ds-hat-help\">Automatic \u00b7 seasonal<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"m7 10 5 5 5-5Z\"/></svg></button><p id=\"ds-hat-help\">Choose Automatic to follow the calendar.</p><p class=\"ds-world-hat-calendar\">June 1 \u00b7 Oct 25\u201331 \u00b7 Thanksgiving week \u00b7 Dec 20\u201326<br>Ivan\u2019s calendar \u00b7 Eastern Time</p></div>",
+      "css": ".ds-world-preview{font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;padding:1rem;background:var(--world-paper,#fff9ed);color:var(--world-ink,#263e59)}.ds-world-preview button,.ds-world-preview summary{cursor:pointer}.ds-world-preview button{font:inherit;transition:color 160ms,background-color 160ms,transform 160ms}.ds-world-preview button:active{transform:scale(.97)}.ds-world-preview :focus-visible{outline:2px solid var(--world-blue,#2761bc);outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-world-preview button{transition:none}.ds-world-preview button:active{transform:none}}.ds-world-wardrobe{width:245px;max-width:100%}.ds-world-wardrobe label{display:block;font-size:.875rem;font-weight:600;margin-bottom:.5rem}.ds-world-hat-select{display:flex;align-items:center;justify-content:space-between;width:100%;min-height:44px;padding:.5rem .75rem;border:0;border-radius:999px;background:var(--world-soft,#e9f1ff);color:var(--world-ink,#263e59)}.ds-world-hat-select:hover{background:var(--world-soft,#e9f1ff);color:var(--world-blue,#2761bc)}.ds-world-wardrobe p{font-size:.75rem;line-height:1.6;margin:.6rem 0 0;color:var(--world-muted,#53677a)}.ds-world-wardrobe .ds-world-hat-calendar{font-size:.6875rem}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Ivan\u2019s meadow planet",
+    "overview": "A new spherical meadow to walk, wander, talk and discover, with responsive readable HTML and preserved professional facts.",
+    "keyCharacteristics": [
+      "Fresh spherical map, river crossing, coastal water and wind/proximity grass",
+      "Two real walkable interiors among six houses",
+      "Four fictional hosts with question-led, source-backed dialogue",
+      "Eight animals and local object actions",
+      "Run/jump/crouch/wave with keyboard and touch controls",
+      "Preserved seasonal hats, day/night, pause, reduced motion and text fallback",
+      "Independent factual projects, articles, resume and contact content"
+    ],
+    "rules": [
+      {
+        "name": "The Action Blue Rule",
+        "body": "Use the shared theme accent outside the homepage and the local semantic blue for its HTML actions, focus and links; scene materials do not define text contrast.",
+        "section": "colors"
+      },
+      {
+        "name": "The Functional Material Rule",
+        "body": "Keep reading and HUD surfaces opaque; use perspective, rounded silhouettes, soft PBR highlights and grounded shadows for scene depth.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Content Truth Rule",
+        "body": "Preserve original project previews and professional facts; source replacement must not require presentation changes.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Do preserve the platform font stack for body text and shared routes; use Bricolage for homepage identity and content headings.",
+      "Do use the documented local street palette and light/dark HTML pairs on the homepage.",
+      "Do keep direct Places access, all five routes, project links and the native text version available without walking.",
+      "Do keep controls at least 44px high with visible focus and explicit keyboard/touch ownership.",
+      "Do retain original neighborhood/character/pet/accessory art. The legacy licensed cast and notices remain only for historical regression coverage.",
+      "Do honor reduced motion with fixed decorative poses and immediate camera updates for explicit movement.",
+      "Do keep source/backend interfaces and the independent project gallery separate from simulation state."
+    ],
+    "donts": [
+      "Don't copy reference-site assets, code, characters or world layouts, including Messenger by Abeto.",
+      "Don't turn the active street into an elevated globe opening or a large landing-page card covering a small canvas.",
+      "Don't require WebGL, keyboard movement, touch gestures or play to read portfolio content or navigate.",
+      "Don't invent professional facts, testimonials, screenshots or capabilities absent from the source.",
+      "Don't apply the street palette, typography or navigation replacement to other routes by default.",
+      "Don't describe scheduling targets or local stills as measured device performance, continuous-motion quality or deployment proof."
+    ]
+  }
+}

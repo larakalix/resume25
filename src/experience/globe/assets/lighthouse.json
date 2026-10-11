@@ -1,0 +1,282 @@
+{
+  "name": "Lighthouse",
+  "creator": "CG ART Creation",
+  "credit": "Lighthouse by CG ART Creation via Poly Pizza",
+  "source": "https://poly.pizza/m/c1-hm3Zs-8U",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+  "sourceFile": "Lighthouse by CG ART Creation - c1-hm3Zs-8U.glb",
+  "sourceBytes": 361436,
+  "sourceSha256": "32173017e141d23e5e83245b36f5db075a753ed5d4136508880fceff013b8078",
+  "bytes": 361668,
+  "sha256": "da1316c54330756ba300459e3de5f8b24c6922bc06b124f1e2ace3e5cac8997f",
+  "up": "+Y",
+  "triangles": 1830,
+  "sourceColorsRetained": true,
+  "sourceTextureRetained": true,
+  "sourceBounds": {
+    "min": [
+      -2.0920569896698,
+      0,
+      -1.7228100299835205
+    ],
+    "max": [
+      1.7228089570999146,
+      8.573389053344727,
+      1.7228089570999146
+    ],
+    "width": 3.8148659467697144,
+    "height": 8.573389053344727,
+    "depth": 3.445618987083435,
+    "horizontalRadius": 2.142968741229787
+  },
+  "bounds": {
+    "min": [
+      -0.22248296439647675,
+      0,
+      -0.20094847679138184
+    ],
+    "max": [
+      0.22248296439647675,
+      1,
+      0.20094847679138184
+    ],
+    "width": 0.4449659287929535,
+    "height": 1,
+    "depth": 0.40189695358276367,
+    "horizontalRadius": 0.22898048143441244
+  },
+  "normalization": {
+    "center": [
+      -0.18462401628494263,
+      0,
+      -5.364418029785156e-7
+    ],
+    "scale": 0.11663998843139763,
+    "height": 1
+  },
+  "beacon": {
+    "mesh": "lighthouse_light",
+    "center": [
+      0.02153454371728003,
+      0.8114892542362213,
+      6.239861249923706e-8
+    ],
+    "color": [
+      0.84,
+      0.6,
+      0.6
+    ]
+  },
+  "embeddedImage": {
+    "name": "map_Kd _T_Lighthouse_01",
+    "mimeType": "image/png",
+    "bytes": 279852,
+    "sha256": "8379861579edb5ded4d05e330b515eff258612fcdeab5b1a712f689e3b96fc7c",
+    "width": 1024,
+    "height": 1024
+  },
+  "materials": [
+    {
+      "name": "mia_material1SG",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    },
+    {
+      "name": "lambert3SG",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    },
+    {
+      "name": "LightSG",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.84,
+          0.6,
+          0.6,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    }
+  ],
+  "textures": [
+    {
+      "name": "map_Kd _T_Lighthouse_01",
+      "sampler": 0,
+      "source": 0
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9986,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "preparation": "Actual original three-mesh model. Only POSITION values and their accessor bounds are normalized: full X/Z bounds centered, base Y=0, uniform height=1. Source topology, normals, UVs, material factors, samplers and original embedded PNG bytes are unchanged.",
+  "models": [
+    {
+      "name": "lighthouse_glass",
+      "mesh": "lighthouse_glass_1",
+      "vertices": 34,
+      "triangles": 32,
+      "materialIndex": 0,
+      "positionAccessor": 0,
+      "sourceBounds": {
+        "min": [
+          -0.6284310221672058,
+          6.532683849334717,
+          -0.6284310221672058
+        ],
+        "max": [
+          0.6284310221672058,
+          7.392412185668945,
+          0.6284310221672058
+        ],
+        "width": 1.2568620443344116,
+        "height": 0.8597283363342285,
+        "depth": 1.2568620443344116,
+        "horizontalRadius": 0.6284313927445766
+      },
+      "bounds": {
+        "min": [
+          -0.05176564306020737,
+          0.761972188949585,
+          -0.07330012321472168
+        ],
+        "max": [
+          0.09483473002910614,
+          0.8622508645057678,
+          0.07330024987459183
+        ],
+        "width": 0.1466003730893135,
+        "height": 0.10027867555618286,
+        "depth": 0.1466003730893135,
+        "horizontalRadius": 0.09483473002912678
+      }
+    },
+    {
+      "name": "lighthouse_01",
+      "mesh": "lighthouse_01_1",
+      "vertices": 1933,
+      "triangles": 1642,
+      "materialIndex": 1,
+      "positionAccessor": 4,
+      "sourceBounds": {
+        "min": [
+          -2.0920569896698,
+          0,
+          -1.7228100299835205
+        ],
+        "max": [
+          1.7228089570999146,
+          8.573389053344727,
+          1.7228089570999146
+        ],
+        "width": 3.8148659467697144,
+        "height": 8.573389053344727,
+        "depth": 3.445618987083435,
+        "horizontalRadius": 2.142968741229787
+      },
+      "bounds": {
+        "min": [
+          -0.22248296439647675,
+          0,
+          -0.20094847679138184
+        ],
+        "max": [
+          0.22248296439647675,
+          1,
+          0.20094847679138184
+        ],
+        "width": 0.4449659287929535,
+        "height": 1,
+        "depth": 0.40189695358276367,
+        "horizontalRadius": 0.22898048143441244
+      }
+    },
+    {
+      "name": "lighthouse_light",
+      "mesh": "lighthouse_light_1",
+      "vertices": 103,
+      "triangles": 156,
+      "materialIndex": 2,
+      "positionAccessor": 8,
+      "sourceBounds": {
+        "min": [
+          -0.2159940004348755,
+          6.541233062744141,
+          -0.2159940004348755
+        ],
+        "max": [
+          0.2159940004348755,
+          7.37319278717041,
+          0.2159940004348755
+        ],
+        "width": 0.431988000869751,
+        "height": 0.8319597244262695,
+        "depth": 0.431988000869751,
+        "horizontalRadius": 0.2159940004348755
+      },
+      "bounds": {
+        "min": [
+          -0.0036589945666491985,
+          0.7629693746566772,
+          -0.0251934751868248
+        ],
+        "max": [
+          0.04672808200120926,
+          0.8600091338157654,
+          0.025193599984049797
+        ],
+        "width": 0.05038707656785846,
+        "height": 0.09703975915908813,
+        "depth": 0.050387075170874596,
+        "horizontalRadius": 0.04672808200125115
+      }
+    }
+  ]
+}

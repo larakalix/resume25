@@ -1,0 +1,83 @@
+{
+  "key": "project",
+  "name": "Project",
+  "fields": [
+    {
+      "key": "content_id",
+      "label": "Original content ID",
+      "type": "text",
+      "required": true,
+      "unique": true,
+      "help_text": "Preserve this source identity. Lemonade assigns its own entry UUID separately."
+    },
+    {
+      "key": "name",
+      "label": "Name",
+      "type": "text",
+      "required": true
+    },
+    {
+      "key": "description",
+      "label": "Description",
+      "type": "long_text",
+      "required": true
+    },
+    {
+      "key": "image_path",
+      "label": "Preview path",
+      "type": "text",
+      "required": true,
+      "help_text": "Existing local/HTTPS path; this is not an uploaded Lemonade image UUID."
+    },
+    {
+      "key": "demo_path",
+      "label": "Original demo path",
+      "type": "text",
+      "required": false
+    },
+    {
+      "key": "url",
+      "label": "Project URL",
+      "type": "text",
+      "required": true
+    },
+    {
+      "key": "tags",
+      "label": "Technologies and topics",
+      "type": "choices",
+      "required": true,
+      "options": [
+        "Appointments",
+        "Blog",
+        "Book Management",
+        "Booking",
+        "Businesses",
+        "Content Management",
+        "DatoCMS",
+        "Drag and Drop",
+        "E-commerce",
+        "Gaming",
+        "InfoJobs",
+        "Job Search",
+        "NextJS",
+        "Nuxt",
+        "React",
+        "School Management",
+        "Storybook",
+        "Students",
+        "Tailwind CSS",
+        "Task Management",
+        "Teachers",
+        "Twitter Clone",
+        "TypeScript",
+        "Website Builder"
+      ]
+    },
+    {
+      "key": "sort_order",
+      "label": "Source order",
+      "type": "number",
+      "required": true
+    }
+  ]
+}

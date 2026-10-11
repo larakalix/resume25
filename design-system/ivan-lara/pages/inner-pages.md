@@ -1,0 +1,9 @@
+# Studio layouts for inner pages
+
+Use the approved homepage language across the portfolio: neutral rounded tiles, a 16px grid rhythm, fluid padding, strong sans-serif headings, colored technology pills, small diagonal link icons and the shared frosted navigation.
+
+Projects pairs a large introduction tile with a technology-filter tile, then preserves the three-column project collection. Blog pairs its introduction with a writing-topic tile and uses a full-width article grid. Contact pairs its introduction with a location tile, followed by separate email and social panels. Resume uses a profile tile, independent role cards and qualification cards; preserve role disclosures, downloads, anchors and complete print content. Article pages use an introduction tile and a narrower padded reading surface with adjacent-article cards.
+
+Page overview content is a slot in the existing shared page container. Lists retain their loading/error/empty/ready behavior. No professional facts, CMS records or destination URLs are changed. Tablets use two columns where readable; phones stack tiles. Print removes resume surface/padding and includes all achievements independently of disclosure state.
+
+Validation: lint, typecheck, production build/prerender, 14 unit tests and 13 production route regressions pass. All five changed routes were checked at 320, 375, 768, 1024 and 1440px (25 combinations) with no horizontal overflow, one h1 and correct current navigation. Project query/history controls, resume expand/collapse and contact copy success were exercised. Blog mobile was reviewed in both themes; no browser warnings/errors captured. Print preservation is source/CSS verified. Screenshots saved outside the repository: studio-projects.png, studio-blog.png, studio-contact.png, studio-resume.png and studio-blog-mobile.png.

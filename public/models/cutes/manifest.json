@@ -1,0 +1,402 @@
+{
+  "version": 1,
+  "creator": "J-Toastie",
+  "bundle": "https://poly.pizza/bundle/CUTES-Part-One-WD91WrT0gx",
+  "download": "https://static.poly.pizza/list/WD91WrT0gx-glb-1330409802.zip",
+  "license": "CC-BY-3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+  "atlasCredit": "Modified Kay Lousberg gradient atlas, supplied by J-Toastie",
+  "preparation": "Source GLBs copied byte-for-byte. Runtime normalizes height uniformly; source UVs, embedded atlas, rig, mesh geometry and five authored animation clips remain intact. Ivan adds original accessories and a blue/white garment shader mask.",
+  "models": [
+    {
+      "id": "generic-male",
+      "title": "Generic Male",
+      "url": "/models/cutes/generic-male.glb",
+      "source": "https://poly.pizza/m/jNp6bjMW9a",
+      "sha256": "8765b0cee56b5d76ffb3e8f21a3927f77f059f1de67585b63e10a8c318addf0d",
+      "bytes": 241828,
+      "atlasSha256": "1e671e9b176b290a35ce8f5f22c773b3f5e9c7a9cf0e1991de51e44dd3a23e7c",
+      "materialNames": [
+        "HalloweenBits"
+      ],
+      "bounds": {
+        "min": [
+          -0.6458792815821122,
+          -0.00919522554155594,
+          -0.40226433345127216
+        ],
+        "max": [
+          0.6424029780159316,
+          1.9094375476511265,
+          0.6346244065476933
+        ]
+      },
+      "meshes": [
+        {
+          "name": "Cube001",
+          "triangles": 522,
+          "vertices": 290,
+          "bones": 27
+        },
+        {
+          "name": "Cube003",
+          "triangles": 3548,
+          "vertices": 1936,
+          "bones": 27
+        }
+      ],
+      "clips": [
+        {
+          "name": "Armature|Grounded",
+          "duration": 0.3333333432674408,
+          "tracks": 14
+        },
+        {
+          "name": "Armature|Idle",
+          "duration": 2.5,
+          "tracks": 6
+        },
+        {
+          "name": "Armature|Jump",
+          "duration": 0.2916666567325592,
+          "tracks": 14
+        },
+        {
+          "name": "Armature|Sprint",
+          "duration": 2.5,
+          "tracks": 23
+        },
+        {
+          "name": "Armature|Walk",
+          "duration": 2.5,
+          "tracks": 13
+        }
+      ]
+    },
+    {
+      "id": "generic-female",
+      "title": "Generic Female",
+      "url": "/models/cutes/generic-female.glb",
+      "source": "https://poly.pizza/m/qot6C6GS9U",
+      "sha256": "dcf31a3171ab8be30427e7570a3242d0bd07894a8c5b3fb52a6a49efc9364ad6",
+      "bytes": 288308,
+      "atlasSha256": "1e671e9b176b290a35ce8f5f22c773b3f5e9c7a9cf0e1991de51e44dd3a23e7c",
+      "materialNames": [
+        "GenericFemale"
+      ],
+      "bounds": {
+        "min": [
+          -0.6562334022633122,
+          -0.0019395884607774638,
+          -0.46159703462653745
+        ],
+        "max": [
+          0.6593203289550207,
+          2.03106819314506,
+          0.6858529856237502
+        ]
+      },
+      "meshes": [
+        {
+          "name": "Cube001",
+          "triangles": 522,
+          "vertices": 290,
+          "bones": 27
+        },
+        {
+          "name": "Cube003",
+          "triangles": 4792,
+          "vertices": 2631,
+          "bones": 27
+        }
+      ],
+      "clips": [
+        {
+          "name": "Armature|Grounded",
+          "duration": 0.3333333432674408,
+          "tracks": 14
+        },
+        {
+          "name": "Armature|Idle",
+          "duration": 2.5,
+          "tracks": 6
+        },
+        {
+          "name": "Armature|Jump",
+          "duration": 0.2916666567325592,
+          "tracks": 14
+        },
+        {
+          "name": "Armature|Sprint",
+          "duration": 2.5,
+          "tracks": 23
+        },
+        {
+          "name": "Armature|Walk",
+          "duration": 2.5,
+          "tracks": 13
+        }
+      ]
+    },
+    {
+      "id": "citizen-one",
+      "title": "Citizen 1",
+      "url": "/models/cutes/citizen-one.glb",
+      "source": "https://poly.pizza/m/sYl7E9whZH",
+      "sha256": "03a9f2ae91ef1c4c2ed334af62156e5d0543256e3d99192d852efefa1bcc1953",
+      "bytes": 250132,
+      "atlasSha256": "1e671e9b176b290a35ce8f5f22c773b3f5e9c7a9cf0e1991de51e44dd3a23e7c",
+      "materialNames": [
+        "Citizen01"
+      ],
+      "bounds": {
+        "min": [
+          -0.6515123755488019,
+          -0.009195223622979087,
+          -0.38798483577928405
+        ],
+        "max": [
+          0.6516001546204327,
+          1.9050338569514722,
+          0.6373769284486874
+        ]
+      },
+      "meshes": [
+        {
+          "name": "Cube001",
+          "triangles": 522,
+          "vertices": 290,
+          "bones": 27
+        },
+        {
+          "name": "Cube003",
+          "triangles": 3816,
+          "vertices": 2054,
+          "bones": 27
+        }
+      ],
+      "clips": [
+        {
+          "name": "Armature|Grounded",
+          "duration": 0.3333333432674408,
+          "tracks": 14
+        },
+        {
+          "name": "Armature|Idle",
+          "duration": 2.5,
+          "tracks": 6
+        },
+        {
+          "name": "Armature|Jump",
+          "duration": 0.2916666567325592,
+          "tracks": 14
+        },
+        {
+          "name": "Armature|Sprint",
+          "duration": 2.5,
+          "tracks": 23
+        },
+        {
+          "name": "Armature|Walk",
+          "duration": 2.5,
+          "tracks": 13
+        }
+      ]
+    },
+    {
+      "id": "citizen-two",
+      "title": "Citizen 2",
+      "url": "/models/cutes/citizen-two.glb",
+      "source": "https://poly.pizza/m/M37AwJwOzy",
+      "sha256": "e0950f1bd6cd56a4bc23da310a8bcd10ce3803fbaae70e57982e0ae135658ee2",
+      "bytes": 279452,
+      "atlasSha256": "1e671e9b176b290a35ce8f5f22c773b3f5e9c7a9cf0e1991de51e44dd3a23e7c",
+      "materialNames": [
+        "Citizen02"
+      ],
+      "bounds": {
+        "min": [
+          -0.7715854408182931,
+          -0.001939643842449601,
+          -0.8737892857493487
+        ],
+        "max": [
+          0.8136023721491827,
+          2.533636961284013,
+          0.8922858532625406
+        ]
+      },
+      "meshes": [
+        {
+          "name": "Cube001",
+          "triangles": 522,
+          "vertices": 290,
+          "bones": 27
+        },
+        {
+          "name": "Cube003",
+          "triangles": 4539,
+          "vertices": 2500,
+          "bones": 27
+        }
+      ],
+      "clips": [
+        {
+          "name": "Armature|Grounded",
+          "duration": 0.3333333432674408,
+          "tracks": 14
+        },
+        {
+          "name": "Armature|Idle",
+          "duration": 2.5,
+          "tracks": 6
+        },
+        {
+          "name": "Armature|Jump",
+          "duration": 0.2916666567325592,
+          "tracks": 14
+        },
+        {
+          "name": "Armature|Sprint",
+          "duration": 2.5,
+          "tracks": 23
+        },
+        {
+          "name": "Armature|Walk",
+          "duration": 2.5,
+          "tracks": 13
+        }
+      ]
+    },
+    {
+      "id": "citizen-three",
+      "title": "Citizen 3",
+      "url": "/models/cutes/citizen-three.glb",
+      "source": "https://poly.pizza/m/26UC5iU4Fk",
+      "sha256": "0ef00ee9f6ad0a4b020fab62093117d17c4c384097f645c13f4a81e4b63c5c74",
+      "bytes": 295680,
+      "atlasSha256": "1e671e9b176b290a35ce8f5f22c773b3f5e9c7a9cf0e1991de51e44dd3a23e7c",
+      "materialNames": [
+        "GenericFemale"
+      ],
+      "bounds": {
+        "min": [
+          -0.6562334022633122,
+          -0.001766067683718453,
+          -0.46872548246596146
+        ],
+        "max": [
+          0.6593203289550207,
+          2.0058013620097896,
+          0.6748522074419882
+        ]
+      },
+      "meshes": [
+        {
+          "name": "Cube001",
+          "triangles": 522,
+          "vertices": 290,
+          "bones": 27
+        },
+        {
+          "name": "Cube003",
+          "triangles": 4956,
+          "vertices": 2745,
+          "bones": 27
+        }
+      ],
+      "clips": [
+        {
+          "name": "Armature|Grounded",
+          "duration": 0.3333333432674408,
+          "tracks": 14
+        },
+        {
+          "name": "Armature|Idle",
+          "duration": 2.5,
+          "tracks": 6
+        },
+        {
+          "name": "Armature|Jump",
+          "duration": 0.2916666567325592,
+          "tracks": 14
+        },
+        {
+          "name": "Armature|Sprint",
+          "duration": 2.5,
+          "tracks": 23
+        },
+        {
+          "name": "Armature|Walk",
+          "duration": 2.5,
+          "tracks": 13
+        }
+      ]
+    },
+    {
+      "id": "food-worker",
+      "title": "Food Worker",
+      "url": "/models/cutes/food-worker.glb",
+      "source": "https://poly.pizza/m/6cjgeTS8Pl",
+      "sha256": "f24b4160d77ec5ba42b9fad9b5674f04b22fb04d18900b9bfab3ed3c1f69837e",
+      "bytes": 289680,
+      "atlasSha256": "1e671e9b176b290a35ce8f5f22c773b3f5e9c7a9cf0e1991de51e44dd3a23e7c",
+      "materialNames": [
+        "FoodWorker"
+      ],
+      "bounds": {
+        "min": [
+          -0.6375616938888367,
+          -0.009195232171535617,
+          -0.4516096946529067
+        ],
+        "max": [
+          0.6302641217155798,
+          2.29151766070978,
+          1.034430471195377
+        ]
+      },
+      "meshes": [
+        {
+          "name": "Cube001",
+          "triangles": 522,
+          "vertices": 290,
+          "bones": 27
+        },
+        {
+          "name": "Cube003",
+          "triangles": 4556,
+          "vertices": 2683,
+          "bones": 27
+        }
+      ],
+      "clips": [
+        {
+          "name": "Armature|Grounded",
+          "duration": 0.3333333432674408,
+          "tracks": 14
+        },
+        {
+          "name": "Armature|Idle",
+          "duration": 2.5,
+          "tracks": 6
+        },
+        {
+          "name": "Armature|Jump",
+          "duration": 0.2916666567325592,
+          "tracks": 14
+        },
+        {
+          "name": "Armature|Sprint",
+          "duration": 2.5,
+          "tracks": 23
+        },
+        {
+          "name": "Armature|Walk",
+          "duration": 2.5,
+          "tracks": 13
+        }
+      ]
+    }
+  ]
+}

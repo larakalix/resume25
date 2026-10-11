@@ -1,21 +1,6 @@
 <script setup lang="ts">
 import type { Page } from '~/types/page'
-
 const { page } = defineProps<Page>()
-const { config } = useContent()
-const { posts, isLoading, isError, error } = usePosts()
-
-const { description, ...rest } = page
+const { data: posts, status, error, refresh } = await usePosts()
 </script>
-
-<template>
-    <MlPageContainer :page="{ ...rest, description: '' }" compact-sidebar>
-        <template #sidebar>
-            <MlSidebar :items="config.navItems" compact />
-        </template>
-
-        <template #default>
-            <MlPosts :posts="posts ?? []" :is-loading="isLoading" :is-error="isError" :error="error" />
-        </template>
-    </MlPageContainer>
-</template>
+<template><MlPageContainer :page="{ ...page, subtitle: undefined, description: 'Thoughts on frontend development, architecture, and building for the web.' }"><MlPosts :posts="posts ?? []" :is-loading="status === 'pending'" :is-error="!!error" :error="error" title="Latest articles" /><UButton v-if="error" variant="outline" @click="refresh()">Try again</UButton></MlPageContainer></template>

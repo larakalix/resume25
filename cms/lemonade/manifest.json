@@ -1,0 +1,71 @@
+{
+  "format": "resume25-lemonade-migration",
+  "version": 1,
+  "model_template": "model-template.json",
+  "seed_content": "seed-content.json",
+  "root_seed_key": "site_settings:main",
+  "model_count": 7,
+  "entry_count": 26,
+  "entry_order": [
+    "profile",
+    "project",
+    "article",
+    "experience",
+    "page",
+    "resume",
+    "site_settings"
+  ],
+  "models": [
+    {
+      "key": "profile",
+      "singleton": true,
+      "definition": "content-types/profile.json",
+      "content": "content/profile.json",
+      "entry_count": 1
+    },
+    {
+      "key": "project",
+      "singleton": false,
+      "definition": "content-types/project.json",
+      "content": "content/project.json",
+      "entry_count": 9
+    },
+    {
+      "key": "article",
+      "singleton": false,
+      "definition": "content-types/article.json",
+      "content": "content/article.json",
+      "entry_count": 3
+    },
+    {
+      "key": "experience",
+      "singleton": false,
+      "definition": "content-types/experience.json",
+      "content": "content/experience.json",
+      "entry_count": 7
+    },
+    {
+      "key": "page",
+      "singleton": false,
+      "definition": "content-types/page.json",
+      "content": "content/page.json",
+      "entry_count": 4
+    },
+    {
+      "key": "resume",
+      "singleton": true,
+      "definition": "content-types/resume.json",
+      "content": "content/resume.json",
+      "entry_count": 1
+    },
+    {
+      "key": "site_settings",
+      "singleton": true,
+      "definition": "content-types/site_settings.json",
+      "content": "content/site_settings.json",
+      "entry_count": 1
+    }
+  ],
+  "identity_policy": "seed_key and $ref are migration-only. Resolve entry references to Lemonade-generated UUIDs before writing drafts. Embedded IDs are deterministic UUIDv5 values.",
+  "assets_policy": "Preserve local/HTTPS paths as text. No asset upload or URL download is implied."
+}

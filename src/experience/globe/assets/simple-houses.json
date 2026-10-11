@@ -1,0 +1,66 @@
+{
+  "creator": "SimplePolygon",
+  "credit": "3D Assets made by SimplePolygon",
+  "source": "https://simplepolygon.itch.io/simple-houses-lowpoly-pack",
+  "reference": "https://sketchfab.com/3d-models/free-simple-house-pack-asset-pack-a6410823481348d3b4ac1bb3b198adf0",
+  "licenseUrl": "https://simplepolygon.itch.io/simple-houses-lowpoly-pack",
+  "terms": "Personal and commercial end-project use with credit; no standalone redistribution or resale.",
+  "sourceSha256": "bebd082b26fed49eddc6948e9e9b82c04f105d88b8cf1072efcc70aab5a1bbcc",
+  "paletteSha256": null,
+  "sha256": "7eae672668ca698ad252b6720234aa449858fd89d65aa431530cebc764764892",
+  "bytes": 848540,
+  "sourceColorsRetained": false,
+  "front": "+Z",
+  "preparation": "Seven actual source meshes. World transforms and -90 degree Y frontage rotation baked; centred in X/Z, base at Y=0 and width=1; authored replacement colours using source UV regions and face orientation baked to linear vertex colours; coincident vertices indexed. No procedural replacement geometry.",
+  "models": [
+    {
+      "name": "Cube008",
+      "width": 1,
+      "height": 1.2467589088834052,
+      "depth": 0.8477927890601543,
+      "triangles": 626
+    },
+    {
+      "name": "Cube010",
+      "width": 1,
+      "height": 1.6955642328650866,
+      "depth": 0.8574152789635635,
+      "triangles": 1634
+    },
+    {
+      "name": "Cube004",
+      "width": 1,
+      "height": 0.7105532982600393,
+      "depth": 0.779412537593078,
+      "triangles": 2030
+    },
+    {
+      "name": "Cube015",
+      "width": 1,
+      "height": 1.42935198995897,
+      "depth": 0.8001295317066661,
+      "triangles": 3230
+    },
+    {
+      "name": "Cube012",
+      "width": 1,
+      "height": 0.9556142640807316,
+      "depth": 0.5465730127858232,
+      "triangles": 1490
+    },
+    {
+      "name": "Cube013",
+      "width": 1,
+      "height": 1.0491464316814645,
+      "depth": 0.4827164018803211,
+      "triangles": 1484
+    },
+    {
+      "name": "Cube009",
+      "width": 1,
+      "height": 0.5482587882704022,
+      "depth": 0.4746541471367607,
+      "triangles": 2596
+    }
+  ]
+}

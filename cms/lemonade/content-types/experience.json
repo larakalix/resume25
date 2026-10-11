@@ -1,0 +1,138 @@
+{
+  "key": "experience",
+  "name": "Experience",
+  "fields": [
+    {
+      "key": "content_id",
+      "label": "Original content ID",
+      "type": "text",
+      "required": true,
+      "unique": true,
+      "help_text": "Preserve this source identity. Lemonade assigns its own entry UUID separately."
+    },
+    {
+      "key": "company",
+      "label": "Company",
+      "type": "text",
+      "required": true
+    },
+    {
+      "key": "role",
+      "label": "Role",
+      "type": "text",
+      "required": true
+    },
+    {
+      "key": "location",
+      "label": "Location",
+      "type": "text",
+      "required": true
+    },
+    {
+      "key": "remote",
+      "label": "Remote",
+      "type": "boolean",
+      "required": true
+    },
+    {
+      "key": "start_date",
+      "label": "Start month",
+      "type": "text",
+      "required": true,
+      "help_text": "Keep YYYY-MM precision. A current role has a null end date; do not invent a day."
+    },
+    {
+      "key": "end_date",
+      "label": "End month",
+      "type": "text",
+      "required": false,
+      "help_text": "Keep YYYY-MM precision. A current role has a null end date; do not invent a day."
+    },
+    {
+      "key": "highlights",
+      "label": "Achievements",
+      "type": "components",
+      "required": true,
+      "components": [
+        {
+          "key": "portfolio_achievement",
+          "name": "Achievement",
+          "fields": [
+            {
+              "key": "content_id",
+              "label": "Original achievement ID",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "text",
+              "label": "Achievement",
+              "type": "long_text",
+              "required": true
+            },
+            {
+              "key": "featured",
+              "label": "Featured",
+              "type": "boolean",
+              "required": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "technologies",
+      "label": "Technologies",
+      "type": "choices",
+      "required": true,
+      "options": [
+        ".NET Core",
+        ".NET Framework",
+        "ADO.NET",
+        "Angular",
+        "Asana",
+        "Azure DevOps",
+        "Bootstrap",
+        "Bulma",
+        "C#",
+        "CSS",
+        "Claude Agent Skills",
+        "Claude Code",
+        "Contentful",
+        "Docker",
+        "EF Core",
+        "Figma",
+        "Firebase",
+        "GitHub",
+        "HTML",
+        "Ionic",
+        "Java",
+        "Jira",
+        "MS SQL",
+        "Material UI",
+        "MongoDB",
+        "MySQL",
+        "Next.js",
+        "Node.js",
+        "Python",
+        "Razor Pages",
+        "React Hooks",
+        "React Query",
+        "React.js",
+        "Redux",
+        "Strapi",
+        "Tailwind CSS",
+        "TypeScript",
+        "Zod",
+        "Zustand",
+        "jQuery"
+      ]
+    },
+    {
+      "key": "sort_order",
+      "label": "Source order",
+      "type": "number",
+      "required": true
+    }
+  ]
+}

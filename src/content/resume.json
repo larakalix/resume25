@@ -1,0 +1,593 @@
+{
+  "schemaVersion": 1,
+  "sourceDocument": "RS_IL2026.pdf",
+  "profile": {
+    "name": "Ivan Lara",
+    "headline": "UI & Full-Stack Developer",
+    "location": "Gastonia, NC",
+    "openToRelocate": true,
+    "summary": "Frontend-leaning UI and Full-Stack Developer with over 10 years of experience building scalable web applications, from early-stage products to enterprise SaaS platforms. Specialized in React, Next.js, Angular, TypeScript, Java, and C#, with a focus on user experience, performance, and maintainable architecture.",
+    "email": "uki@live.co.uk",
+    "phone": "+1 954 412 0811",
+    "phoneHref": "tel:+19544120811",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "url": "https://linkedin.com/in/ilaradev"
+      }
+    ]
+  },
+  "experience": [
+    {
+      "id": "apply-digital",
+      "company": "Apply Digital",
+      "role": "UI Developer | Frontend Developer",
+      "location": "Vancouver, Canada",
+      "startDate": "2025-04",
+      "endDate": "2026-04",
+      "remote": true,
+      "highlights": [
+        {
+          "id": "apply-digital-1",
+          "text": "Supported digital product delivery for high-traffic custom/private e-commerce platforms using React.js, Next.js, TypeScript, and Angular, partnering with product, design, backend, and QA teams to clarify requirements and deliver production-ready features.",
+          "featured": true
+        },
+        {
+          "id": "apply-digital-2",
+          "text": "Participated in backlog refinement, sprint planning, Jira ticket discussions, and technical conversations, helping translate business requirements into actionable frontend, API, and integration tasks.",
+          "featured": false
+        },
+        {
+          "id": "apply-digital-3",
+          "text": "Developed and integrated RESTful APIs with Node.js to support critical e-commerce workflows, including cart management, checkout, order processing, account features, and customer-facing transactional flows.",
+          "featured": false
+        },
+        {
+          "id": "apply-digital-4",
+          "text": "Partnered with engineering teams on API-related initiatives, integration flows, and orchestration-layer capabilities to improve communication between frontend applications, backend services, and third-party systems.",
+          "featured": false
+        },
+        {
+          "id": "apply-digital-5",
+          "text": "Integrated Contentful’s GraphQL API to dynamically fetch and render structured content for public landing pages, supporting a scalable CMS-driven architecture and reducing dependency on hardcoded marketing content.",
+          "featured": true
+        },
+        {
+          "id": "apply-digital-6",
+          "text": "Built and maintained Angular v20 features for a production web platform, including responsive UI components, video API integrations, authentication flows, playback/stream workflows, event handling, and error states.",
+          "featured": false
+        },
+        {
+          "id": "apply-digital-7",
+          "text": "Helped investigate and resolve production issues across frontend, API, and integration layers, coordinating with technical teams to identify root causes, validate fixes, and support timely resolution.",
+          "featured": false
+        },
+        {
+          "id": "apply-digital-8",
+          "text": "Unified client/server validation using TypeScript generics and Zod, reducing duplicated interfaces, improving type safety, and helping teams ship features with fewer validation-related issues.",
+          "featured": false
+        },
+        {
+          "id": "apply-digital-9",
+          "text": "Improved shared-state management across complex UI flows by implementing scalable Zustand-based architecture with a Provider pattern, reducing prop drilling and making component behavior more predictable.",
+          "featured": false
+        },
+        {
+          "id": "apply-digital-10",
+          "text": "Led the creation and accessibility enhancement of a scalable UI Kit based on Atomic Design principles, translating Figma designs into reusable, theme-ready components aligned with WCAG guidelines and validating screen-reader behavior with VoiceOver on macOS, improving design consistency and accelerating development across multiple projects.",
+          "featured": true
+        },
+        {
+          "id": "apply-digital-11",
+          "text": "Adopted Claude Code and custom AI-assisted workflows to improve codebase exploration, accessibility review, documentation, and developer productivity while collaborating with designers, backend engineers, and cross-functional stakeholders.",
+          "featured": false
+        }
+      ],
+      "technologies": [
+        "Angular",
+        "React.js",
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "Zustand",
+        "Zod",
+        "Tailwind CSS",
+        "Contentful",
+        "Figma",
+        "Jira",
+        "Claude Code",
+        "Claude Agent Skills",
+        "GitHub"
+      ]
+    },
+    {
+      "id": "fpfx-tech",
+      "company": "FPFX Tech",
+      "role": "UI Developer | Frontend Developer | Backend Developer",
+      "location": "Boca Raton, Florida, US",
+      "startDate": "2023-08",
+      "endDate": "2025-01",
+      "remote": false,
+      "highlights": [
+        {
+          "id": "fpfx-tech-1",
+          "text": "Supported digital product initiatives for trading and financial data platforms, translating business needs into reusable dashboards, .NET Core/.NET 8 and SQL Server-backed API integrations, and scalable frontend workflows.",
+          "featured": false
+        },
+        {
+          "id": "fpfx-tech-2",
+          "text": "Built and optimized React and Next.js features using Server Components, improving load performance by 20% and enabling server-side caching for faster data rendering.",
+          "featured": true
+        },
+        {
+          "id": "fpfx-tech-3",
+          "text": "Partnered with product stakeholders, backend engineers, and business users through Jira backlog refinement and technical discussions to clarify requirements, refine priorities, and align technical solutions with operational needs.",
+          "featured": false
+        },
+        {
+          "id": "fpfx-tech-4",
+          "text": "Implemented Zustand and React Query to manage global state and server-state synchronization, creating more predictable data flows between client applications, .NET APIs, and backend services.",
+          "featured": false
+        },
+        {
+          "id": "fpfx-tech-5",
+          "text": "Designed and developed multi-tenant dashboards that allowed users to manage trading data dynamically through reusable, composable React components.",
+          "featured": true
+        },
+        {
+          "id": "fpfx-tech-6",
+          "text": "Collaborated on REST API and orchestration-layer design for high-volume data exchange using .NET 8 and SQL Server, improving frontend consumption patterns and supporting a more modular application architecture.",
+          "featured": false
+        },
+        {
+          "id": "fpfx-tech-7",
+          "text": "Partnered with backend engineers to build .NET Core/.NET 8 microservices using SOLID principles, dependency injection, design patterns, and scalable service integrations, improving maintainability, testability, and scalability.",
+          "featured": false
+        },
+        {
+          "id": "fpfx-tech-8",
+          "text": "Contributed to .NET 8 and Java backend services by implementing CQRS design patterns in REST APIs, separating read and write responsibilities for financial services data.",
+          "featured": false
+        },
+        {
+          "id": "fpfx-tech-9",
+          "text": "Led the migration of legacy workflows to Java-based backend services, integrated payment gateways, and delivered the first two MVPs, establishing the foundation for future product development and scalable financial-service integrations.",
+          "featured": true
+        },
+        {
+          "id": "fpfx-tech-10",
+          "text": "Migrated background processing services and REST API workflows from C++ to Python, modernizing legacy processes and improving stability for prop trading services and third-party stock market APIs.",
+          "featured": false
+        },
+        {
+          "id": "fpfx-tech-11",
+          "text": "Helped investigate and resolve production issues across frontend, .NET APIs, SQL Server, authentication, and data workflows, coordinating with technical teams to identify root causes, validate fixes, and support timely resolution.",
+          "featured": false
+        },
+        {
+          "id": "fpfx-tech-12",
+          "text": "Built and validated complex forms using React Hook Form and Zod/Yup, including dynamic schemas driven by backend business logic and user-managed configuration.",
+          "featured": false
+        },
+        {
+          "id": "fpfx-tech-13",
+          "text": "Expanded ownership beyond frontend development by contributing to backend services, microservice architecture, API design, SQL Server workflows, Git-based code reviews, Jira task management, Azure DevOps pipelines, Figma-based workflows, and cross-functional technical discussions.",
+          "featured": false
+        }
+      ],
+      "technologies": [
+        "React.js",
+        "Next.js",
+        "TypeScript",
+        "Zustand",
+        "React Query",
+        "Tailwind CSS",
+        "Java",
+        "Python",
+        "C#",
+        "MySQL",
+        "Figma",
+        "Jira",
+        "Contentful",
+        "Azure DevOps"
+      ]
+    },
+    {
+      "id": "novatech",
+      "company": "Novatech",
+      "role": "Full Stack Developer",
+      "location": "San Salvador, El Salvador",
+      "startDate": "2022-01",
+      "endDate": "2023-05",
+      "remote": true,
+      "highlights": [
+        {
+          "id": "novatech-1",
+          "text": "Remade the company website using React, Next.js, and TypeScript, increasing Google Lighthouse performance scores to 90+ and improving Core Web Vitals, load speed, and overall user experience.",
+          "featured": true
+        },
+        {
+          "id": "novatech-2",
+          "text": "Developed modular, reusable UI components in React and TypeScript, standardizing frontend logic across multiple projects and reducing future development effort by 30%.",
+          "featured": true
+        },
+        {
+          "id": "novatech-3",
+          "text": "Built and maintained complex form workflows using React Hook Form, Formik, and Zod/Yup-style validation patterns, improving form reliability and reducing repetitive validation logic.",
+          "featured": false
+        },
+        {
+          "id": "novatech-4",
+          "text": "Integrated a self-hosted Strapi CMS with React, enabling dynamic content management and simplifying editorial workflows for non-technical and marketing teams.",
+          "featured": true
+        },
+        {
+          "id": "novatech-5",
+          "text": "Improved payment services dashboards using Angular and React, enhancing usability, accessibility, and maintainability while reducing user-reported issues by 15%.",
+          "featured": false
+        },
+        {
+          "id": "novatech-6",
+          "text": "Scaled Java REST API endpoints to support integrations with payment gateways, third-party CMS platforms, and external services, consolidating data from multiple sources into a unified flow.",
+          "featured": false
+        },
+        {
+          "id": "novatech-7",
+          "text": "Collaborated closely with designers to deliver pixel-perfect UI implementations, improve design-system consistency, and maintain responsive layouts across multiple screen sizes.",
+          "featured": false
+        },
+        {
+          "id": "novatech-8",
+          "text": "Strengthened my ability to connect frontend performance, CMS architecture, and backend integrations by working across website optimization, dashboard workflows, and API-driven systems.",
+          "featured": false
+        }
+      ],
+      "technologies": [
+        "Angular",
+        "React.js",
+        "Next.js",
+        "TypeScript",
+        "Strapi",
+        "Java",
+        "Node.js",
+        "Firebase",
+        "Azure DevOps",
+        "Figma"
+      ]
+    },
+    {
+      "id": "stefanini",
+      "company": "Stefanini",
+      "role": "Frontend Developer (Project contract)",
+      "location": "San Salvador, El Salvador",
+      "startDate": "2022-02",
+      "endDate": "2022-04",
+      "remote": true,
+      "highlights": [
+        {
+          "id": "stefanini-1",
+          "text": "Migrated a legacy React application from class-based to functional components, introducing React Hooks and modern state management patterns to improve maintainability and performance.",
+          "featured": true
+        },
+        {
+          "id": "stefanini-2",
+          "text": "Developed new features for managing complex data views in React.js, reducing load times and enhancing data visualization for internal business dashboards.",
+          "featured": false
+        },
+        {
+          "id": "stefanini-3",
+          "text": "Managing and validating forms using libraries like React Hook Form and zod.",
+          "featured": false
+        },
+        {
+          "id": "stefanini-4",
+          "text": "Designed and optimized dashboards for Walmart Costa Rica, ensuring smooth rendering of large datasets through memoization and virtualized lists.",
+          "featured": true
+        },
+        {
+          "id": "stefanini-5",
+          "text": "Integrated React frontend with Java backend APIs, creating reusable data-fetching utilities and improving response handling for multiple endpoints.",
+          "featured": true
+        },
+        {
+          "id": "stefanini-6",
+          "text": "Simplified user workflows by redesigning UI flows, resulting in a more intuitive experience for non-technical users.",
+          "featured": false
+        }
+      ],
+      "technologies": [
+        "React.js",
+        "TypeScript",
+        "Java",
+        "Redux",
+        "React Hooks",
+        "Jira"
+      ]
+    },
+    {
+      "id": "hypernova-labs",
+      "company": "Hypernova Labs",
+      "role": "Backend Developer",
+      "location": "Panama, Panama",
+      "startDate": "2021-02",
+      "endDate": "2022-01",
+      "remote": true,
+      "highlights": [
+        {
+          "id": "hypernova-labs-1",
+          "text": "Developed .NET Core/.NET 6 microservices supporting large-scale banking applications, applying Clean Architecture, Dependency Injection, SOLID principles, and design patterns to improve modularity, testability, and long-term maintainability.",
+          "featured": true
+        },
+        {
+          "id": "hypernova-labs-2",
+          "text": "Collaborated closely with frontend teams using React and Angular to design reliable, performant REST endpoints that supported seamless integration, authentication and authorization processes, between web and mobile applications.",
+          "featured": false
+        },
+        {
+          "id": "hypernova-labs-3",
+          "text": "Improved API performance through asynchronous operations, caching, and SQL Server query optimization, helping deliver faster response times for financial tracking and banking-related services.",
+          "featured": true
+        },
+        {
+          "id": "hypernova-labs-4",
+          "text": "Implemented Entity Framework Core with SQL Server to ensure data integrity, improve persistence workflows, and support efficient data access across distributed .NET Core/.NET 6 systems.",
+          "featured": true
+        },
+        {
+          "id": "hypernova-labs-5",
+          "text": "Improved database functions, stored procedures, and database access policies to strengthen system reliability, enforce business rules closer to the data layer, and support safer data operations.",
+          "featured": false
+        },
+        {
+          "id": "hypernova-labs-6",
+          "text": "Contributed to backend architecture decisions by improving service boundaries, validation flows, and integration patterns across banking and financial service modules.",
+          "featured": false
+        },
+        {
+          "id": "hypernova-labs-7",
+          "text": "Strengthened my backend engineering skills by working deeper with .NET Core/.NET 6 microservices, database optimization, security-aware data access, scalable API design, Git, Jira, and Azure DevOps workflows in a financial services environment.",
+          "featured": false
+        }
+      ],
+      "technologies": [
+        ".NET Core",
+        "C#",
+        "EF Core",
+        "MS SQL",
+        "React.js",
+        "Angular",
+        "TypeScript",
+        "Node.js",
+        "MongoDB",
+        "Azure DevOps",
+        "Jira"
+      ]
+    },
+    {
+      "id": "godigital-group",
+      "company": "GoDigital Group",
+      "role": "Tech Lead | Full Stack Developer",
+      "location": "Panama, Panama",
+      "startDate": "2018-12",
+      "endDate": "2021-02",
+      "remote": true,
+      "highlights": [
+        {
+          "id": "godigital-group-1",
+          "text": "Joined as the first developer in the startup, helping define the initial technical foundation, architecture decisions, and development standards that supported the launch of multiple SaaS products.",
+          "featured": true
+        },
+        {
+          "id": "godigital-group-2",
+          "text": "Designed and developed a loyalty management platform from the ground up using .NET Core, C#, Angular, and SQL Server, enabling retail clients to manage rewards, customer engagement, promotional workflows, and recurring customer retention programs.",
+          "featured": true
+        },
+        {
+          "id": "godigital-group-3",
+          "text": "Built dynamic storefront experiences using React and Gatsby.js, allowing clients to manage public-facing content faster and improve customer interaction across digital channels.",
+          "featured": false
+        },
+        {
+          "id": "godigital-group-4",
+          "text": "Developed a crowd-buying web application that allowed users to collectively purchase discounted products, supporting real-time deal tracking and scalable backend workflows for campaign-based sales.",
+          "featured": false
+        },
+        {
+          "id": "godigital-group-5",
+          "text": "Created a drag-and-drop page builder in React, enabling marketing teams to launch landing pages and campaign layouts without developer support, reducing turnaround time for content updates.",
+          "featured": true
+        },
+        {
+          "id": "godigital-group-6",
+          "text": "Implemented Repository and Unit of Work patterns across API layers, improving transactional consistency, maintainability, and separation of concerns as the platform scaled.",
+          "featured": false
+        },
+        {
+          "id": "godigital-group-7",
+          "text": "Developed payment features including redeemable points, payment links, and customer reward flows, expanding the platform’s ability to support different retail and loyalty business models.",
+          "featured": false
+        },
+        {
+          "id": "godigital-group-8",
+          "text": "Contributed to infrastructure decisions, CI/CD pipelines, Docker-based environments, and reusable UI libraries, improving deployment consistency and accelerating future product development.",
+          "featured": false
+        },
+        {
+          "id": "godigital-group-9",
+          "text": "Grew from feature delivery into early-stage technical ownership by helping shape product architecture, reusable engineering patterns, and scalable foundations for a startup environment.",
+          "featured": false
+        }
+      ],
+      "technologies": [
+        "Angular",
+        "React.js",
+        "TypeScript",
+        ".NET Core",
+        "C#",
+        "EF Core",
+        "MS SQL",
+        "MongoDB",
+        "Node.js",
+        "Material UI",
+        "Docker",
+        "Firebase",
+        "Ionic",
+        "Bulma",
+        "Asana"
+      ]
+    },
+    {
+      "id": "online",
+      "company": "Online",
+      "role": "Tech Lead | Backend Dev | Web Designer",
+      "location": "Managua, Nicaragua",
+      "startDate": "2016-05",
+      "endDate": "2018-10",
+      "remote": true,
+      "highlights": [
+        {
+          "id": "online-1",
+          "text": "Designed and developed user-friendly e-commerce and corporate websites, improving usability, customer experience, and delivery quality for multiple clients.",
+          "featured": true
+        },
+        {
+          "id": "online-2",
+          "text": "Automated manual reporting and analytics processes by building a custom internal web application, reducing reporting time from hours to minutes.",
+          "featured": true
+        },
+        {
+          "id": "online-3",
+          "text": "Promoted to lead e-commerce website production, managing priorities, coordinating delivery, and ensuring timely completion of high-quality client projects.",
+          "featured": false
+        },
+        {
+          "id": "online-4",
+          "text": "Implemented a reusable boilerplate website system that reduced project setup time from 15 days to 3 days, significantly improving team efficiency and delivery speed.",
+          "featured": true
+        },
+        {
+          "id": "online-5",
+          "text": "Developed and maintained backend infrastructure using .NET Framework, Razor Pages, ADO.NET, and SQL Server, ensuring seamless integration with database-driven applications.",
+          "featured": false
+        },
+        {
+          "id": "online-6",
+          "text": "Earned the Microsoft Certified Professional accreditation, strengthening my foundation in HTML, CSS, JavaScript, and web application development while applying those skills to production projects.",
+          "featured": false
+        }
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "jQuery",
+        "Razor Pages",
+        ".NET Framework",
+        "MS SQL",
+        "ADO.NET",
+        "Bootstrap"
+      ]
+    }
+  ],
+  "skillGroups": [
+    {
+      "id": "frontend",
+      "label": "Frontend",
+      "items": [
+        "React",
+        "Next.js",
+        "Angular",
+        "TypeScript",
+        "Zustand",
+        "React Query",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "id": "backend",
+      "label": "Backend & data",
+      "items": [
+        "Java",
+        "C#",
+        ".NET Core / .NET 8",
+        "Node.js",
+        "Python",
+        "SQL Server",
+        "MySQL",
+        "MongoDB",
+        "REST APIs",
+        "GraphQL"
+      ]
+    },
+    {
+      "id": "architecture",
+      "label": "Architecture",
+      "items": [
+        "SOLID",
+        "Clean Architecture",
+        "Repository",
+        "Factory",
+        "CQRS",
+        "Mediator"
+      ]
+    },
+    {
+      "id": "delivery",
+      "label": "Delivery & tooling",
+      "items": [
+        "Agile / Scrum",
+        "Code reviews",
+        "Git / GitFlow",
+        "CI/CD",
+        "Azure",
+        "AWS",
+        "Docker",
+        "Figma",
+        "Swagger",
+        "Postman",
+        "VS Code",
+        "Visual Studio"
+      ]
+    },
+    {
+      "id": "content",
+      "label": "Content & product",
+      "items": [
+        "Contentful",
+        "Strapi",
+        "UI/UX principles",
+        "Digital marketing fundamentals"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "upn",
+      "institution": "Universidad Politecnica de Nicaragua",
+      "qualification": "System Engineering",
+      "date": "2016-01",
+      "status": "Degree paperwork pending"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "microsoft-70-480",
+      "issuer": "Microsoft",
+      "name": "70-480: Programming in HTML5 with JavaScript and CSS3",
+      "date": "2017-11"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Spanish",
+      "proficiency": "Native"
+    },
+    {
+      "name": "English",
+      "proficiency": "Fluent (B2–C1)"
+    }
+  ],
+  "downloads": {
+    "pdf": "/ivan-lara-resume.pdf",
+    "text": "/ivan-lara-resume.txt"
+  }
+}

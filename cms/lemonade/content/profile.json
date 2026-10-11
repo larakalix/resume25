@@ -1,0 +1,26 @@
+[
+  {
+    "seed_key": "profile:main",
+    "content_type": "profile",
+    "fields": {
+      "name": "Ivan Lara",
+      "headline": "UI & Full-Stack Developer",
+      "location": "Gastonia, NC",
+      "open_to_relocate": true,
+      "summary": "Frontend-leaning UI and Full-Stack Developer with over 10 years of experience building scalable web applications, from early-stage products to enterprise SaaS platforms. Specialized in React, Next.js, Angular, TypeScript, Java, and C#, with a focus on user experience, performance, and maintainable architecture.",
+      "email": "uki@live.co.uk",
+      "phone": "+1 954 412 0811",
+      "phone_href": "tel:+19544120811",
+      "links": [
+        {
+          "id": "c5c602f1-4d3e-5c9a-99c1-89a8be98e441",
+          "type": "portfolio_link",
+          "fields": {
+            "label": "LinkedIn",
+            "url": "https://linkedin.com/in/ilaradev"
+          }
+        }
+      ]
+    }
+  }
+]

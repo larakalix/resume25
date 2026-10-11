@@ -1,0 +1,56 @@
+{
+  "asset": "engineer.glb",
+  "bytes": 973700,
+  "sha256": "b91d8460fdd36656b5557b4eedb49067edd944ff47322b80ab120e75bba11412",
+  "character": {
+    "creator": "Quaternius",
+    "pack": "Universal Base Characters [Standard]",
+    "source": "https://quaternius.itch.io/universal-base-characters",
+    "license": "CC0 1.0, as supplied in License_Standard.txt",
+    "inputs": [
+      {
+        "file": "Superhero_Male_FullBody.gltf",
+        "bytes": 30989,
+        "sha256": "e7fcea214ecf8855afbf910b50de6f9c7d1decfb71ca28bad8a4481452dafeb4"
+      },
+      {
+        "file": "Superhero_Male_FullBody.bin",
+        "bytes": 720076,
+        "sha256": "459003f9745853ae562a85506a2b94dd56515c1f37728f9fa3d2ce1a3e4cd92f"
+      },
+      {
+        "file": "Hair_SimpleParted.gltf",
+        "bytes": 2010,
+        "sha256": "ce6c666d00bcca2baa0c58d0442505f90f8feff952592effc4697a2341e9e56d"
+      },
+      {
+        "file": "Hair_SimpleParted.bin",
+        "bytes": 32032,
+        "sha256": "57c6359703a37e346ee38a9c7ba55c8dee761c0a02da99847d06f5a91728f3cc"
+      },
+      {
+        "file": "LICENSE.txt",
+        "bytes": 806,
+        "sha256": "0f4beaf0fe360a7732e58bbe3dbf60a2422367fbea60cb9ea4add968f383268e"
+      }
+    ],
+    "adaptation": "Weighted source head and hair on the original humanoid skeleton; source body anatomy, eye/brow meshes and textures removed. Original cartoon garments, limbs, mittens, shoes and face attach at runtime. Neutral rig normalized to 2.6 units before trimming; runtime short stature and enlarged head."
+  },
+  "motion": {
+    "source": "https://github.com/Mesh2Motion/mesh2motion-app",
+    "revision": "4f1316296660f2b9827ff46b4db10fb241ec2147",
+    "license": "CC0 1.0 (LICENSE-CC0.MD)",
+    "files": [
+      "idle-a.glb",
+      "walk-relaxed.glb",
+      "jog.glb",
+      "jump-start.glb",
+      "jump-air.glb",
+      "jump-land.glb",
+      "greeting.glb"
+    ],
+    "preparation": "Retargeted locally with Three.js SkeletonUtils.retargetClip at 24fps; local X/Y hip travel suppressed, local Z-up vertical bob retained."
+  },
+  "originalAccessories": "Five seasonal hats, glasses and satchel built from original procedural geometry at runtime.",
+  "preparation": "node scripts/character/prepare.mjs <extracted-character-inputs> <downloaded-motion-inputs>"
+}

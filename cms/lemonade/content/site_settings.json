@@ -1,0 +1,172 @@
+[
+  {
+    "seed_key": "site_settings:main",
+    "content_type": "site_settings",
+    "fields": {
+      "title": "Ivan Lara - Portfolio",
+      "description": "Frontend-leaning UI and Full-Stack Developer with over 10 years of experience building scalable web applications, from early-stage products to enterprise SaaS platforms. Specialized in React, Next.js, Angular, TypeScript, Java, and C#, with a focus on user experience, performance, and maintainable architecture.",
+      "navigation": [
+        {
+          "id": "ac7ae4b9-cf9f-5111-a1e2-45a6ccd79f3b",
+          "type": "portfolio_link",
+          "fields": {
+            "label": "Home",
+            "url": "/"
+          }
+        },
+        {
+          "id": "2fa32829-0e7c-507c-9e1a-0dd56644daf5",
+          "type": "portfolio_link",
+          "fields": {
+            "label": "Blog",
+            "url": "/blog"
+          }
+        },
+        {
+          "id": "b93a9326-b8bd-5aad-a0c9-614efd06794d",
+          "type": "portfolio_link",
+          "fields": {
+            "label": "Projects",
+            "url": "/projects"
+          }
+        },
+        {
+          "id": "c335d0c0-99ef-5c27-97eb-2b31d048b491",
+          "type": "portfolio_link",
+          "fields": {
+            "label": "Resume",
+            "url": "/resume"
+          }
+        },
+        {
+          "id": "7dd2c86c-2f07-5301-bc0a-a4a82cd28a37",
+          "type": "portfolio_link",
+          "fields": {
+            "label": "Contact",
+            "url": "/contact"
+          }
+        }
+      ],
+      "socials": [
+        {
+          "id": "8f895d29-3375-5f56-94f5-b284bca8debb",
+          "type": "portfolio_link",
+          "fields": {
+            "label": "GitHub",
+            "url": "https://github.com/larakalix",
+            "icon": "mdi:github"
+          }
+        },
+        {
+          "id": "ac436d04-1283-5463-949e-8deef846dfc2",
+          "type": "portfolio_link",
+          "fields": {
+            "label": "LinkedIn",
+            "url": "https://linkedin.com/in/ilaradev",
+            "icon": "mdi:linkedin"
+          }
+        },
+        {
+          "id": "37578295-d1c8-5aa2-b803-636c23eb90cd",
+          "type": "portfolio_link",
+          "fields": {
+            "label": "Instagram",
+            "url": "https://instagram.com/ukikalix",
+            "icon": "mdi:instagram"
+          }
+        }
+      ],
+      "contact_links": [
+        {
+          "id": "10116983-b427-5253-8a55-05a531044812",
+          "type": "portfolio_link",
+          "fields": {
+            "label": "Email",
+            "url": "mailto:uki@live.co.uk"
+          }
+        },
+        {
+          "id": "5fee5d9c-dd3e-5fbd-84a8-d5c7249672cf",
+          "type": "portfolio_link",
+          "fields": {
+            "label": "Newsletter",
+            "url": "https://kalixthedev.substack.com"
+          }
+        },
+        {
+          "id": "c3d8bb8c-a724-5949-a6c1-302c0aab325f",
+          "type": "portfolio_link",
+          "fields": {
+            "label": "GitHub",
+            "url": "https://github.com/larakalix"
+          }
+        },
+        {
+          "id": "fa6a3976-9950-5ab5-af3e-fba57783e5b1",
+          "type": "portfolio_link",
+          "fields": {
+            "label": "LinkedIn",
+            "url": "https://linkedin.com/in/ilaradev"
+          }
+        }
+      ],
+      "pages": [
+        {
+          "$ref": "page:home"
+        },
+        {
+          "$ref": "page:projects"
+        },
+        {
+          "$ref": "page:blog"
+        },
+        {
+          "$ref": "page:contact"
+        }
+      ],
+      "projects": [
+        {
+          "$ref": "project:cm9xsg6r6000208ky665y9123"
+        },
+        {
+          "$ref": "project:cm9xsg6r6000208ky665y9124"
+        },
+        {
+          "$ref": "project:cm9xsg6r6000208ky665y9127"
+        },
+        {
+          "$ref": "project:cm9xsg6r6000208ky665y9126"
+        },
+        {
+          "$ref": "project:cm9xsg6r6000208ky665y9125"
+        },
+        {
+          "$ref": "project:cm9xsg6r6000208ky665y9jfu"
+        },
+        {
+          "$ref": "project:cm9xsg3ev000108ky9b80ek45"
+        },
+        {
+          "$ref": "project:cm9xsfxh7000008kyb21ib9km"
+        },
+        {
+          "$ref": "project:cm9xsfxh7000008kyb21ib9kn"
+        }
+      ],
+      "articles": [
+        {
+          "$ref": "article:post-why-nuxt"
+        },
+        {
+          "$ref": "article:post-nuxt-vs-others"
+        },
+        {
+          "$ref": "article:post-nuxt-v4"
+        }
+      ],
+      "resume": {
+        "$ref": "resume:main"
+      }
+    }
+  }
+]

@@ -1,0 +1,852 @@
+{
+  "format": "lemonade-model-template",
+  "version": 1,
+  "name": "Ivan Lara portfolio",
+  "description": "Source-backed portfolio content types with ordered resume sections, article HTML, existing paths and stable content identities.",
+  "models": [
+    {
+      "key": "profile",
+      "name": "Profile",
+      "fields": [
+        {
+          "key": "name",
+          "label": "Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "headline",
+          "label": "Headline",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "location",
+          "label": "Location",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "open_to_relocate",
+          "label": "Open to relocate",
+          "type": "boolean",
+          "required": true
+        },
+        {
+          "key": "summary",
+          "label": "Summary",
+          "type": "long_text",
+          "required": true
+        },
+        {
+          "key": "email",
+          "label": "Email",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "phone",
+          "label": "Phone",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "phone_href",
+          "label": "Phone destination",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "links",
+          "label": "Profile links",
+          "type": "components",
+          "required": false,
+          "components": [
+            {
+              "key": "portfolio_link",
+              "name": "Portfolio link",
+              "fields": [
+                {
+                  "key": "label",
+                  "label": "Label",
+                  "type": "text",
+                  "required": true
+                },
+                {
+                  "key": "url",
+                  "label": "Destination",
+                  "type": "text",
+                  "required": true
+                },
+                {
+                  "key": "icon",
+                  "label": "Icon name",
+                  "type": "text",
+                  "required": false
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "singleton": true
+    },
+    {
+      "key": "project",
+      "name": "Project",
+      "fields": [
+        {
+          "key": "content_id",
+          "label": "Original content ID",
+          "type": "text",
+          "required": true,
+          "unique": true,
+          "help_text": "Preserve this source identity. Lemonade assigns its own entry UUID separately."
+        },
+        {
+          "key": "name",
+          "label": "Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "description",
+          "label": "Description",
+          "type": "long_text",
+          "required": true
+        },
+        {
+          "key": "image_path",
+          "label": "Preview path",
+          "type": "text",
+          "required": true,
+          "help_text": "Existing local/HTTPS path; this is not an uploaded Lemonade image UUID."
+        },
+        {
+          "key": "demo_path",
+          "label": "Original demo path",
+          "type": "text",
+          "required": false
+        },
+        {
+          "key": "url",
+          "label": "Project URL",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "tags",
+          "label": "Technologies and topics",
+          "type": "choices",
+          "required": true,
+          "options": [
+            "Appointments",
+            "Blog",
+            "Book Management",
+            "Booking",
+            "Businesses",
+            "Content Management",
+            "DatoCMS",
+            "Drag and Drop",
+            "E-commerce",
+            "Gaming",
+            "InfoJobs",
+            "Job Search",
+            "NextJS",
+            "Nuxt",
+            "React",
+            "School Management",
+            "Storybook",
+            "Students",
+            "Tailwind CSS",
+            "Task Management",
+            "Teachers",
+            "Twitter Clone",
+            "TypeScript",
+            "Website Builder"
+          ]
+        },
+        {
+          "key": "sort_order",
+          "label": "Source order",
+          "type": "number",
+          "required": true
+        }
+      ]
+    },
+    {
+      "key": "article",
+      "name": "Article",
+      "fields": [
+        {
+          "key": "content_id",
+          "label": "Original content ID",
+          "type": "text",
+          "required": true,
+          "unique": true,
+          "help_text": "Preserve this source identity. Lemonade assigns its own entry UUID separately."
+        },
+        {
+          "key": "title",
+          "label": "Title",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "slug",
+          "label": "Slug",
+          "type": "text",
+          "required": true,
+          "unique": true
+        },
+        {
+          "key": "excerpt",
+          "label": "Excerpt",
+          "type": "long_text",
+          "required": true
+        },
+        {
+          "key": "content_html",
+          "label": "Article HTML",
+          "type": "long_text",
+          "required": true,
+          "help_text": "Preserved authored HTML, not Lemonade rich-text JSON. Sanitize remotely editable HTML in the delivery adapter."
+        },
+        {
+          "key": "publication_date",
+          "label": "Publication date",
+          "type": "date",
+          "required": true
+        },
+        {
+          "key": "tags",
+          "label": "Topics",
+          "type": "choices",
+          "required": true,
+          "options": [
+            "Comparison",
+            "Features",
+            "Frontend",
+            "NextJS",
+            "Nuxt",
+            "Nuxt 4",
+            "Performance",
+            "Release",
+            "SSR",
+            "Vue"
+          ]
+        },
+        {
+          "key": "image_path",
+          "label": "Image path",
+          "type": "text",
+          "required": false
+        },
+        {
+          "key": "sort_order",
+          "label": "Source order",
+          "type": "number",
+          "required": true
+        }
+      ]
+    },
+    {
+      "key": "experience",
+      "name": "Experience",
+      "fields": [
+        {
+          "key": "content_id",
+          "label": "Original content ID",
+          "type": "text",
+          "required": true,
+          "unique": true,
+          "help_text": "Preserve this source identity. Lemonade assigns its own entry UUID separately."
+        },
+        {
+          "key": "company",
+          "label": "Company",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "role",
+          "label": "Role",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "location",
+          "label": "Location",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "remote",
+          "label": "Remote",
+          "type": "boolean",
+          "required": true
+        },
+        {
+          "key": "start_date",
+          "label": "Start month",
+          "type": "text",
+          "required": true,
+          "help_text": "Keep YYYY-MM precision. A current role has a null end date; do not invent a day."
+        },
+        {
+          "key": "end_date",
+          "label": "End month",
+          "type": "text",
+          "required": false,
+          "help_text": "Keep YYYY-MM precision. A current role has a null end date; do not invent a day."
+        },
+        {
+          "key": "highlights",
+          "label": "Achievements",
+          "type": "components",
+          "required": true,
+          "components": [
+            {
+              "key": "portfolio_achievement",
+              "name": "Achievement",
+              "fields": [
+                {
+                  "key": "content_id",
+                  "label": "Original achievement ID",
+                  "type": "text",
+                  "required": true
+                },
+                {
+                  "key": "text",
+                  "label": "Achievement",
+                  "type": "long_text",
+                  "required": true
+                },
+                {
+                  "key": "featured",
+                  "label": "Featured",
+                  "type": "boolean",
+                  "required": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "technologies",
+          "label": "Technologies",
+          "type": "choices",
+          "required": true,
+          "options": [
+            ".NET Core",
+            ".NET Framework",
+            "ADO.NET",
+            "Angular",
+            "Asana",
+            "Azure DevOps",
+            "Bootstrap",
+            "Bulma",
+            "C#",
+            "CSS",
+            "Claude Agent Skills",
+            "Claude Code",
+            "Contentful",
+            "Docker",
+            "EF Core",
+            "Figma",
+            "Firebase",
+            "GitHub",
+            "HTML",
+            "Ionic",
+            "Java",
+            "Jira",
+            "MS SQL",
+            "Material UI",
+            "MongoDB",
+            "MySQL",
+            "Next.js",
+            "Node.js",
+            "Python",
+            "Razor Pages",
+            "React Hooks",
+            "React Query",
+            "React.js",
+            "Redux",
+            "Strapi",
+            "Tailwind CSS",
+            "TypeScript",
+            "Zod",
+            "Zustand",
+            "jQuery"
+          ]
+        },
+        {
+          "key": "sort_order",
+          "label": "Source order",
+          "type": "number",
+          "required": true
+        }
+      ]
+    },
+    {
+      "key": "page",
+      "name": "Page",
+      "fields": [
+        {
+          "key": "page_key",
+          "label": "Page key",
+          "type": "text",
+          "required": true,
+          "unique": true
+        },
+        {
+          "key": "title",
+          "label": "Title",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "subtitle",
+          "label": "Subtitle",
+          "type": "text",
+          "required": false
+        },
+        {
+          "key": "description",
+          "label": "Description",
+          "type": "long_text",
+          "required": true
+        },
+        {
+          "key": "action",
+          "label": "Page action",
+          "type": "component",
+          "required": false,
+          "components": [
+            {
+              "key": "portfolio_action",
+              "name": "Page action",
+              "fields": [
+                {
+                  "key": "text",
+                  "label": "Action label",
+                  "type": "text",
+                  "required": true
+                },
+                {
+                  "key": "href",
+                  "label": "Destination",
+                  "type": "text",
+                  "required": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "meta",
+          "label": "Page metadata",
+          "type": "component",
+          "required": true,
+          "components": [
+            {
+              "key": "portfolio_seo",
+              "name": "Page metadata",
+              "fields": [
+                {
+                  "key": "title",
+                  "label": "Page title",
+                  "type": "text",
+                  "required": true
+                },
+                {
+                  "key": "description",
+                  "label": "Description",
+                  "type": "long_text",
+                  "required": true
+                },
+                {
+                  "key": "keywords",
+                  "label": "Keywords",
+                  "type": "long_text",
+                  "required": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "resume",
+      "name": "Resume",
+      "fields": [
+        {
+          "key": "schema_version",
+          "label": "Source schema version",
+          "type": "number",
+          "required": true
+        },
+        {
+          "key": "source_document",
+          "label": "Source document",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "profile",
+          "label": "Profile",
+          "type": "reference",
+          "required": true,
+          "target": "profile"
+        },
+        {
+          "key": "experience",
+          "label": "Experience",
+          "type": "references",
+          "required": true,
+          "target": "experience"
+        },
+        {
+          "key": "skill_groups",
+          "label": "Skill groups",
+          "type": "components",
+          "required": true,
+          "components": [
+            {
+              "key": "portfolio_skill_group",
+              "name": "Skill group",
+              "fields": [
+                {
+                  "key": "content_id",
+                  "label": "Original group ID",
+                  "type": "text",
+                  "required": true
+                },
+                {
+                  "key": "label",
+                  "label": "Group label",
+                  "type": "text",
+                  "required": true
+                },
+                {
+                  "key": "items",
+                  "label": "Skills",
+                  "type": "choices",
+                  "required": true,
+                  "options": [
+                    ".NET Core / .NET 8",
+                    "AWS",
+                    "Agile / Scrum",
+                    "Angular",
+                    "Azure",
+                    "C#",
+                    "CI/CD",
+                    "CQRS",
+                    "Clean Architecture",
+                    "Code reviews",
+                    "Contentful",
+                    "Digital marketing fundamentals",
+                    "Docker",
+                    "Factory",
+                    "Figma",
+                    "Git / GitFlow",
+                    "GraphQL",
+                    "Java",
+                    "Mediator",
+                    "MongoDB",
+                    "MySQL",
+                    "Next.js",
+                    "Node.js",
+                    "Postman",
+                    "Python",
+                    "REST APIs",
+                    "React",
+                    "React Query",
+                    "Repository",
+                    "SOLID",
+                    "SQL Server",
+                    "Strapi",
+                    "Swagger",
+                    "Tailwind CSS",
+                    "TypeScript",
+                    "UI/UX principles",
+                    "VS Code",
+                    "Visual Studio",
+                    "Zustand"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "education",
+          "label": "Education",
+          "type": "components",
+          "required": true,
+          "components": [
+            {
+              "key": "portfolio_education",
+              "name": "Education",
+              "fields": [
+                {
+                  "key": "content_id",
+                  "label": "Original education ID",
+                  "type": "text",
+                  "required": true
+                },
+                {
+                  "key": "institution",
+                  "label": "Institution",
+                  "type": "text",
+                  "required": true
+                },
+                {
+                  "key": "qualification",
+                  "label": "Qualification",
+                  "type": "text",
+                  "required": true
+                },
+                {
+                  "key": "date",
+                  "label": "Month",
+                  "type": "text",
+                  "required": true,
+                  "help_text": "Keep YYYY-MM precision. A current role has a null end date; do not invent a day."
+                },
+                {
+                  "key": "status",
+                  "label": "Status",
+                  "type": "text",
+                  "required": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "certifications",
+          "label": "Certifications",
+          "type": "components",
+          "required": true,
+          "components": [
+            {
+              "key": "portfolio_certification",
+              "name": "Certification",
+              "fields": [
+                {
+                  "key": "content_id",
+                  "label": "Original certification ID",
+                  "type": "text",
+                  "required": true
+                },
+                {
+                  "key": "issuer",
+                  "label": "Issuer",
+                  "type": "text",
+                  "required": true
+                },
+                {
+                  "key": "name",
+                  "label": "Certification",
+                  "type": "text",
+                  "required": true
+                },
+                {
+                  "key": "date",
+                  "label": "Month",
+                  "type": "text",
+                  "required": true,
+                  "help_text": "Keep YYYY-MM precision. A current role has a null end date; do not invent a day."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "languages",
+          "label": "Languages",
+          "type": "components",
+          "required": true,
+          "components": [
+            {
+              "key": "portfolio_language",
+              "name": "Language",
+              "fields": [
+                {
+                  "key": "name",
+                  "label": "Language",
+                  "type": "text",
+                  "required": true
+                },
+                {
+                  "key": "proficiency",
+                  "label": "Proficiency",
+                  "type": "text",
+                  "required": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pdf_path",
+          "label": "PDF download path",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "text_path",
+          "label": "Text download path",
+          "type": "text",
+          "required": true
+        }
+      ],
+      "singleton": true
+    },
+    {
+      "key": "site_settings",
+      "name": "Site settings",
+      "fields": [
+        {
+          "key": "title",
+          "label": "Site title",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "description",
+          "label": "Site description",
+          "type": "long_text",
+          "required": true
+        },
+        {
+          "key": "navigation",
+          "label": "Navigation",
+          "type": "components",
+          "required": true,
+          "components": [
+            {
+              "key": "portfolio_link",
+              "name": "Portfolio link",
+              "fields": [
+                {
+                  "key": "label",
+                  "label": "Label",
+                  "type": "text",
+                  "required": true
+                },
+                {
+                  "key": "url",
+                  "label": "Destination",
+                  "type": "text",
+                  "required": true
+                },
+                {
+                  "key": "icon",
+                  "label": "Icon name",
+                  "type": "text",
+                  "required": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "socials",
+          "label": "Social links",
+          "type": "components",
+          "required": true,
+          "components": [
+            {
+              "key": "portfolio_link",
+              "name": "Portfolio link",
+              "fields": [
+                {
+                  "key": "label",
+                  "label": "Label",
+                  "type": "text",
+                  "required": true
+                },
+                {
+                  "key": "url",
+                  "label": "Destination",
+                  "type": "text",
+                  "required": true
+                },
+                {
+                  "key": "icon",
+                  "label": "Icon name",
+                  "type": "text",
+                  "required": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "contact_links",
+          "label": "Contact links",
+          "type": "components",
+          "required": true,
+          "components": [
+            {
+              "key": "portfolio_link",
+              "name": "Portfolio link",
+              "fields": [
+                {
+                  "key": "label",
+                  "label": "Label",
+                  "type": "text",
+                  "required": true
+                },
+                {
+                  "key": "url",
+                  "label": "Destination",
+                  "type": "text",
+                  "required": true
+                },
+                {
+                  "key": "icon",
+                  "label": "Icon name",
+                  "type": "text",
+                  "required": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pages",
+          "label": "Pages",
+          "type": "references",
+          "required": true,
+          "target": "page"
+        },
+        {
+          "key": "projects",
+          "label": "Projects",
+          "type": "references",
+          "required": true,
+          "target": "project"
+        },
+        {
+          "key": "articles",
+          "label": "Articles",
+          "type": "references",
+          "required": true,
+          "target": "article"
+        },
+        {
+          "key": "resume",
+          "label": "Resume",
+          "type": "reference",
+          "required": true,
+          "target": "resume"
+        }
+      ],
+      "singleton": true
+    }
+  ]
+}

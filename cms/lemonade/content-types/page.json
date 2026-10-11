@@ -1,0 +1,89 @@
+{
+  "key": "page",
+  "name": "Page",
+  "fields": [
+    {
+      "key": "page_key",
+      "label": "Page key",
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    {
+      "key": "title",
+      "label": "Title",
+      "type": "text",
+      "required": true
+    },
+    {
+      "key": "subtitle",
+      "label": "Subtitle",
+      "type": "text",
+      "required": false
+    },
+    {
+      "key": "description",
+      "label": "Description",
+      "type": "long_text",
+      "required": true
+    },
+    {
+      "key": "action",
+      "label": "Page action",
+      "type": "component",
+      "required": false,
+      "components": [
+        {
+          "key": "portfolio_action",
+          "name": "Page action",
+          "fields": [
+            {
+              "key": "text",
+              "label": "Action label",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "href",
+              "label": "Destination",
+              "type": "text",
+              "required": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "meta",
+      "label": "Page metadata",
+      "type": "component",
+      "required": true,
+      "components": [
+        {
+          "key": "portfolio_seo",
+          "name": "Page metadata",
+          "fields": [
+            {
+              "key": "title",
+              "label": "Page title",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "description",
+              "label": "Description",
+              "type": "long_text",
+              "required": true
+            },
+            {
+              "key": "keywords",
+              "label": "Keywords",
+              "type": "long_text",
+              "required": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

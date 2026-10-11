@@ -1,0 +1,87 @@
+{
+  "key": "profile",
+  "name": "Profile",
+  "fields": [
+    {
+      "key": "name",
+      "label": "Name",
+      "type": "text",
+      "required": true
+    },
+    {
+      "key": "headline",
+      "label": "Headline",
+      "type": "text",
+      "required": true
+    },
+    {
+      "key": "location",
+      "label": "Location",
+      "type": "text",
+      "required": true
+    },
+    {
+      "key": "open_to_relocate",
+      "label": "Open to relocate",
+      "type": "boolean",
+      "required": true
+    },
+    {
+      "key": "summary",
+      "label": "Summary",
+      "type": "long_text",
+      "required": true
+    },
+    {
+      "key": "email",
+      "label": "Email",
+      "type": "text",
+      "required": true
+    },
+    {
+      "key": "phone",
+      "label": "Phone",
+      "type": "text",
+      "required": true
+    },
+    {
+      "key": "phone_href",
+      "label": "Phone destination",
+      "type": "text",
+      "required": true
+    },
+    {
+      "key": "links",
+      "label": "Profile links",
+      "type": "components",
+      "required": false,
+      "components": [
+        {
+          "key": "portfolio_link",
+          "name": "Portfolio link",
+          "fields": [
+            {
+              "key": "label",
+              "label": "Label",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "url",
+              "label": "Destination",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "icon",
+              "label": "Icon name",
+              "type": "text",
+              "required": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "singleton": true
+}

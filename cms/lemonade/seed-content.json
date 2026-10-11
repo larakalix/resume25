@@ -1,0 +1,1446 @@
+{
+  "format": "resume25-lemonade-seed",
+  "version": 1,
+  "root": "site_settings:main",
+  "entries": [
+    {
+      "seed_key": "profile:main",
+      "content_type": "profile",
+      "fields": {
+        "name": "Ivan Lara",
+        "headline": "UI & Full-Stack Developer",
+        "location": "Gastonia, NC",
+        "open_to_relocate": true,
+        "summary": "Frontend-leaning UI and Full-Stack Developer with over 10 years of experience building scalable web applications, from early-stage products to enterprise SaaS platforms. Specialized in React, Next.js, Angular, TypeScript, Java, and C#, with a focus on user experience, performance, and maintainable architecture.",
+        "email": "uki@live.co.uk",
+        "phone": "+1 954 412 0811",
+        "phone_href": "tel:+19544120811",
+        "links": [
+          {
+            "id": "c5c602f1-4d3e-5c9a-99c1-89a8be98e441",
+            "type": "portfolio_link",
+            "fields": {
+              "label": "LinkedIn",
+              "url": "https://linkedin.com/in/ilaradev"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "seed_key": "project:cm9xsg6r6000208ky665y9123",
+      "content_type": "project",
+      "fields": {
+        "content_id": "cm9xsg6r6000208ky665y9123",
+        "name": "Booqself",
+        "description": "A booking page for customers. An appointment system for businesses.",
+        "image_path": "/img/booqself.webp",
+        "demo_path": "/img/booqself.gif",
+        "url": "https://www.booqself.com/",
+        "tags": [
+          "Nuxt",
+          "TypeScript",
+          "Tailwind CSS",
+          "Booking",
+          "Businesses",
+          "Book Management",
+          "Appointments"
+        ],
+        "sort_order": 0
+      }
+    },
+    {
+      "seed_key": "project:cm9xsg6r6000208ky665y9124",
+      "content_type": "project",
+      "fields": {
+        "content_id": "cm9xsg6r6000208ky665y9124",
+        "name": "Drag and drop website builder",
+        "description": "A drag and drop website builder that allows you to create websites without coding.",
+        "image_path": "/img/dnd-tool.webp",
+        "demo_path": "/img/dnd-tool.gif",
+        "url": "https://bq-dnd-tool.vercel.app",
+        "tags": [
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "Drag and Drop",
+          "Website Builder"
+        ],
+        "sort_order": 1
+      }
+    },
+    {
+      "seed_key": "project:cm9xsg6r6000208ky665y9127",
+      "content_type": "project",
+      "fields": {
+        "content_id": "cm9xsg6r6000208ky665y9127",
+        "name": "Nuxt UI Kit",
+        "description": "A UI kit for Nuxt.js applications.",
+        "image_path": "/img/nuxt-ui-kit.webp",
+        "demo_path": "/img/nuxt-ui-kit.gif",
+        "url": "https://ct-starter-storybook.vercel.app/",
+        "tags": [
+          "Nuxt",
+          "TypeScript",
+          "Tailwind CSS",
+          "Storybook"
+        ],
+        "sort_order": 2
+      }
+    },
+    {
+      "seed_key": "project:cm9xsg6r6000208ky665y9126",
+      "content_type": "project",
+      "fields": {
+        "content_id": "cm9xsg6r6000208ky665y9126",
+        "name": "Lummiq",
+        "description": "School management system for teachers and students.",
+        "image_path": "/img/lummiq.webp",
+        "url": "https://lummiq.com/",
+        "tags": [
+          "NextJS",
+          "TypeScript",
+          "Tailwind CSS",
+          "School Management",
+          "Teachers",
+          "Students"
+        ],
+        "sort_order": 3
+      }
+    },
+    {
+      "seed_key": "project:cm9xsg6r6000208ky665y9125",
+      "content_type": "project",
+      "fields": {
+        "content_id": "cm9xsg6r6000208ky665y9125",
+        "name": "Gamer shop",
+        "description": "A simple e-commerce website for selling gaming products.",
+        "image_path": "/img/gamer-shop.webp",
+        "demo_path": "/img/gamer-shop.gif",
+        "url": "https://ad-frontend-test-sooty.vercel.app/",
+        "tags": [
+          "NextJS",
+          "TypeScript",
+          "Tailwind CSS",
+          "E-commerce",
+          "Gaming"
+        ],
+        "sort_order": 4
+      }
+    },
+    {
+      "seed_key": "project:cm9xsg6r6000208ky665y9jfu",
+      "content_type": "project",
+      "fields": {
+        "content_id": "cm9xsg6r6000208ky665y9jfu",
+        "name": "Task App DnD",
+        "description": "A simple task app with drag and drop functionality.",
+        "image_path": "/img/tasks-app.webp",
+        "demo_path": "/img/tasks-app.gif",
+        "url": "https://task-dnd-app.vercel.app",
+        "tags": [
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "Drag and Drop",
+          "Task Management"
+        ],
+        "sort_order": 5
+      }
+    },
+    {
+      "seed_key": "project:cm9xsg3ev000108ky9b80ek45",
+      "content_type": "project",
+      "fields": {
+        "content_id": "cm9xsg3ev000108ky9b80ek45",
+        "name": "InfoJobs App",
+        "description": "A job search app that allows you to search for jobs and save them.",
+        "image_path": "/img/infojobs.webp",
+        "demo_path": "/img/infojobs.gif",
+        "url": "https://github.com/larakalix/info-jobs-app",
+        "tags": [
+          "NextJS",
+          "TypeScript",
+          "Tailwind CSS",
+          "Job Search",
+          "InfoJobs"
+        ],
+        "sort_order": 6
+      }
+    },
+    {
+      "seed_key": "project:cm9xsfxh7000008kyb21ib9km",
+      "content_type": "project",
+      "fields": {
+        "content_id": "cm9xsfxh7000008kyb21ib9km",
+        "name": "Blog with DatoCMS",
+        "description": "A simple blog with DatoCMS. It uses the DatoCMS API to fetch posts and display them.",
+        "image_path": "/img/blog.webp",
+        "demo_path": "/img/blog.gif",
+        "url": "https://github.com/larakalix/blog-app",
+        "tags": [
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "Blog",
+          "DatoCMS",
+          "Content Management"
+        ],
+        "sort_order": 7
+      }
+    },
+    {
+      "seed_key": "project:cm9xsfxh7000008kyb21ib9kn",
+      "content_type": "project",
+      "fields": {
+        "content_id": "cm9xsfxh7000008kyb21ib9kn",
+        "name": "Mweeter App",
+        "description": "A simple Twitter clone that allows you to post tweets and view them.",
+        "image_path": "/img/mweeter.webp",
+        "url": "https://github.com/larakalix/monogram-challenge",
+        "tags": [
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "Twitter Clone"
+        ],
+        "sort_order": 8
+      }
+    },
+    {
+      "seed_key": "article:post-why-nuxt",
+      "content_type": "article",
+      "fields": {
+        "content_id": "post-why-nuxt",
+        "title": "Why use Nuxt?",
+        "slug": "why-use-nuxt",
+        "excerpt": "Nuxt takes the best parts of Vue and adds conventions that make building production apps faster, simpler, and more scalable.",
+        "content_html": "\n            <p>Nuxt is more than just a framework on top of Vue. It is a full-stack application platform that removes boilerplate while keeping flexibility.</p>\n            <h2>File-based routing</h2>\n            <p>Instead of manually configuring a router, Nuxt automatically creates routes from your <code>pages/</code> directory. Nested folders become nested routes, and dynamic segments use bracket syntax.</p>\n            <h2>Server-side rendering out of the box</h2>\n            <p>Nuxt ships with SSR and SSG support by default, giving you great SEO, fast first paints, and graceful hydration without extra configuration.</p>\n            <h2>Auto-imports</h2>\n            <p>Components, composables, and utilities are auto-imported, which keeps files clean and reduces friction when refactoring.</p>\n            <h2>Module ecosystem</h2>\n            <p>From image optimization and content management to authentication and caching, the Nuxt module ecosystem lets you add capabilities with a single line in your config.</p>\n            <p>For teams that want Vue's ergonomics with an opinionated, productive workflow, Nuxt is hard to beat.</p>\n        ",
+        "publication_date": "2025-06-15",
+        "tags": [
+          "Nuxt",
+          "Vue",
+          "SSR",
+          "Performance"
+        ],
+        "sort_order": 0
+      }
+    },
+    {
+      "seed_key": "article:post-nuxt-vs-others",
+      "content_type": "article",
+      "fields": {
+        "content_id": "post-nuxt-vs-others",
+        "title": "Nuxt vs other frameworks",
+        "slug": "nuxt-vs-other-frameworks",
+        "excerpt": "How does Nuxt compare to Next.js, SvelteKit, and other full-stack frameworks? A practical look at the trade-offs.",
+        "content_html": "\n            <p>Choosing a framework is about matching your team's strengths and your project's constraints. Here is how Nuxt compares to the most common alternatives.</p>\n            <h2>Nuxt vs Next.js</h2>\n            <p>Next.js is the dominant React meta-framework. Nuxt offers a similar feature set — SSR, SSG, API routes, layouts — but with Vue's template syntax and reactivity model. If you prefer Vue's ergonomics, Nuxt is the natural choice.</p>\n            <h2>Nuxt vs SvelteKit</h2>\n            <p>SvelteKit is lean and fast, but its ecosystem is smaller. Nuxt has a larger community, more third-party modules, and deeper integration with the Vue ecosystem.</p>\n            <h2>Nuxt vs plain Vite + Vue</h2>\n            <p>A custom Vite setup gives you total control, but you end up rebuilding routing, SSR, auto-imports, and build optimizations yourself. Nuxt provides all of that with sensible defaults.</p>\n            <p>The right choice depends on your team, but Nuxt strikes a strong balance between convention and flexibility.</p>\n        ",
+        "publication_date": "2025-06-20",
+        "tags": [
+          "Nuxt",
+          "NextJS",
+          "Comparison",
+          "Frontend"
+        ],
+        "sort_order": 1
+      }
+    },
+    {
+      "seed_key": "article:post-nuxt-v4",
+      "content_type": "article",
+      "fields": {
+        "content_id": "post-nuxt-v4",
+        "title": "Nuxt v4 new features",
+        "slug": "nuxt-v4-new-features",
+        "excerpt": "Nuxt 4 brings a cleaner directory structure, faster builds, typed routes, and better defaults. Here is what changed.",
+        "content_html": "\n            <p>Nuxt 4 is a major step forward for the framework. It keeps the parts developers love while modernizing the foundation.</p>\n            <h2>New directory structure</h2>\n            <p>The default app directory moves from the project root to a dedicated <code>app/</code> folder, making monorepos and layers easier to manage. Existing projects can opt in gradually.</p>\n            <h2>Faster builds and smaller bundles</h2>\n            <p>Build performance has improved across the board, thanks to upgrades in Nitro and Vite integration. Bundle sizes are also smaller by default.</p>\n            <h2>Typed routes</h2>\n            <p>Route names and params are now fully typed, catching navigation mistakes at compile time and improving IDE autocomplete.</p>\n            <h2>Better server utilities</h2>\n            <p>The server layer gains new helpers for validation, WebSocket support, and streaming, making full-stack Nuxt apps more capable.</p>\n            <p>If you are starting a new project, Nuxt 4 is the recommended baseline.</p>\n        ",
+        "publication_date": "2025-06-28",
+        "tags": [
+          "Nuxt",
+          "Nuxt 4",
+          "Release",
+          "Features"
+        ],
+        "sort_order": 2
+      }
+    },
+    {
+      "seed_key": "experience:apply-digital",
+      "content_type": "experience",
+      "fields": {
+        "content_id": "apply-digital",
+        "company": "Apply Digital",
+        "role": "UI Developer | Frontend Developer",
+        "location": "Vancouver, Canada",
+        "remote": true,
+        "start_date": "2025-04",
+        "end_date": "2026-04",
+        "sort_order": 0,
+        "technologies": [
+          "Angular",
+          "React.js",
+          "Next.js",
+          "TypeScript",
+          "Node.js",
+          "Zustand",
+          "Zod",
+          "Tailwind CSS",
+          "Contentful",
+          "Figma",
+          "Jira",
+          "Claude Code",
+          "Claude Agent Skills",
+          "GitHub"
+        ],
+        "highlights": [
+          {
+            "id": "bb6bf9e3-f31b-5501-a76b-41bed63be296",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "apply-digital-1",
+              "text": "Supported digital product delivery for high-traffic custom/private e-commerce platforms using React.js, Next.js, TypeScript, and Angular, partnering with product, design, backend, and QA teams to clarify requirements and deliver production-ready features.",
+              "featured": true
+            }
+          },
+          {
+            "id": "537915c3-6a09-5d5a-b638-d022c5c6d33f",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "apply-digital-2",
+              "text": "Participated in backlog refinement, sprint planning, Jira ticket discussions, and technical conversations, helping translate business requirements into actionable frontend, API, and integration tasks.",
+              "featured": false
+            }
+          },
+          {
+            "id": "9fc4f4e4-3934-5357-bc61-fd1cf76da003",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "apply-digital-3",
+              "text": "Developed and integrated RESTful APIs with Node.js to support critical e-commerce workflows, including cart management, checkout, order processing, account features, and customer-facing transactional flows.",
+              "featured": false
+            }
+          },
+          {
+            "id": "a4bb8c49-a5e5-5721-811b-705ff0487756",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "apply-digital-4",
+              "text": "Partnered with engineering teams on API-related initiatives, integration flows, and orchestration-layer capabilities to improve communication between frontend applications, backend services, and third-party systems.",
+              "featured": false
+            }
+          },
+          {
+            "id": "7aa30d71-cd7a-555a-80f4-9116511e644b",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "apply-digital-5",
+              "text": "Integrated Contentful’s GraphQL API to dynamically fetch and render structured content for public landing pages, supporting a scalable CMS-driven architecture and reducing dependency on hardcoded marketing content.",
+              "featured": true
+            }
+          },
+          {
+            "id": "17fa38a3-61af-5f00-8253-449d6f71409f",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "apply-digital-6",
+              "text": "Built and maintained Angular v20 features for a production web platform, including responsive UI components, video API integrations, authentication flows, playback/stream workflows, event handling, and error states.",
+              "featured": false
+            }
+          },
+          {
+            "id": "c19526cc-b3d6-5ebf-946a-a019c6dbca6e",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "apply-digital-7",
+              "text": "Helped investigate and resolve production issues across frontend, API, and integration layers, coordinating with technical teams to identify root causes, validate fixes, and support timely resolution.",
+              "featured": false
+            }
+          },
+          {
+            "id": "9d3ad6c7-884d-574e-866e-f02c446d9bef",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "apply-digital-8",
+              "text": "Unified client/server validation using TypeScript generics and Zod, reducing duplicated interfaces, improving type safety, and helping teams ship features with fewer validation-related issues.",
+              "featured": false
+            }
+          },
+          {
+            "id": "1f97ec09-daa9-59f0-8599-ca5cf7cbb490",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "apply-digital-9",
+              "text": "Improved shared-state management across complex UI flows by implementing scalable Zustand-based architecture with a Provider pattern, reducing prop drilling and making component behavior more predictable.",
+              "featured": false
+            }
+          },
+          {
+            "id": "094afd75-94cd-5ecb-8657-3649c09e1d0c",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "apply-digital-10",
+              "text": "Led the creation and accessibility enhancement of a scalable UI Kit based on Atomic Design principles, translating Figma designs into reusable, theme-ready components aligned with WCAG guidelines and validating screen-reader behavior with VoiceOver on macOS, improving design consistency and accelerating development across multiple projects.",
+              "featured": true
+            }
+          },
+          {
+            "id": "09c38ff2-cdcf-520d-924e-c613b3073932",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "apply-digital-11",
+              "text": "Adopted Claude Code and custom AI-assisted workflows to improve codebase exploration, accessibility review, documentation, and developer productivity while collaborating with designers, backend engineers, and cross-functional stakeholders.",
+              "featured": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "seed_key": "experience:fpfx-tech",
+      "content_type": "experience",
+      "fields": {
+        "content_id": "fpfx-tech",
+        "company": "FPFX Tech",
+        "role": "UI Developer | Frontend Developer | Backend Developer",
+        "location": "Boca Raton, Florida, US",
+        "remote": false,
+        "start_date": "2023-08",
+        "end_date": "2025-01",
+        "sort_order": 1,
+        "technologies": [
+          "React.js",
+          "Next.js",
+          "TypeScript",
+          "Zustand",
+          "React Query",
+          "Tailwind CSS",
+          "Java",
+          "Python",
+          "C#",
+          "MySQL",
+          "Figma",
+          "Jira",
+          "Contentful",
+          "Azure DevOps"
+        ],
+        "highlights": [
+          {
+            "id": "35f42065-5fcf-55c4-891b-82462c192673",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "fpfx-tech-1",
+              "text": "Supported digital product initiatives for trading and financial data platforms, translating business needs into reusable dashboards, .NET Core/.NET 8 and SQL Server-backed API integrations, and scalable frontend workflows.",
+              "featured": false
+            }
+          },
+          {
+            "id": "baabbfd6-e7aa-5238-90c1-ab7ad71f04e4",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "fpfx-tech-2",
+              "text": "Built and optimized React and Next.js features using Server Components, improving load performance by 20% and enabling server-side caching for faster data rendering.",
+              "featured": true
+            }
+          },
+          {
+            "id": "2e85c2ab-7130-59f6-be4a-e74fb09515e9",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "fpfx-tech-3",
+              "text": "Partnered with product stakeholders, backend engineers, and business users through Jira backlog refinement and technical discussions to clarify requirements, refine priorities, and align technical solutions with operational needs.",
+              "featured": false
+            }
+          },
+          {
+            "id": "88223fbe-2c22-5ad4-bd2f-9f295a7fd802",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "fpfx-tech-4",
+              "text": "Implemented Zustand and React Query to manage global state and server-state synchronization, creating more predictable data flows between client applications, .NET APIs, and backend services.",
+              "featured": false
+            }
+          },
+          {
+            "id": "d1e54c84-fd39-59a7-be69-370726fbfb83",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "fpfx-tech-5",
+              "text": "Designed and developed multi-tenant dashboards that allowed users to manage trading data dynamically through reusable, composable React components.",
+              "featured": true
+            }
+          },
+          {
+            "id": "4f398a31-7b99-5277-93c2-161646b7107a",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "fpfx-tech-6",
+              "text": "Collaborated on REST API and orchestration-layer design for high-volume data exchange using .NET 8 and SQL Server, improving frontend consumption patterns and supporting a more modular application architecture.",
+              "featured": false
+            }
+          },
+          {
+            "id": "5a3c3097-fc44-5e7a-86f3-86359997d61c",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "fpfx-tech-7",
+              "text": "Partnered with backend engineers to build .NET Core/.NET 8 microservices using SOLID principles, dependency injection, design patterns, and scalable service integrations, improving maintainability, testability, and scalability.",
+              "featured": false
+            }
+          },
+          {
+            "id": "a07ae527-931c-5337-8685-9f2b4d1d5093",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "fpfx-tech-8",
+              "text": "Contributed to .NET 8 and Java backend services by implementing CQRS design patterns in REST APIs, separating read and write responsibilities for financial services data.",
+              "featured": false
+            }
+          },
+          {
+            "id": "31d61176-b580-5255-96df-cada51d5b516",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "fpfx-tech-9",
+              "text": "Led the migration of legacy workflows to Java-based backend services, integrated payment gateways, and delivered the first two MVPs, establishing the foundation for future product development and scalable financial-service integrations.",
+              "featured": true
+            }
+          },
+          {
+            "id": "18c9a840-98e3-5ef1-8726-15470bd8107c",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "fpfx-tech-10",
+              "text": "Migrated background processing services and REST API workflows from C++ to Python, modernizing legacy processes and improving stability for prop trading services and third-party stock market APIs.",
+              "featured": false
+            }
+          },
+          {
+            "id": "086518fb-a639-5d95-a1c5-ff169beea0a1",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "fpfx-tech-11",
+              "text": "Helped investigate and resolve production issues across frontend, .NET APIs, SQL Server, authentication, and data workflows, coordinating with technical teams to identify root causes, validate fixes, and support timely resolution.",
+              "featured": false
+            }
+          },
+          {
+            "id": "5aca157e-28e2-5866-b7db-d1dfd35465aa",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "fpfx-tech-12",
+              "text": "Built and validated complex forms using React Hook Form and Zod/Yup, including dynamic schemas driven by backend business logic and user-managed configuration.",
+              "featured": false
+            }
+          },
+          {
+            "id": "301b9024-dbf8-5a9d-b84c-a6d5ea2651f1",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "fpfx-tech-13",
+              "text": "Expanded ownership beyond frontend development by contributing to backend services, microservice architecture, API design, SQL Server workflows, Git-based code reviews, Jira task management, Azure DevOps pipelines, Figma-based workflows, and cross-functional technical discussions.",
+              "featured": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "seed_key": "experience:novatech",
+      "content_type": "experience",
+      "fields": {
+        "content_id": "novatech",
+        "company": "Novatech",
+        "role": "Full Stack Developer",
+        "location": "San Salvador, El Salvador",
+        "remote": true,
+        "start_date": "2022-01",
+        "end_date": "2023-05",
+        "sort_order": 2,
+        "technologies": [
+          "Angular",
+          "React.js",
+          "Next.js",
+          "TypeScript",
+          "Strapi",
+          "Java",
+          "Node.js",
+          "Firebase",
+          "Azure DevOps",
+          "Figma"
+        ],
+        "highlights": [
+          {
+            "id": "e5955ed2-a557-5433-9ebb-4d23030cd5f3",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "novatech-1",
+              "text": "Remade the company website using React, Next.js, and TypeScript, increasing Google Lighthouse performance scores to 90+ and improving Core Web Vitals, load speed, and overall user experience.",
+              "featured": true
+            }
+          },
+          {
+            "id": "ee88d9a0-2635-5208-9e2c-9705413ccfa8",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "novatech-2",
+              "text": "Developed modular, reusable UI components in React and TypeScript, standardizing frontend logic across multiple projects and reducing future development effort by 30%.",
+              "featured": true
+            }
+          },
+          {
+            "id": "1c313c0d-99e5-5601-a2ab-810e4f9084fc",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "novatech-3",
+              "text": "Built and maintained complex form workflows using React Hook Form, Formik, and Zod/Yup-style validation patterns, improving form reliability and reducing repetitive validation logic.",
+              "featured": false
+            }
+          },
+          {
+            "id": "c749d4e3-5204-58eb-ae7c-5898a75fea86",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "novatech-4",
+              "text": "Integrated a self-hosted Strapi CMS with React, enabling dynamic content management and simplifying editorial workflows for non-technical and marketing teams.",
+              "featured": true
+            }
+          },
+          {
+            "id": "7bf7eaef-3b3c-5f18-86bb-4447219c61b9",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "novatech-5",
+              "text": "Improved payment services dashboards using Angular and React, enhancing usability, accessibility, and maintainability while reducing user-reported issues by 15%.",
+              "featured": false
+            }
+          },
+          {
+            "id": "1b1c8fe5-2ca0-5ca5-a11b-c2ebc2b9d837",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "novatech-6",
+              "text": "Scaled Java REST API endpoints to support integrations with payment gateways, third-party CMS platforms, and external services, consolidating data from multiple sources into a unified flow.",
+              "featured": false
+            }
+          },
+          {
+            "id": "08ebe490-45dd-5dab-b955-5e6f4612e201",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "novatech-7",
+              "text": "Collaborated closely with designers to deliver pixel-perfect UI implementations, improve design-system consistency, and maintain responsive layouts across multiple screen sizes.",
+              "featured": false
+            }
+          },
+          {
+            "id": "48f9bb69-d760-582f-bcfd-4a7c1145326d",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "novatech-8",
+              "text": "Strengthened my ability to connect frontend performance, CMS architecture, and backend integrations by working across website optimization, dashboard workflows, and API-driven systems.",
+              "featured": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "seed_key": "experience:stefanini",
+      "content_type": "experience",
+      "fields": {
+        "content_id": "stefanini",
+        "company": "Stefanini",
+        "role": "Frontend Developer (Project contract)",
+        "location": "San Salvador, El Salvador",
+        "remote": true,
+        "start_date": "2022-02",
+        "end_date": "2022-04",
+        "sort_order": 3,
+        "technologies": [
+          "React.js",
+          "TypeScript",
+          "Java",
+          "Redux",
+          "React Hooks",
+          "Jira"
+        ],
+        "highlights": [
+          {
+            "id": "da19b03b-0727-5fc9-9a6e-def1f69003df",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "stefanini-1",
+              "text": "Migrated a legacy React application from class-based to functional components, introducing React Hooks and modern state management patterns to improve maintainability and performance.",
+              "featured": true
+            }
+          },
+          {
+            "id": "76e09ad6-18fb-588a-ab9c-60f4097a0119",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "stefanini-2",
+              "text": "Developed new features for managing complex data views in React.js, reducing load times and enhancing data visualization for internal business dashboards.",
+              "featured": false
+            }
+          },
+          {
+            "id": "78069b3a-f98e-5169-9b60-2d945c7d0f62",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "stefanini-3",
+              "text": "Managing and validating forms using libraries like React Hook Form and zod.",
+              "featured": false
+            }
+          },
+          {
+            "id": "00ba8320-bc11-5cd5-94e8-d715d33de9eb",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "stefanini-4",
+              "text": "Designed and optimized dashboards for Walmart Costa Rica, ensuring smooth rendering of large datasets through memoization and virtualized lists.",
+              "featured": true
+            }
+          },
+          {
+            "id": "697a0d0f-eeec-5eeb-bb67-b39b96b0d038",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "stefanini-5",
+              "text": "Integrated React frontend with Java backend APIs, creating reusable data-fetching utilities and improving response handling for multiple endpoints.",
+              "featured": true
+            }
+          },
+          {
+            "id": "9d19ce14-7dc1-5c9c-a63d-0cd123379c1a",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "stefanini-6",
+              "text": "Simplified user workflows by redesigning UI flows, resulting in a more intuitive experience for non-technical users.",
+              "featured": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "seed_key": "experience:hypernova-labs",
+      "content_type": "experience",
+      "fields": {
+        "content_id": "hypernova-labs",
+        "company": "Hypernova Labs",
+        "role": "Backend Developer",
+        "location": "Panama, Panama",
+        "remote": true,
+        "start_date": "2021-02",
+        "end_date": "2022-01",
+        "sort_order": 4,
+        "technologies": [
+          ".NET Core",
+          "C#",
+          "EF Core",
+          "MS SQL",
+          "React.js",
+          "Angular",
+          "TypeScript",
+          "Node.js",
+          "MongoDB",
+          "Azure DevOps",
+          "Jira"
+        ],
+        "highlights": [
+          {
+            "id": "6219de92-47c4-543e-a69d-99ce08db00b2",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "hypernova-labs-1",
+              "text": "Developed .NET Core/.NET 6 microservices supporting large-scale banking applications, applying Clean Architecture, Dependency Injection, SOLID principles, and design patterns to improve modularity, testability, and long-term maintainability.",
+              "featured": true
+            }
+          },
+          {
+            "id": "cf39e0e0-f4ea-5d66-8fc7-136500340abd",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "hypernova-labs-2",
+              "text": "Collaborated closely with frontend teams using React and Angular to design reliable, performant REST endpoints that supported seamless integration, authentication and authorization processes, between web and mobile applications.",
+              "featured": false
+            }
+          },
+          {
+            "id": "a45315ec-d473-5715-915e-bca0cf3a4af5",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "hypernova-labs-3",
+              "text": "Improved API performance through asynchronous operations, caching, and SQL Server query optimization, helping deliver faster response times for financial tracking and banking-related services.",
+              "featured": true
+            }
+          },
+          {
+            "id": "4c14063b-e787-550d-8c2e-97406b0a00af",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "hypernova-labs-4",
+              "text": "Implemented Entity Framework Core with SQL Server to ensure data integrity, improve persistence workflows, and support efficient data access across distributed .NET Core/.NET 6 systems.",
+              "featured": true
+            }
+          },
+          {
+            "id": "936a4598-d471-5787-b934-21f36848fc0f",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "hypernova-labs-5",
+              "text": "Improved database functions, stored procedures, and database access policies to strengthen system reliability, enforce business rules closer to the data layer, and support safer data operations.",
+              "featured": false
+            }
+          },
+          {
+            "id": "3898ccb5-149e-5a00-abe5-f8a654421174",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "hypernova-labs-6",
+              "text": "Contributed to backend architecture decisions by improving service boundaries, validation flows, and integration patterns across banking and financial service modules.",
+              "featured": false
+            }
+          },
+          {
+            "id": "7a31a0b0-4769-5b9b-aa71-a0e764b06596",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "hypernova-labs-7",
+              "text": "Strengthened my backend engineering skills by working deeper with .NET Core/.NET 6 microservices, database optimization, security-aware data access, scalable API design, Git, Jira, and Azure DevOps workflows in a financial services environment.",
+              "featured": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "seed_key": "experience:godigital-group",
+      "content_type": "experience",
+      "fields": {
+        "content_id": "godigital-group",
+        "company": "GoDigital Group",
+        "role": "Tech Lead | Full Stack Developer",
+        "location": "Panama, Panama",
+        "remote": true,
+        "start_date": "2018-12",
+        "end_date": "2021-02",
+        "sort_order": 5,
+        "technologies": [
+          "Angular",
+          "React.js",
+          "TypeScript",
+          ".NET Core",
+          "C#",
+          "EF Core",
+          "MS SQL",
+          "MongoDB",
+          "Node.js",
+          "Material UI",
+          "Docker",
+          "Firebase",
+          "Ionic",
+          "Bulma",
+          "Asana"
+        ],
+        "highlights": [
+          {
+            "id": "2b887dbe-2786-51f9-ac54-95088f67b902",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "godigital-group-1",
+              "text": "Joined as the first developer in the startup, helping define the initial technical foundation, architecture decisions, and development standards that supported the launch of multiple SaaS products.",
+              "featured": true
+            }
+          },
+          {
+            "id": "0ef0bac3-3e5b-556b-bd99-b263b323de31",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "godigital-group-2",
+              "text": "Designed and developed a loyalty management platform from the ground up using .NET Core, C#, Angular, and SQL Server, enabling retail clients to manage rewards, customer engagement, promotional workflows, and recurring customer retention programs.",
+              "featured": true
+            }
+          },
+          {
+            "id": "1d3da65b-215e-53da-ac39-2b55bf2140a3",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "godigital-group-3",
+              "text": "Built dynamic storefront experiences using React and Gatsby.js, allowing clients to manage public-facing content faster and improve customer interaction across digital channels.",
+              "featured": false
+            }
+          },
+          {
+            "id": "88cc42b4-03ad-5698-9ff3-4c0ebeb54757",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "godigital-group-4",
+              "text": "Developed a crowd-buying web application that allowed users to collectively purchase discounted products, supporting real-time deal tracking and scalable backend workflows for campaign-based sales.",
+              "featured": false
+            }
+          },
+          {
+            "id": "e4f757b9-5eac-5625-8d99-f5a4edc37523",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "godigital-group-5",
+              "text": "Created a drag-and-drop page builder in React, enabling marketing teams to launch landing pages and campaign layouts without developer support, reducing turnaround time for content updates.",
+              "featured": true
+            }
+          },
+          {
+            "id": "aceadd45-2a23-55ac-8070-98d81948e967",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "godigital-group-6",
+              "text": "Implemented Repository and Unit of Work patterns across API layers, improving transactional consistency, maintainability, and separation of concerns as the platform scaled.",
+              "featured": false
+            }
+          },
+          {
+            "id": "98c2cd54-3854-5da6-b97e-24162a4edb54",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "godigital-group-7",
+              "text": "Developed payment features including redeemable points, payment links, and customer reward flows, expanding the platform’s ability to support different retail and loyalty business models.",
+              "featured": false
+            }
+          },
+          {
+            "id": "37f20916-67cf-5075-a7fc-e31c3e3334c6",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "godigital-group-8",
+              "text": "Contributed to infrastructure decisions, CI/CD pipelines, Docker-based environments, and reusable UI libraries, improving deployment consistency and accelerating future product development.",
+              "featured": false
+            }
+          },
+          {
+            "id": "3cd76b34-cee3-579f-8904-ea22b3c5c119",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "godigital-group-9",
+              "text": "Grew from feature delivery into early-stage technical ownership by helping shape product architecture, reusable engineering patterns, and scalable foundations for a startup environment.",
+              "featured": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "seed_key": "experience:online",
+      "content_type": "experience",
+      "fields": {
+        "content_id": "online",
+        "company": "Online",
+        "role": "Tech Lead | Backend Dev | Web Designer",
+        "location": "Managua, Nicaragua",
+        "remote": true,
+        "start_date": "2016-05",
+        "end_date": "2018-10",
+        "sort_order": 6,
+        "technologies": [
+          "HTML",
+          "CSS",
+          "jQuery",
+          "Razor Pages",
+          ".NET Framework",
+          "MS SQL",
+          "ADO.NET",
+          "Bootstrap"
+        ],
+        "highlights": [
+          {
+            "id": "542077f4-9d6e-54d2-8cb2-cd58023324e8",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "online-1",
+              "text": "Designed and developed user-friendly e-commerce and corporate websites, improving usability, customer experience, and delivery quality for multiple clients.",
+              "featured": true
+            }
+          },
+          {
+            "id": "2bf42b4c-7033-54f7-bdd3-692921c91487",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "online-2",
+              "text": "Automated manual reporting and analytics processes by building a custom internal web application, reducing reporting time from hours to minutes.",
+              "featured": true
+            }
+          },
+          {
+            "id": "1b6284e9-f3ef-5712-8364-edddf09075f6",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "online-3",
+              "text": "Promoted to lead e-commerce website production, managing priorities, coordinating delivery, and ensuring timely completion of high-quality client projects.",
+              "featured": false
+            }
+          },
+          {
+            "id": "fd998083-e58b-50ba-bf94-e7e295ec4676",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "online-4",
+              "text": "Implemented a reusable boilerplate website system that reduced project setup time from 15 days to 3 days, significantly improving team efficiency and delivery speed.",
+              "featured": true
+            }
+          },
+          {
+            "id": "60c0feb4-5abe-502a-b0f3-b45e6e5ca1ea",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "online-5",
+              "text": "Developed and maintained backend infrastructure using .NET Framework, Razor Pages, ADO.NET, and SQL Server, ensuring seamless integration with database-driven applications.",
+              "featured": false
+            }
+          },
+          {
+            "id": "439dffad-8f39-53db-83f0-8f3504ba4072",
+            "type": "portfolio_achievement",
+            "fields": {
+              "content_id": "online-6",
+              "text": "Earned the Microsoft Certified Professional accreditation, strengthening my foundation in HTML, CSS, JavaScript, and web application development while applying those skills to production projects.",
+              "featured": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "seed_key": "page:home",
+      "content_type": "page",
+      "fields": {
+        "page_key": "home",
+        "title": "I'm Ivan Lara",
+        "subtitle": "Software Engineer",
+        "description": "Frontend-leaning UI and Full-Stack Developer with over 10 years of experience building scalable web applications, from early-stage products to enterprise SaaS platforms. Specialized in React, Next.js, Angular, TypeScript, Java, and C#, with a focus on user experience, performance, and maintainable architecture. | I focus on reusable interfaces, clear architecture, and software that is easy to use and maintain.",
+        "action": {
+          "id": "80ece73a-7a0f-53c6-bf29-e901b8a85cc8",
+          "type": "portfolio_action",
+          "fields": {
+            "text": "Get in touch",
+            "href": "/contact"
+          }
+        },
+        "meta": {
+          "id": "09dacb29-0e2c-5be1-88c8-372d0978adf1",
+          "type": "portfolio_seo",
+          "fields": {
+            "title": "Ivan Lara - Portfolio",
+            "description": "Frontend-leaning UI and Full-Stack Developer with over 10 years of experience building scalable web applications, from early-stage products to enterprise SaaS platforms. Specialized in React, Next.js, Angular, TypeScript, Java, and C#, with a focus on user experience, performance, and maintainable architecture.",
+            "keywords": "ivan, portfolio, web developer, software engineer, full stack developer, javascript, typescript, react, nodejs, express, mongodb, mysql, postgresql"
+          }
+        }
+      }
+    },
+    {
+      "seed_key": "page:projects",
+      "content_type": "page",
+      "fields": {
+        "page_key": "projects",
+        "title": "Projects",
+        "subtitle": "",
+        "description": "Ivan Lara - Projects",
+        "action": null,
+        "meta": {
+          "id": "c04c0584-46f4-550f-9f37-16abdc827624",
+          "type": "portfolio_seo",
+          "fields": {
+            "title": "Ivan Lara - Projects",
+            "description": "Explore Ivan Lara’s web projects, built with TypeScript, Vue, Nuxt, React, and Next.js.",
+            "keywords": "ivan, portfolio, web developer, software engineer, full stack developer, javascript, typescript, react, nodejs, express, mongodb, mysql, postgresql"
+          }
+        }
+      }
+    },
+    {
+      "seed_key": "page:blog",
+      "content_type": "page",
+      "fields": {
+        "page_key": "blog",
+        "title": "Blog",
+        "subtitle": "",
+        "description": "Ivan Lara - Blog",
+        "action": null,
+        "meta": {
+          "id": "867e2e86-f7e5-5f54-983d-652076abf0cc",
+          "type": "portfolio_seo",
+          "fields": {
+            "title": "Ivan Lara - Blog",
+            "description": "Articles by Ivan Lara on Nuxt, frontend development, and software architecture.",
+            "keywords": "ivan, portfolio, web developer, software engineer, full stack developer, javascript, typescript, react, nodejs, express, mongodb, mysql, postgresql"
+          }
+        }
+      }
+    },
+    {
+      "seed_key": "page:contact",
+      "content_type": "page",
+      "fields": {
+        "page_key": "contact",
+        "title": "Get in touch",
+        "subtitle": "Projects and engineering opportunities",
+        "description": "Frontend-leaning UI and Full-Stack Developer with over 10 years of experience building scalable web applications, from early-stage products to enterprise SaaS platforms. Specialized in React, Next.js, Angular, TypeScript, Java, and C#, with a focus on user experience, performance, and maintainable architecture. | I enjoy turning complex workflows into clear interfaces and building components that teams can reuse. | For project enquiries or engineering opportunities, reach out by email or connect on LinkedIn.",
+        "action": {
+          "id": "dbdefa80-20a2-529f-90bd-d52504a8b18f",
+          "type": "portfolio_action",
+          "fields": {
+            "text": "Get in touch",
+            "href": "/contact"
+          }
+        },
+        "meta": {
+          "id": "b578c13c-b6ab-54da-95fc-dd3be46401b5",
+          "type": "portfolio_seo",
+          "fields": {
+            "title": "Contact Ivan Lara",
+            "description": "Contact Ivan Lara about web development projects and software engineering opportunities.",
+            "keywords": "ivan, portfolio, web developer, software engineer, full stack developer, javascript, typescript, react, nodejs, express, mongodb, mysql, postgresql"
+          }
+        }
+      }
+    },
+    {
+      "seed_key": "resume:main",
+      "content_type": "resume",
+      "fields": {
+        "schema_version": 1,
+        "source_document": "RS_IL2026.pdf",
+        "profile": {
+          "$ref": "profile:main"
+        },
+        "experience": [
+          {
+            "$ref": "experience:apply-digital"
+          },
+          {
+            "$ref": "experience:fpfx-tech"
+          },
+          {
+            "$ref": "experience:novatech"
+          },
+          {
+            "$ref": "experience:stefanini"
+          },
+          {
+            "$ref": "experience:hypernova-labs"
+          },
+          {
+            "$ref": "experience:godigital-group"
+          },
+          {
+            "$ref": "experience:online"
+          }
+        ],
+        "skill_groups": [
+          {
+            "id": "cf1ec190-409e-5213-aead-fe89a87c4d8c",
+            "type": "portfolio_skill_group",
+            "fields": {
+              "content_id": "frontend",
+              "label": "Frontend",
+              "items": [
+                "React",
+                "Next.js",
+                "Angular",
+                "TypeScript",
+                "Zustand",
+                "React Query",
+                "Tailwind CSS"
+              ]
+            }
+          },
+          {
+            "id": "efbe4066-8162-5080-8a40-a8de976fcd39",
+            "type": "portfolio_skill_group",
+            "fields": {
+              "content_id": "backend",
+              "label": "Backend & data",
+              "items": [
+                "Java",
+                "C#",
+                ".NET Core / .NET 8",
+                "Node.js",
+                "Python",
+                "SQL Server",
+                "MySQL",
+                "MongoDB",
+                "REST APIs",
+                "GraphQL"
+              ]
+            }
+          },
+          {
+            "id": "4a2d7c85-0d2e-5cdf-a0b9-532604fb49de",
+            "type": "portfolio_skill_group",
+            "fields": {
+              "content_id": "architecture",
+              "label": "Architecture",
+              "items": [
+                "SOLID",
+                "Clean Architecture",
+                "Repository",
+                "Factory",
+                "CQRS",
+                "Mediator"
+              ]
+            }
+          },
+          {
+            "id": "2ddb7890-f804-508d-8c2a-85e4f9b4e164",
+            "type": "portfolio_skill_group",
+            "fields": {
+              "content_id": "delivery",
+              "label": "Delivery & tooling",
+              "items": [
+                "Agile / Scrum",
+                "Code reviews",
+                "Git / GitFlow",
+                "CI/CD",
+                "Azure",
+                "AWS",
+                "Docker",
+                "Figma",
+                "Swagger",
+                "Postman",
+                "VS Code",
+                "Visual Studio"
+              ]
+            }
+          },
+          {
+            "id": "aead9413-2cc9-5f26-af0a-8c94446121d7",
+            "type": "portfolio_skill_group",
+            "fields": {
+              "content_id": "content",
+              "label": "Content & product",
+              "items": [
+                "Contentful",
+                "Strapi",
+                "UI/UX principles",
+                "Digital marketing fundamentals"
+              ]
+            }
+          }
+        ],
+        "education": [
+          {
+            "id": "6965e581-1c2a-5147-a617-af6c48a22e64",
+            "type": "portfolio_education",
+            "fields": {
+              "content_id": "upn",
+              "institution": "Universidad Politecnica de Nicaragua",
+              "qualification": "System Engineering",
+              "date": "2016-01",
+              "status": "Degree paperwork pending"
+            }
+          }
+        ],
+        "certifications": [
+          {
+            "id": "10f33375-3456-5324-a860-b021d47f48ed",
+            "type": "portfolio_certification",
+            "fields": {
+              "content_id": "microsoft-70-480",
+              "issuer": "Microsoft",
+              "name": "70-480: Programming in HTML5 with JavaScript and CSS3",
+              "date": "2017-11"
+            }
+          }
+        ],
+        "languages": [
+          {
+            "id": "a13f2535-ac9b-5c9d-a47b-822212366ed1",
+            "type": "portfolio_language",
+            "fields": {
+              "name": "Spanish",
+              "proficiency": "Native"
+            }
+          },
+          {
+            "id": "4774a688-b1ad-55a0-b32a-dc1791884048",
+            "type": "portfolio_language",
+            "fields": {
+              "name": "English",
+              "proficiency": "Fluent (B2–C1)"
+            }
+          }
+        ],
+        "pdf_path": "/ivan-lara-resume.pdf",
+        "text_path": "/ivan-lara-resume.txt"
+      }
+    },
+    {
+      "seed_key": "site_settings:main",
+      "content_type": "site_settings",
+      "fields": {
+        "title": "Ivan Lara - Portfolio",
+        "description": "Frontend-leaning UI and Full-Stack Developer with over 10 years of experience building scalable web applications, from early-stage products to enterprise SaaS platforms. Specialized in React, Next.js, Angular, TypeScript, Java, and C#, with a focus on user experience, performance, and maintainable architecture.",
+        "navigation": [
+          {
+            "id": "ac7ae4b9-cf9f-5111-a1e2-45a6ccd79f3b",
+            "type": "portfolio_link",
+            "fields": {
+              "label": "Home",
+              "url": "/"
+            }
+          },
+          {
+            "id": "2fa32829-0e7c-507c-9e1a-0dd56644daf5",
+            "type": "portfolio_link",
+            "fields": {
+              "label": "Blog",
+              "url": "/blog"
+            }
+          },
+          {
+            "id": "b93a9326-b8bd-5aad-a0c9-614efd06794d",
+            "type": "portfolio_link",
+            "fields": {
+              "label": "Projects",
+              "url": "/projects"
+            }
+          },
+          {
+            "id": "c335d0c0-99ef-5c27-97eb-2b31d048b491",
+            "type": "portfolio_link",
+            "fields": {
+              "label": "Resume",
+              "url": "/resume"
+            }
+          },
+          {
+            "id": "7dd2c86c-2f07-5301-bc0a-a4a82cd28a37",
+            "type": "portfolio_link",
+            "fields": {
+              "label": "Contact",
+              "url": "/contact"
+            }
+          }
+        ],
+        "socials": [
+          {
+            "id": "8f895d29-3375-5f56-94f5-b284bca8debb",
+            "type": "portfolio_link",
+            "fields": {
+              "label": "GitHub",
+              "url": "https://github.com/larakalix",
+              "icon": "mdi:github"
+            }
+          },
+          {
+            "id": "ac436d04-1283-5463-949e-8deef846dfc2",
+            "type": "portfolio_link",
+            "fields": {
+              "label": "LinkedIn",
+              "url": "https://linkedin.com/in/ilaradev",
+              "icon": "mdi:linkedin"
+            }
+          },
+          {
+            "id": "37578295-d1c8-5aa2-b803-636c23eb90cd",
+            "type": "portfolio_link",
+            "fields": {
+              "label": "Instagram",
+              "url": "https://instagram.com/ukikalix",
+              "icon": "mdi:instagram"
+            }
+          }
+        ],
+        "contact_links": [
+          {
+            "id": "10116983-b427-5253-8a55-05a531044812",
+            "type": "portfolio_link",
+            "fields": {
+              "label": "Email",
+              "url": "mailto:uki@live.co.uk"
+            }
+          },
+          {
+            "id": "5fee5d9c-dd3e-5fbd-84a8-d5c7249672cf",
+            "type": "portfolio_link",
+            "fields": {
+              "label": "Newsletter",
+              "url": "https://kalixthedev.substack.com"
+            }
+          },
+          {
+            "id": "c3d8bb8c-a724-5949-a6c1-302c0aab325f",
+            "type": "portfolio_link",
+            "fields": {
+              "label": "GitHub",
+              "url": "https://github.com/larakalix"
+            }
+          },
+          {
+            "id": "fa6a3976-9950-5ab5-af3e-fba57783e5b1",
+            "type": "portfolio_link",
+            "fields": {
+              "label": "LinkedIn",
+              "url": "https://linkedin.com/in/ilaradev"
+            }
+          }
+        ],
+        "pages": [
+          {
+            "$ref": "page:home"
+          },
+          {
+            "$ref": "page:projects"
+          },
+          {
+            "$ref": "page:blog"
+          },
+          {
+            "$ref": "page:contact"
+          }
+        ],
+        "projects": [
+          {
+            "$ref": "project:cm9xsg6r6000208ky665y9123"
+          },
+          {
+            "$ref": "project:cm9xsg6r6000208ky665y9124"
+          },
+          {
+            "$ref": "project:cm9xsg6r6000208ky665y9127"
+          },
+          {
+            "$ref": "project:cm9xsg6r6000208ky665y9126"
+          },
+          {
+            "$ref": "project:cm9xsg6r6000208ky665y9125"
+          },
+          {
+            "$ref": "project:cm9xsg6r6000208ky665y9jfu"
+          },
+          {
+            "$ref": "project:cm9xsg3ev000108ky9b80ek45"
+          },
+          {
+            "$ref": "project:cm9xsfxh7000008kyb21ib9km"
+          },
+          {
+            "$ref": "project:cm9xsfxh7000008kyb21ib9kn"
+          }
+        ],
+        "articles": [
+          {
+            "$ref": "article:post-why-nuxt"
+          },
+          {
+            "$ref": "article:post-nuxt-vs-others"
+          },
+          {
+            "$ref": "article:post-nuxt-v4"
+          }
+        ],
+        "resume": {
+          "$ref": "resume:main"
+        }
+      }
+    }
+  ]
+}

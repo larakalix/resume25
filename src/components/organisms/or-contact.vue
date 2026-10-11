@@ -1,28 +1,6 @@
 <script setup lang="ts">
 import type { Page } from '~/types/page'
-
 const { page } = defineProps<Page>()
-const { config } = useContent()
-
-const { description, ...rest } = page
-
-const paragraphs = description
-    .split('|')
-    .map((text: string) => text.trim())
-    .filter((text: string) => text.length > 0)
+const { data: profile, error, refresh } = await usePortfolioQuery('profile')
 </script>
-
-<template>
-    <MlPageContainer :page="{ ...rest, description: '' }">
-        <template #sidebar>
-            <MlSidebar :items="config.navItems" />
-        </template>
-
-        <template #default>
-            <AtParagraph v-for="(text, index) in paragraphs" :key="index" :text="text" />
-
-            <MlContactInfo />
-            <!-- <MlContactForm /> -->
-        </template>
-    </MlPageContainer>
-</template>
+<template><MlPageContainer :page="{ ...page, subtitle: undefined, description: 'For projects and engineering opportunities, send me a note.', action: undefined }"><MlContactInfo v-if="profile" :profile="profile" /><div v-else class="page-state" role="alert"><p>{{ error ? 'Could not load contact details. Please try again.' : 'Loading contact details…' }}</p><UButton @click="refresh()">Try again</UButton></div></MlPageContainer></template>

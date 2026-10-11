@@ -1,9 +1,7 @@
 <script setup lang="ts">
-import type { PageConfig } from '~/types/page';
-
-const page = usePage('home') as PageConfig;
+usePage('home')
 </script>
 
 <template>
-    <OrHome :page="page" />
+    <OrHome />
 </template>

@@ -1,0 +1,88 @@
+{
+  "source": "https://github.com/KayKit-Game-Assets/KayKit-City-Builder-Bits-1.0",
+  "creator": "Kay Lousberg",
+  "title": "KayKit City Builder Bits",
+  "license": "CC0-1.0",
+  "changes": "Selected meshes; base-height normalization in node transform; original geometry, UVs and gradient atlas retained.",
+  "bytes": 429788,
+  "sha256": "b4c248c8349a12574facb3b19e8a7a2a572c3c5da8343f5ed73a8c015bcadf68",
+  "models": [
+    {
+      "name": "kay-building-a",
+      "width": 1.2067396640777588,
+      "height": 1.5500694662332535,
+      "depth": 1.4500000476837158,
+      "triangles": 435
+    },
+    {
+      "name": "kay-building-b",
+      "width": 1.6067396402359009,
+      "height": 1.5500694662332535,
+      "depth": 1.2999999523162842,
+      "triangles": 586
+    },
+    {
+      "name": "kay-building-c",
+      "width": 1.2067396640777588,
+      "height": 2.2500695139169693,
+      "depth": 1.2999999523162842,
+      "triangles": 666
+    },
+    {
+      "name": "kay-building-d",
+      "width": 1.6067396402359009,
+      "height": 2.2500695139169693,
+      "depth": 1.2999999523162842,
+      "triangles": 848
+    },
+    {
+      "name": "kay-building-e",
+      "width": 2.006739616394043,
+      "height": 2.2500695139169693,
+      "depth": 1.4500000476837158,
+      "triangles": 950
+    },
+    {
+      "name": "kay-building-f",
+      "width": 2.006739616394043,
+      "height": 2.2500695139169693,
+      "depth": 1.2999999523162842,
+      "triangles": 1097
+    },
+    {
+      "name": "kay-building-h",
+      "width": 2.006739616394043,
+      "height": 2.950069561600685,
+      "depth": 1.2999999523162842,
+      "triangles": 1333
+    },
+    {
+      "name": "kay-bench",
+      "width": 0.40000003576278687,
+      "height": 0.10000002384185791,
+      "depth": 0.15000005066394806,
+      "triangles": 44
+    },
+    {
+      "name": "kay-streetlight",
+      "width": 0.2693069577217102,
+      "height": 0.9599148258566856,
+      "depth": 0.06902249157428741,
+      "triangles": 176
+    },
+    {
+      "name": "kay-box-a",
+      "width": 0.20000004768371582,
+      "height": 0.17640116065740585,
+      "depth": 0.2030770182609558,
+      "triangles": 32
+    },
+    {
+      "name": "kay-trash-a",
+      "width": 0.12677377462387085,
+      "height": 0.052376944571733475,
+      "depth": 0.1332968920469284,
+      "triangles": 18
+    }
+  ]
+}

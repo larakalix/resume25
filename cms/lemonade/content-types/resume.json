@@ -1,0 +1,228 @@
+{
+  "key": "resume",
+  "name": "Resume",
+  "fields": [
+    {
+      "key": "schema_version",
+      "label": "Source schema version",
+      "type": "number",
+      "required": true
+    },
+    {
+      "key": "source_document",
+      "label": "Source document",
+      "type": "text",
+      "required": true
+    },
+    {
+      "key": "profile",
+      "label": "Profile",
+      "type": "reference",
+      "required": true,
+      "target": "profile"
+    },
+    {
+      "key": "experience",
+      "label": "Experience",
+      "type": "references",
+      "required": true,
+      "target": "experience"
+    },
+    {
+      "key": "skill_groups",
+      "label": "Skill groups",
+      "type": "components",
+      "required": true,
+      "components": [
+        {
+          "key": "portfolio_skill_group",
+          "name": "Skill group",
+          "fields": [
+            {
+              "key": "content_id",
+              "label": "Original group ID",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "label",
+              "label": "Group label",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "items",
+              "label": "Skills",
+              "type": "choices",
+              "required": true,
+              "options": [
+                ".NET Core / .NET 8",
+                "AWS",
+                "Agile / Scrum",
+                "Angular",
+                "Azure",
+                "C#",
+                "CI/CD",
+                "CQRS",
+                "Clean Architecture",
+                "Code reviews",
+                "Contentful",
+                "Digital marketing fundamentals",
+                "Docker",
+                "Factory",
+                "Figma",
+                "Git / GitFlow",
+                "GraphQL",
+                "Java",
+                "Mediator",
+                "MongoDB",
+                "MySQL",
+                "Next.js",
+                "Node.js",
+                "Postman",
+                "Python",
+                "REST APIs",
+                "React",
+                "React Query",
+                "Repository",
+                "SOLID",
+                "SQL Server",
+                "Strapi",
+                "Swagger",
+                "Tailwind CSS",
+                "TypeScript",
+                "UI/UX principles",
+                "VS Code",
+                "Visual Studio",
+                "Zustand"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "education",
+      "label": "Education",
+      "type": "components",
+      "required": true,
+      "components": [
+        {
+          "key": "portfolio_education",
+          "name": "Education",
+          "fields": [
+            {
+              "key": "content_id",
+              "label": "Original education ID",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "institution",
+              "label": "Institution",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "qualification",
+              "label": "Qualification",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "date",
+              "label": "Month",
+              "type": "text",
+              "required": true,
+              "help_text": "Keep YYYY-MM precision. A current role has a null end date; do not invent a day."
+            },
+            {
+              "key": "status",
+              "label": "Status",
+              "type": "text",
+              "required": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "certifications",
+      "label": "Certifications",
+      "type": "components",
+      "required": true,
+      "components": [
+        {
+          "key": "portfolio_certification",
+          "name": "Certification",
+          "fields": [
+            {
+              "key": "content_id",
+              "label": "Original certification ID",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "issuer",
+              "label": "Issuer",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "name",
+              "label": "Certification",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "date",
+              "label": "Month",
+              "type": "text",
+              "required": true,
+              "help_text": "Keep YYYY-MM precision. A current role has a null end date; do not invent a day."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "languages",
+      "label": "Languages",
+      "type": "components",
+      "required": true,
+      "components": [
+        {
+          "key": "portfolio_language",
+          "name": "Language",
+          "fields": [
+            {
+              "key": "name",
+              "label": "Language",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "proficiency",
+              "label": "Proficiency",
+              "type": "text",
+              "required": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pdf_path",
+      "label": "PDF download path",
+      "type": "text",
+      "required": true
+    },
+    {
+      "key": "text_path",
+      "label": "Text download path",
+      "type": "text",
+      "required": true
+    }
+  ],
+  "singleton": true
+}

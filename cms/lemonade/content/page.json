@@ -1,0 +1,96 @@
+[
+  {
+    "seed_key": "page:home",
+    "content_type": "page",
+    "fields": {
+      "page_key": "home",
+      "title": "I'm Ivan Lara",
+      "subtitle": "Software Engineer",
+      "description": "Frontend-leaning UI and Full-Stack Developer with over 10 years of experience building scalable web applications, from early-stage products to enterprise SaaS platforms. Specialized in React, Next.js, Angular, TypeScript, Java, and C#, with a focus on user experience, performance, and maintainable architecture. | I focus on reusable interfaces, clear architecture, and software that is easy to use and maintain.",
+      "action": {
+        "id": "80ece73a-7a0f-53c6-bf29-e901b8a85cc8",
+        "type": "portfolio_action",
+        "fields": {
+          "text": "Get in touch",
+          "href": "/contact"
+        }
+      },
+      "meta": {
+        "id": "09dacb29-0e2c-5be1-88c8-372d0978adf1",
+        "type": "portfolio_seo",
+        "fields": {
+          "title": "Ivan Lara - Portfolio",
+          "description": "Frontend-leaning UI and Full-Stack Developer with over 10 years of experience building scalable web applications, from early-stage products to enterprise SaaS platforms. Specialized in React, Next.js, Angular, TypeScript, Java, and C#, with a focus on user experience, performance, and maintainable architecture.",
+          "keywords": "ivan, portfolio, web developer, software engineer, full stack developer, javascript, typescript, react, nodejs, express, mongodb, mysql, postgresql"
+        }
+      }
+    }
+  },
+  {
+    "seed_key": "page:projects",
+    "content_type": "page",
+    "fields": {
+      "page_key": "projects",
+      "title": "Projects",
+      "subtitle": "",
+      "description": "Ivan Lara - Projects",
+      "action": null,
+      "meta": {
+        "id": "c04c0584-46f4-550f-9f37-16abdc827624",
+        "type": "portfolio_seo",
+        "fields": {
+          "title": "Ivan Lara - Projects",
+          "description": "Explore Ivan Lara’s web projects, built with TypeScript, Vue, Nuxt, React, and Next.js.",
+          "keywords": "ivan, portfolio, web developer, software engineer, full stack developer, javascript, typescript, react, nodejs, express, mongodb, mysql, postgresql"
+        }
+      }
+    }
+  },
+  {
+    "seed_key": "page:blog",
+    "content_type": "page",
+    "fields": {
+      "page_key": "blog",
+      "title": "Blog",
+      "subtitle": "",
+      "description": "Ivan Lara - Blog",
+      "action": null,
+      "meta": {
+        "id": "867e2e86-f7e5-5f54-983d-652076abf0cc",
+        "type": "portfolio_seo",
+        "fields": {
+          "title": "Ivan Lara - Blog",
+          "description": "Articles by Ivan Lara on Nuxt, frontend development, and software architecture.",
+          "keywords": "ivan, portfolio, web developer, software engineer, full stack developer, javascript, typescript, react, nodejs, express, mongodb, mysql, postgresql"
+        }
+      }
+    }
+  },
+  {
+    "seed_key": "page:contact",
+    "content_type": "page",
+    "fields": {
+      "page_key": "contact",
+      "title": "Get in touch",
+      "subtitle": "Projects and engineering opportunities",
+      "description": "Frontend-leaning UI and Full-Stack Developer with over 10 years of experience building scalable web applications, from early-stage products to enterprise SaaS platforms. Specialized in React, Next.js, Angular, TypeScript, Java, and C#, with a focus on user experience, performance, and maintainable architecture. | I enjoy turning complex workflows into clear interfaces and building components that teams can reuse. | For project enquiries or engineering opportunities, reach out by email or connect on LinkedIn.",
+      "action": {
+        "id": "dbdefa80-20a2-529f-90bd-d52504a8b18f",
+        "type": "portfolio_action",
+        "fields": {
+          "text": "Get in touch",
+          "href": "/contact"
+        }
+      },
+      "meta": {
+        "id": "b578c13c-b6ab-54da-95fc-dd3be46401b5",
+        "type": "portfolio_seo",
+        "fields": {
+          "title": "Contact Ivan Lara",
+          "description": "Contact Ivan Lara about web development projects and software engineering opportunities.",
+          "keywords": "ivan, portfolio, web developer, software engineer, full stack developer, javascript, typescript, react, nodejs, express, mongodb, mysql, postgresql"
+        }
+      }
+    }
+  }
+]

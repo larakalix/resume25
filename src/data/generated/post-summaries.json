@@ -1,0 +1,41 @@
+[
+  {
+    "id": "post-why-nuxt",
+    "slug": "why-use-nuxt",
+    "title": "Why use Nuxt?",
+    "date": "2025-06-15",
+    "tags": [
+      "Nuxt",
+      "Vue",
+      "SSR",
+      "Performance"
+    ],
+    "excerpt": "Nuxt takes the best parts of Vue and adds conventions that make building production apps faster, simpler, and more scalable."
+  },
+  {
+    "id": "post-nuxt-vs-others",
+    "slug": "nuxt-vs-other-frameworks",
+    "title": "Nuxt vs other frameworks",
+    "date": "2025-06-20",
+    "tags": [
+      "Nuxt",
+      "NextJS",
+      "Comparison",
+      "Frontend"
+    ],
+    "excerpt": "How does Nuxt compare to Next.js, SvelteKit, and other full-stack frameworks? A practical look at the trade-offs."
+  },
+  {
+    "id": "post-nuxt-v4",
+    "slug": "nuxt-v4-new-features",
+    "title": "Nuxt v4 new features",
+    "date": "2025-06-28",
+    "tags": [
+      "Nuxt",
+      "Nuxt 4",
+      "Release",
+      "Features"
+    ],
+    "excerpt": "Nuxt 4 brings a cleaner directory structure, faster builds, typed routes, and better defaults. Here is what changed."
+  }
+]

@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import type { Project } from '~/types/schemas';
+import type { Project } from '~/types/schemas'
 
-const { projects, isLoading = false, isError = false, error = null, showViewAll = true, title = 'Projects', variant = 'compact' } = defineProps<{
+const { projects, isLoading = false, isError = false, error = null, showViewAll = true, title = 'Projects', variant = 'compact', featured = false } = defineProps<{
     projects: Project[]
     isLoading?: boolean
     isError?: boolean
@@ -9,37 +9,26 @@ const { projects, isLoading = false, isError = false, error = null, showViewAll 
     showViewAll?: boolean
     title?: string
     variant?: 'compact' | 'large'
+    featured?: boolean
 }>()
-
-const hoveredIndex = ref<number | null>(null)
 const posthog = usePostHog()
-
 function trackViewAllProjects() {
     posthog?.capture('view_all_projects_clicked')
 }
 </script>
 
 <template>
-    <div :class="variant === 'large' ? 'grid grid-cols-1 md:grid-cols-2 gap-4' : 'flex flex-col gap-y-4'">
-        <AtTitle size="large" class="col-span-full">{{ title }}</AtTitle>
-
-        <div v-if="isLoading" class="text-sm text-title/60">Loading projects...</div>
-
-        <div v-else-if="isError" class="text-sm text-red-500">
-            Failed to load projects. {{ error?.message }}
+    <section class="space-y-6">
+        <div class="section-heading">
+            <h2 class="section-title">{{ title }}</h2>
+            <AtNavLink v-if="showViewAll && !isLoading && !isError" to="/projects" @click="trackViewAllProjects">View all projects <span aria-hidden="true">↗</span></AtNavLink>
         </div>
-
-        <MlEmptyRows v-else-if="!projects.length" />
-
-        <MlProjectCard
-v-for="(project, i) in projects" :key="project.id" :project="project" :index="i"
-            :hovered-index="hoveredIndex" :variant="variant" @hover="hoveredIndex = i" @unhover="hoveredIndex = null" />
-
-        <AtNavLink
-v-if="showViewAll && !isLoading && !isError" to="/projects" class="group col-span-full"
-            @click="trackViewAllProjects">
-            View all projects <span class="ml-2 transition-transform group-hover:rotate-45 group-hover:text-orange/80">↗
-            </span>
-        </AtNavLink>
-    </div>
+        <div>
+            <MlCollectionState :is-loading="isLoading" :is-error="isError" :error="error" :count="projects.length" label="projects">
+                <TransitionGroup name="project-shuffle" tag="div" class="project-grid" :class="{ 'project-grid-featured': featured, 'project-grid-compact': variant === 'compact' && !featured }">
+                <MlProjectCard v-for="(project, index) in projects" :key="project.id" :project="project" :index="index" :hovered-index="null" :variant="variant" :featured="featured && index === 0" />
+                </TransitionGroup>
+            </MlCollectionState>
+        </div>
+    </section>
 </template>

@@ -1,0 +1,64 @@
+{
+  "creator": "reodesuxz",
+  "source": "https://reodesuxz.itch.io/low-poly-japanese-town-pack",
+  "terms": "Unlimited personal and commercial project use and modification; no standalone asset redistribution or resale, no AI training. Attribution optional.",
+  "preparation": "Six actual creator GLBs, complete authored transforms baked and original material colours retained as linear vertex colours. Centered in X/Z, based at Y=0; no nonuniform scaling or replacement geometry.",
+  "sha256": "b759f573b77f042c5bd74464d59498f39963f70d862a64f98e0f8849ac99e06d",
+  "bytes": 80252,
+  "models": [
+    {
+      "name": "torii_gate",
+      "width": 4.199999809265137,
+      "height": 3.549999952316284,
+      "depth": 0.30000001192092896,
+      "triangles": 104,
+      "sourceFile": "torii_gate.glb",
+      "sourceSha256": "9c33e95e36f95be12bcac32c04dea2972407b31ad7c5e526b839a55f8f15e0d6"
+    },
+    {
+      "name": "stone_lantern",
+      "width": 0.636396050453186,
+      "height": 1.75,
+      "depth": 0.636396050453186,
+      "triangles": 82,
+      "sourceFile": "stone_lantern.glb",
+      "sourceSha256": "89056a083868067eb399b7790b58c0ea8e41398b3f144f47876d7d6884e03ea3"
+    },
+    {
+      "name": "sakura_tree",
+      "width": 3.312824845314026,
+      "height": 4.12510347366333,
+      "depth": 2.9754722118377686,
+      "triangles": 136,
+      "sourceFile": "sakura_tree.glb",
+      "sourceSha256": "1efed33fa856fb02051b4534c4fd9ba13b7e04403163c4a6418bb2b030d216d1"
+    },
+    {
+      "name": "vending_machine",
+      "width": 0.8999999761581421,
+      "height": 1.899999976158142,
+      "depth": 0.7449999749660492,
+      "triangles": 108,
+      "sourceFile": "vending_machine.glb",
+      "sourceSha256": "7b3a2f4354542c40adb616829a31f303a94f38100548ff1765af83a24b6e0c4c"
+    },
+    {
+      "name": "lantern_string",
+      "width": 4.069282054901123,
+      "height": 2.5999999046325684,
+      "depth": 0.28921762108802795,
+      "triangles": 172,
+      "sourceFile": "lantern_string.glb",
+      "sourceSha256": "87388dc0c19b1422ab143b042c6c5e3be806ce38855d26bc997bfd824ea1df4c"
+    },
+    {
+      "name": "bamboo_cluster",
+      "width": 1.05629163980484,
+      "height": 3.799999952316284,
+      "depth": 0.6299999952316284,
+      "triangles": 268,
+      "sourceFile": "bamboo_cluster.glb",
+      "sourceSha256": "747904fe1a3eb436a3d5b4cc38a63716df3e1743551ed48f05bfb7bdb9d75509"
+    }
+  ]
+}

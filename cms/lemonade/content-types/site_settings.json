@@ -1,0 +1,143 @@
+{
+  "key": "site_settings",
+  "name": "Site settings",
+  "fields": [
+    {
+      "key": "title",
+      "label": "Site title",
+      "type": "text",
+      "required": true
+    },
+    {
+      "key": "description",
+      "label": "Site description",
+      "type": "long_text",
+      "required": true
+    },
+    {
+      "key": "navigation",
+      "label": "Navigation",
+      "type": "components",
+      "required": true,
+      "components": [
+        {
+          "key": "portfolio_link",
+          "name": "Portfolio link",
+          "fields": [
+            {
+              "key": "label",
+              "label": "Label",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "url",
+              "label": "Destination",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "icon",
+              "label": "Icon name",
+              "type": "text",
+              "required": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "socials",
+      "label": "Social links",
+      "type": "components",
+      "required": true,
+      "components": [
+        {
+          "key": "portfolio_link",
+          "name": "Portfolio link",
+          "fields": [
+            {
+              "key": "label",
+              "label": "Label",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "url",
+              "label": "Destination",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "icon",
+              "label": "Icon name",
+              "type": "text",
+              "required": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "contact_links",
+      "label": "Contact links",
+      "type": "components",
+      "required": true,
+      "components": [
+        {
+          "key": "portfolio_link",
+          "name": "Portfolio link",
+          "fields": [
+            {
+              "key": "label",
+              "label": "Label",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "url",
+              "label": "Destination",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "icon",
+              "label": "Icon name",
+              "type": "text",
+              "required": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pages",
+      "label": "Pages",
+      "type": "references",
+      "required": true,
+      "target": "page"
+    },
+    {
+      "key": "projects",
+      "label": "Projects",
+      "type": "references",
+      "required": true,
+      "target": "project"
+    },
+    {
+      "key": "articles",
+      "label": "Articles",
+      "type": "references",
+      "required": true,
+      "target": "article"
+    },
+    {
+      "key": "resume",
+      "label": "Resume",
+      "type": "reference",
+      "required": true,
+      "target": "resume"
+    }
+  ],
+  "singleton": true
+}
