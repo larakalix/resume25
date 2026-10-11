@@ -1,6 +1,7 @@
 <script setup lang="ts">
-const { size } = defineProps<{
+const { size, as = 'h1' } = defineProps<{
     size?: 'large' | 'medium' | 'small'
+    as?: 'h1' | 'h2' | 'h3'
 }>()
 
 const sizeClass = computed(() => {
@@ -17,7 +18,7 @@ const sizeClass = computed(() => {
 </script>
 
 <template>
-    <h1 class="font-extrabold text-title tracking-tight" :class="sizeClass">
+    <component :is="as" class="font-extrabold text-title tracking-tight" :class="sizeClass">
         <slot />
-    </h1>
+    </component>
 </template>

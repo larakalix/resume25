@@ -1,23 +1,6 @@
-import { useQuery } from "@tanstack/vue-query";
-import { fetchPostBySlug } from "~/services/get-posts";
+import type { MaybeRefOrGetter } from "vue";
+import { posts } from "~/data/posts";
 
-export const usePost = (slug: string) => {
-    const {
-        data: post,
-        isLoading,
-        isError,
-        error,
-        refetch,
-    } = useQuery({
-        queryKey: ["post", slug],
-        queryFn: () => fetchPostBySlug(slug),
-    });
-
-    return {
-        post,
-        isLoading,
-        isError,
-        error,
-        refreshPost: refetch,
-    };
-};
+export const usePost = (slug: MaybeRefOrGetter<string>) => ({
+    post: computed(() => posts.find(post => post.slug === toValue(slug))),
+});

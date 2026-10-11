@@ -5,32 +5,41 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "predev": "node scripts/prepare-resume.mjs",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "prebuild": "node scripts/prepare-resume.mjs",
+    "pregenerate": "node scripts/prepare-resume.mjs",
+    "lint": "eslint src nuxt.config.ts scripts/prepare-resume.mjs scripts/export-contentful.mjs scripts/client-bundle-report.mjs",
+    "typecheck": "nuxt typecheck",
+    "test:site": "node --test tests/site.test.mjs",
+    "test:resume": "node --test tests/resume.test.mjs",
+    "test:unit": "node --test tests/resume.test.mjs tests/interaction-utils.test.mjs tests/collection-component.test.mjs tests/contentful.test.mjs tests/content-summaries.test.mjs",
+    "perf:bundle": "node scripts/client-bundle-report.mjs",
+    "content:export": "node scripts/export-contentful.mjs"
   },
   "dependencies": {
+    "@fontsource/inter": "^5.3.0",
+    "@iconify-json/mdi": "^1.2.3",
     "@nuxt/eslint": "1.3.0",
-    "@nuxt/fonts": "0.11.2",
     "@nuxt/icon": "1.12.0",
     "@nuxt/image": "1.10.0",
-    "@nuxt/ui": "3.1.0",
+    "@nuxt/ui": "3.3.7",
     "@nuxtjs/color-mode": "^3.5.2",
-    "@posthog/nuxt": "^1.7.80",
-    "@tailwindcss/vite": "^4.1.4",
-    "@tanstack/vue-query": "^5.74.0",
     "eslint": "^9.25.1",
     "nuxt": "^4.4.8",
+    "posthog-js": "1.399.1",
     "tailwindcss": "^4.1.4",
     "typescript": "^5.8.3",
     "valibot": "^1.0.0",
-    "vue": "^3.5.13",
-    "vue-router": "^4.5.0"
+    "vue": "^3.5.39",
+    "vue-router": "^5.1.0"
   },
   "packageManager": "pnpm@10.9.0+sha512.0486e394640d3c1fb3c9d43d49cf92879ff74f8516959c235308f5a8f62e2e19528a65cdc2a3058f587cde71eba3d5b56327c8c33a97e4c4051ca48a10ca2d5f",
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.20",
     "@types/node": "^22.15.0",
-    "vite-tsconfig-paths": "^5.1.4"
+    "vue-tsc": "^3.3.12"
   }
 }

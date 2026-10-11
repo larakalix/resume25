@@ -1,26 +1,22 @@
+import { useContent } from "./use-content";
 import type { PageConfig } from "~/types/page";
 
-export const usePage = (pageKey: string): PageConfig | undefined => {
+export const usePage = (pageKey: string): PageConfig => {
     const content = useContent();
     const page = content.getPage(pageKey);
 
     if (!page) {
-        navigateTo("/not-found", { replace: true });
-        return;
+        throw createError({ statusCode: 404, statusMessage: "Page not found" });
     }
 
-    useHead({
+    useSeoMeta({
         title: page.meta.title,
-        meta: [
-            { name: "description", content: page.meta.description },
-            { name: "keywords", content: page.meta.keywords },
-            { charset: "utf-8" },
-            {
-                name: "viewport",
-                content: "width=device-width, initial-scale=1",
-            },
-        ],
+        description: page.meta.description,
+        ogTitle: page.meta.title,
+        ogDescription: page.meta.description,
+        twitterTitle: page.meta.title,
+        twitterDescription: page.meta.description,
     });
 
-    return page as PageConfig;
+    return page;
 };

@@ -1,8 +1,7 @@
 <script setup lang="ts">
-import type { Post } from '~/types/schemas';
-
+import type { PostSummary } from '~/types/schemas'
 const { posts, isLoading = false, isError = false, error = null, title = 'Blog' } = defineProps<{
-    posts: Post[]
+    posts: PostSummary[]
     isLoading?: boolean
     isError?: boolean
     error?: Error | null
@@ -11,17 +10,12 @@ const { posts, isLoading = false, isError = false, error = null, title = 'Blog' 
 </script>
 
 <template>
-    <div class="flex flex-col gap-y-4">
-        <AtTitle size="large">{{ title }}</AtTitle>
-
-        <div v-if="isLoading" class="text-sm text-title/60">Loading posts...</div>
-
-        <div v-else-if="isError" class="text-sm text-red-500">
-            Failed to load posts. {{ error?.message }}
+    <section class="space-y-6">
+        <h2 class="section-title">{{ title }}</h2>
+        <div class="article-grid">
+            <MlCollectionState :is-loading="isLoading" :is-error="isError" :error="error" :count="posts.length" label="posts">
+                <MlPostCard v-for="post in posts" :key="post.id" :post="post" />
+            </MlCollectionState>
         </div>
-
-        <MlEmptyRows v-else-if="!posts.length" />
-
-        <MlPostCard v-for="post in posts" :key="post.id" :post="post" />
-    </div>
+    </section>
 </template>

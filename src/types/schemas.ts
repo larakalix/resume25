@@ -3,6 +3,7 @@ export type Project = {
     name: string;
     description: string;
     image: string;
+    demo?: string;
     url: string;
     tags: string[];
 };
@@ -17,3 +18,5 @@ export type Post = {
     tags: string[];
     image?: string;
 };
+
+export type PostSummary = Omit<Post, 'content'>;

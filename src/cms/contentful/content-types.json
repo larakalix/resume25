@@ -1,0 +1,975 @@
+[
+  {
+    "sys": {
+      "id": "project",
+      "type": "ContentType"
+    },
+    "name": "Project",
+    "description": "Portfolio project",
+    "displayField": "name",
+    "fields": [
+      {
+        "id": "contentId",
+        "name": "Content id",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "name",
+        "name": "Name",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "description",
+        "name": "Description",
+        "type": "Text",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "image",
+        "name": "Image",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "demo",
+        "name": "Demo",
+        "type": "Symbol",
+        "localized": false,
+        "required": false,
+        "validations": []
+      },
+      {
+        "id": "url",
+        "name": "Url",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "tags",
+        "name": "Tags",
+        "type": "Array",
+        "localized": false,
+        "required": true,
+        "validations": [],
+        "items": {
+          "type": "Symbol",
+          "validations": []
+        }
+      }
+    ]
+  },
+  {
+    "sys": {
+      "id": "post",
+      "type": "ContentType"
+    },
+    "name": "Article",
+    "description": "Portfolio article",
+    "displayField": "title",
+    "fields": [
+      {
+        "id": "contentId",
+        "name": "Content id",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "title",
+        "name": "Title",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "slug",
+        "name": "Slug",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": [
+          {
+            "unique": true
+          },
+          {
+            "regexp": {
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+            }
+          }
+        ]
+      },
+      {
+        "id": "excerpt",
+        "name": "Excerpt",
+        "type": "Text",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "content",
+        "name": "Content",
+        "type": "Text",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "date",
+        "name": "Date",
+        "type": "Date",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "tags",
+        "name": "Tags",
+        "type": "Array",
+        "localized": false,
+        "required": true,
+        "validations": [],
+        "items": {
+          "type": "Symbol",
+          "validations": []
+        }
+      },
+      {
+        "id": "image",
+        "name": "Image",
+        "type": "Symbol",
+        "localized": false,
+        "required": false,
+        "validations": []
+      }
+    ]
+  },
+  {
+    "sys": {
+      "id": "link",
+      "type": "ContentType"
+    },
+    "name": "Link",
+    "description": "Portfolio link",
+    "displayField": "label",
+    "fields": [
+      {
+        "id": "label",
+        "name": "Label",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "url",
+        "name": "Url",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "icon",
+        "name": "Icon",
+        "type": "Symbol",
+        "localized": false,
+        "required": false,
+        "validations": []
+      }
+    ]
+  },
+  {
+    "sys": {
+      "id": "profile",
+      "type": "ContentType"
+    },
+    "name": "Profile",
+    "description": "Portfolio profile",
+    "displayField": "name",
+    "fields": [
+      {
+        "id": "name",
+        "name": "Name",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "headline",
+        "name": "Headline",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "location",
+        "name": "Location",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "openToRelocate",
+        "name": "Open to relocate",
+        "type": "Boolean",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "summary",
+        "name": "Summary",
+        "type": "Text",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "email",
+        "name": "Email",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "phone",
+        "name": "Phone",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "phoneHref",
+        "name": "Phone href",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "links",
+        "name": "Links",
+        "type": "Array",
+        "localized": false,
+        "required": true,
+        "validations": [],
+        "items": {
+          "type": "Link",
+          "linkType": "Entry",
+          "validations": [
+            {
+              "linkContentType": [
+                "link"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "sys": {
+      "id": "achievement",
+      "type": "ContentType"
+    },
+    "name": "Achievement",
+    "description": "Portfolio achievement",
+    "displayField": "text",
+    "fields": [
+      {
+        "id": "contentId",
+        "name": "Content id",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "text",
+        "name": "Text",
+        "type": "Text",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "featured",
+        "name": "Featured",
+        "type": "Boolean",
+        "localized": false,
+        "required": true,
+        "validations": []
+      }
+    ]
+  },
+  {
+    "sys": {
+      "id": "experience",
+      "type": "ContentType"
+    },
+    "name": "Experience",
+    "description": "Portfolio experience",
+    "displayField": "company",
+    "fields": [
+      {
+        "id": "contentId",
+        "name": "Content id",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "company",
+        "name": "Company",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "role",
+        "name": "Role",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "location",
+        "name": "Location",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "startDate",
+        "name": "Start date",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": [
+          {
+            "regexp": {
+              "pattern": "^\\d{4}-(0[1-9]|1[0-2])$"
+            }
+          }
+        ]
+      },
+      {
+        "id": "endDate",
+        "name": "End date",
+        "type": "Symbol",
+        "localized": false,
+        "required": false,
+        "validations": [
+          {
+            "regexp": {
+              "pattern": "^\\d{4}-(0[1-9]|1[0-2])$"
+            }
+          }
+        ]
+      },
+      {
+        "id": "remote",
+        "name": "Remote",
+        "type": "Boolean",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "highlights",
+        "name": "Highlights",
+        "type": "Array",
+        "localized": false,
+        "required": true,
+        "validations": [],
+        "items": {
+          "type": "Link",
+          "linkType": "Entry",
+          "validations": [
+            {
+              "linkContentType": [
+                "achievement"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "technologies",
+        "name": "Technologies",
+        "type": "Array",
+        "localized": false,
+        "required": true,
+        "validations": [],
+        "items": {
+          "type": "Symbol",
+          "validations": []
+        }
+      }
+    ]
+  },
+  {
+    "sys": {
+      "id": "skillGroup",
+      "type": "ContentType"
+    },
+    "name": "Skill group",
+    "description": "Portfolio skill group",
+    "displayField": "label",
+    "fields": [
+      {
+        "id": "contentId",
+        "name": "Content id",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "label",
+        "name": "Label",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "items",
+        "name": "Items",
+        "type": "Array",
+        "localized": false,
+        "required": true,
+        "validations": [],
+        "items": {
+          "type": "Symbol",
+          "validations": []
+        }
+      }
+    ]
+  },
+  {
+    "sys": {
+      "id": "education",
+      "type": "ContentType"
+    },
+    "name": "Education",
+    "description": "Portfolio education",
+    "displayField": "institution",
+    "fields": [
+      {
+        "id": "contentId",
+        "name": "Content id",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "institution",
+        "name": "Institution",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "qualification",
+        "name": "Qualification",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "date",
+        "name": "Date",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "status",
+        "name": "Status",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      }
+    ]
+  },
+  {
+    "sys": {
+      "id": "certification",
+      "type": "ContentType"
+    },
+    "name": "Certification",
+    "description": "Portfolio certification",
+    "displayField": "name",
+    "fields": [
+      {
+        "id": "contentId",
+        "name": "Content id",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "issuer",
+        "name": "Issuer",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "name",
+        "name": "Name",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "date",
+        "name": "Date",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      }
+    ]
+  },
+  {
+    "sys": {
+      "id": "language",
+      "type": "ContentType"
+    },
+    "name": "Language",
+    "description": "Portfolio language",
+    "displayField": "name",
+    "fields": [
+      {
+        "id": "name",
+        "name": "Name",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "proficiency",
+        "name": "Proficiency",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      }
+    ]
+  },
+  {
+    "sys": {
+      "id": "resume",
+      "type": "ContentType"
+    },
+    "name": "Resume",
+    "description": "Portfolio resume",
+    "displayField": "sourceDocument",
+    "fields": [
+      {
+        "id": "schemaVersion",
+        "name": "Schema version",
+        "type": "Integer",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "sourceDocument",
+        "name": "Source document",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "profile",
+        "name": "Profile",
+        "type": "Link",
+        "localized": false,
+        "required": true,
+        "validations": [
+          {
+            "linkContentType": [
+              "profile"
+            ]
+          }
+        ],
+        "linkType": "Entry"
+      },
+      {
+        "id": "experience",
+        "name": "Experience",
+        "type": "Array",
+        "localized": false,
+        "required": true,
+        "validations": [],
+        "items": {
+          "type": "Link",
+          "linkType": "Entry",
+          "validations": [
+            {
+              "linkContentType": [
+                "experience"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "skillGroups",
+        "name": "Skill groups",
+        "type": "Array",
+        "localized": false,
+        "required": true,
+        "validations": [],
+        "items": {
+          "type": "Link",
+          "linkType": "Entry",
+          "validations": [
+            {
+              "linkContentType": [
+                "skillGroup"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "education",
+        "name": "Education",
+        "type": "Array",
+        "localized": false,
+        "required": true,
+        "validations": [],
+        "items": {
+          "type": "Link",
+          "linkType": "Entry",
+          "validations": [
+            {
+              "linkContentType": [
+                "education"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "certifications",
+        "name": "Certifications",
+        "type": "Array",
+        "localized": false,
+        "required": true,
+        "validations": [],
+        "items": {
+          "type": "Link",
+          "linkType": "Entry",
+          "validations": [
+            {
+              "linkContentType": [
+                "certification"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "languages",
+        "name": "Languages",
+        "type": "Array",
+        "localized": false,
+        "required": true,
+        "validations": [],
+        "items": {
+          "type": "Link",
+          "linkType": "Entry",
+          "validations": [
+            {
+              "linkContentType": [
+                "language"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "downloads",
+        "name": "Downloads",
+        "type": "Object",
+        "localized": false,
+        "required": true,
+        "validations": []
+      }
+    ]
+  },
+  {
+    "sys": {
+      "id": "page",
+      "type": "ContentType"
+    },
+    "name": "Page",
+    "description": "Portfolio page",
+    "displayField": "title",
+    "fields": [
+      {
+        "id": "key",
+        "name": "Key",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": [
+          {
+            "unique": true
+          }
+        ]
+      },
+      {
+        "id": "title",
+        "name": "Title",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "subtitle",
+        "name": "Subtitle",
+        "type": "Symbol",
+        "localized": false,
+        "required": false,
+        "validations": []
+      },
+      {
+        "id": "description",
+        "name": "Description",
+        "type": "Text",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "action",
+        "name": "Action",
+        "type": "Object",
+        "localized": false,
+        "required": false,
+        "validations": []
+      },
+      {
+        "id": "seoTitle",
+        "name": "Seo title",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "seoDescription",
+        "name": "Seo description",
+        "type": "Text",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "seoKeywords",
+        "name": "Seo keywords",
+        "type": "Text",
+        "localized": false,
+        "required": true,
+        "validations": []
+      }
+    ]
+  },
+  {
+    "sys": {
+      "id": "siteSettings",
+      "type": "ContentType"
+    },
+    "name": "Site settings",
+    "description": "Portfolio site settings",
+    "displayField": "title",
+    "fields": [
+      {
+        "id": "title",
+        "name": "Title",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "description",
+        "name": "Description",
+        "type": "Text",
+        "localized": false,
+        "required": true,
+        "validations": []
+      },
+      {
+        "id": "navItems",
+        "name": "Nav items",
+        "type": "Array",
+        "localized": false,
+        "required": true,
+        "validations": [],
+        "items": {
+          "type": "Link",
+          "linkType": "Entry",
+          "validations": [
+            {
+              "linkContentType": [
+                "link"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "socials",
+        "name": "Socials",
+        "type": "Array",
+        "localized": false,
+        "required": true,
+        "validations": [],
+        "items": {
+          "type": "Link",
+          "linkType": "Entry",
+          "validations": [
+            {
+              "linkContentType": [
+                "link"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "contactLinks",
+        "name": "Contact links",
+        "type": "Array",
+        "localized": false,
+        "required": true,
+        "validations": [],
+        "items": {
+          "type": "Link",
+          "linkType": "Entry",
+          "validations": [
+            {
+              "linkContentType": [
+                "link"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "pages",
+        "name": "Pages",
+        "type": "Array",
+        "localized": false,
+        "required": true,
+        "validations": [],
+        "items": {
+          "type": "Link",
+          "linkType": "Entry",
+          "validations": [
+            {
+              "linkContentType": [
+                "page"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "projects",
+        "name": "Projects",
+        "type": "Array",
+        "localized": false,
+        "required": true,
+        "validations": [],
+        "items": {
+          "type": "Link",
+          "linkType": "Entry",
+          "validations": [
+            {
+              "linkContentType": [
+                "project"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "posts",
+        "name": "Posts",
+        "type": "Array",
+        "localized": false,
+        "required": true,
+        "validations": [],
+        "items": {
+          "type": "Link",
+          "linkType": "Entry",
+          "validations": [
+            {
+              "linkContentType": [
+                "post"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "resume",
+        "name": "Resume",
+        "type": "Link",
+        "localized": false,
+        "required": true,
+        "validations": [
+          {
+            "linkContentType": [
+              "resume"
+            ]
+          }
+        ],
+        "linkType": "Entry"
+      }
+    ]
+  }
+]

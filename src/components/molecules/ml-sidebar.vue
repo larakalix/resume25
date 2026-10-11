@@ -7,7 +7,7 @@ const { items } = defineProps<{
 </script>
 
 <template>
-    <aside class="w-full mt-0 lg:mt-8">
+    <aside class="hidden md:block w-full mt-0 lg:mt-8">
         <nav>
             <ul>
                 <li v-for="{ name, path } in items" :key="name">

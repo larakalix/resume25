@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import profile from '~/data/generated/profile.json'
 import type { FormSubmitEvent } from '@nuxt/ui'
 import { contactSchema, type ContactForm } from '~/schemas/contact-schema';
 
@@ -11,9 +12,11 @@ const state = reactive<ContactForm>({
     subject: '',
 });
 
-async function onSubmit(event: FormSubmitEvent<ContactForm>) {
-    toast.add({ title: 'Success', description: 'The form has been submitted.', color: 'success' })
-    console.log(event.data)
+function onSubmit(event: FormSubmitEvent<ContactForm>) {
+    const { name, email, subject, message } = event.data
+    const body = `${message}\n\nFrom: ${name} <${email}>`
+    window.location.href = `mailto:${profile.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+    toast.add({ title: 'Email draft opened', description: 'Send the message from your email app.', color: 'info' })
 }
 
 </script>
@@ -21,25 +24,25 @@ async function onSubmit(event: FormSubmitEvent<ContactForm>) {
 <template>
     <UCard>
         <UForm :schema="contactSchema" :state="state" class="space-y-4" @submit="onSubmit">
-            <UFormGroup label="Name" name="name">
+            <UFormField label="Name" name="name">
                 <UInput v-model="state.name" />
-            </UFormGroup>
+            </UFormField>
 
-            <UFormGroup label="Email" name="email">
+            <UFormField label="Email" name="email">
                 <UInput v-model="state.email" type="email" />
-            </UFormGroup>
+            </UFormField>
 
-            <UFormGroup label="Subject" name="subject">
+            <UFormField label="Subject" name="subject">
                 <UInput v-model="state.subject" />
-            </UFormGroup>
+            </UFormField>
 
-            <UFormGroup label="Message" name="message">
+            <UFormField label="Message" name="message">
                 <UTextarea v-model="state.message" />
-            </UFormGroup>
+            </UFormField>
 
             <div class="pt-2">
                 <UButton type="submit" class="w-full sm:w-auto">
-                    Send Message
+                    Open email draft
                 </UButton>
             </div>
         </UForm>

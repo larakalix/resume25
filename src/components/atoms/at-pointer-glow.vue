@@ -1,83 +1,55 @@
 <template>
-    <div class="pointer-events-none fixed z-50" :style="{
-        left: `${x}px`,
-        top: `${y}px`,
-        transform: 'translate(-50%, -50%)'
-    }">
-        <div :style="{
-            width: glowState === 'hovered' ? '20px' : '200px',
-            height: glowState === 'hovered' ? '20px' : '200px',
-            background: glowState === 'hovered' ? colorMode.value === 'dark' ? 'orange' : 'black'
-                : colorMode.value === 'dark'
-                    ? 'radial-gradient(circle, white, transparent 70%)'
-                    : 'radial-gradient(circle, black, transparent 70%)',
-        }" :class="[
-            'rounded-full transition-all duration-300',
-            glowState === 'hovered' ? 'opacity-90 blur' : 'opacity-30 blur-3xl',
-            glowState === 'idle' || glowState !== 'hovered' ? 'animate-pulse-glow' : '',
-        ]" />
-    </div>
+    <div ref="pointer" class="pointer-glow" :class="{ 'pointer-glow-hovered': hovered, 'pointer-glow-paused': paused }" aria-hidden="true"><div class="pointer-glow-surface" /></div>
 </template>
 
 <script setup lang="ts">
-import type { GlowState } from '~/types/state'
+const pointer = useTemplateRef<HTMLElement>('pointer')
+const hovered = ref(false)
+const paused = ref(true)
+let preference: MediaQueryList | undefined
+let frame = 0
+let latestEvent: PointerEvent | undefined
 
-const x = ref(-100)
-const y = ref(-100)
-const glowState = ref<GlowState>('idle')
-const colorMode = useColorMode()
-
-const TIMER = 1000
-let idleTimeout: ReturnType<typeof setTimeout> | null = null
-
-const updateGlow = (e: MouseEvent) => {
-    const target = e.target as HTMLElement
-    const isHovering = !!target.closest('a, button, [role="button"]')
-
-    if (isHovering) {
-        glowState.value = 'hovered'
-    } else {
-        if (glowState.value === 'hovered') {
-            glowState.value = 'moving'
-            if (idleTimeout) clearTimeout(idleTimeout)
-
-            idleTimeout = setTimeout(() => {
-                glowState.value = 'idle'
-            }, TIMER)
-        }
-    }
-
-    // No need to offset anymore, just set exact pointer coordinates
-    x.value = e.clientX
-    y.value = e.clientY
+function update() {
+    frame = 0
+    if (!latestEvent || !pointer.value) return
+    // Pointer travel stays outside Vue rendering and does not change layout geometry.
+    pointer.value.style.transform = `translate3d(${latestEvent.clientX}px, ${latestEvent.clientY}px, 0)`
+    const target = latestEvent.target
+    hovered.value = target instanceof Element && !!target.closest('a, button, [role="button"]')
 }
-
+function schedule(event: PointerEvent) {
+    latestEvent = event
+    if (!frame) frame = requestAnimationFrame(update)
+}
+function sync() {
+    window.removeEventListener('pointermove', schedule)
+    cancelAnimationFrame(frame)
+    frame = 0
+    latestEvent = undefined
+    paused.value = document.hidden || !!preference?.matches
+    if (!paused.value) window.addEventListener('pointermove', schedule, { passive: true })
+}
 onMounted(() => {
-    window.addEventListener('mousemove', updateGlow)
+    preference = window.matchMedia('(prefers-reduced-motion: reduce), (pointer: coarse)')
+    preference.addEventListener('change', sync)
+    document.addEventListener('visibilitychange', sync)
+    sync()
 })
 onUnmounted(() => {
-    window.removeEventListener('mousemove', updateGlow)
-    if (idleTimeout) clearTimeout(idleTimeout)
+    window.removeEventListener('pointermove', schedule)
+    document.removeEventListener('visibilitychange', sync)
+    preference?.removeEventListener('change', sync)
+    cancelAnimationFrame(frame)
 })
 </script>
 
 <style scoped>
-@keyframes pulse-glow {
-
-    0%,
-    100% {
-        transform: scale(1);
-        opacity: 0.2;
-    }
-
-    50% {
-        transform: scale(1.1);
-        opacity: 0.35;
-    }
-}
-
-.animate-pulse-glow {
-    animation: pulse-glow 5s ease-in-out infinite;
-    will-change: transform, opacity;
-}
+.pointer-glow { position: fixed; inset: 0 auto auto 0; z-index: 50; width: 0; height: 0; pointer-events: none; transform: translate3d(-300px, -300px, 0); }
+.pointer-glow-surface { width: 200px; height: 200px; border-radius: 50%; background: radial-gradient(circle, #24242455, #24242418 30%, transparent 70%); transform: translate(-50%, -50%) scale(1); opacity: .65; transition: transform 240ms var(--ease-spring), opacity 160ms; }
+.pointer-glow-hovered .pointer-glow-surface { transform: translate(-50%, -50%) scale(.1); opacity: .9; }
+:global(.dark .pointer-glow-surface) { background: radial-gradient(circle, #ffffff70, #ffffff20 30%, transparent 70%); }
+:global(.dark .pointer-glow-hovered .pointer-glow-surface) { background: radial-gradient(circle, #ffac7e, #ffac7e55 40%, transparent 70%); }
+.pointer-glow-paused .pointer-glow-surface { opacity: 0; }
+@media (prefers-reduced-motion: reduce), (pointer: coarse) { .pointer-glow { display: none; } }
 </style>

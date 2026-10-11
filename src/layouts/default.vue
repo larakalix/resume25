@@ -1,16 +1,14 @@
 <script setup lang="ts">
+const route = useRoute()
 </script>
 
 <template>
     <UApp>
-        <div class="flex flex-col mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-16 lg:py-0">
-            <AtPointerGlow />
+        <ClientOnly><AtPointerGlow /></ClientOnly>
+        <div class="site-shell">
+            <a href="#main-content" class="skip-link sr-only focus:not-sr-only focus:absolute focus:z-50 focus:rounded focus:bg-background focus:p-3">Skip to content</a>
             <MlNavbar />
-
-            <main class="flex flex-grow container mx-auto px-2 py-2 lg:px-4 lg:py-8">
-                <slot />
-            </main>
-
+            <main id="main-content" tabindex="-1" class="site-main" :class="{ 'site-main-home': route.path === '/' }"><slot /></main>
             <MlFooter />
         </div>
     </UApp>

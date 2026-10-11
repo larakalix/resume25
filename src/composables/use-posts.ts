@@ -1,23 +1,4 @@
-import { useQuery } from "@tanstack/vue-query";
-import { fetchPosts } from "~/services/get-posts";
-
-export const usePosts = () => {
-    const {
-        data: posts,
-        isLoading,
-        isError,
-        error,
-        refetch,
-    } = useQuery({
-        queryKey: ["posts"],
-        queryFn: fetchPosts,
-    });
-
-    return {
-        posts,
-        isLoading,
-        isError,
-        error,
-        refreshPosts: refetch,
-    };
-};
+import summaries from '~/data/generated/post-summaries.json';
+import type { PostSummary } from '~/types/schemas';
+const posts: PostSummary[] = summaries;
+export const usePosts = () => ({ posts: computed(() => [...posts].sort((a, b) => b.date.localeCompare(a.date))) });

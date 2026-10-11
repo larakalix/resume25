@@ -1,69 +1,34 @@
 <script setup lang="ts">
-import type { Project } from '~/types/schemas';
+import type { Project } from '~/types/schemas'
 
-const { project, index, hoveredIndex, variant = 'compact' } = defineProps<{
-    project: Project;
-    index: number;
-    hoveredIndex: number | null;
+const { project, variant = 'compact', featured = false } = defineProps<{
+    project: Project
+    index: number
+    hoveredIndex: number | null
     variant?: 'compact' | 'large'
+    featured?: boolean
 }>()
-
-const emit = defineEmits<{
-    hover: []
-    unhover: []
-}>()
-
+const emit = defineEmits<{ hover: []; unhover: [] }>()
 const posthog = usePostHog()
-
 function trackProjectClick() {
-    posthog?.capture('project_link_clicked', {
-        project_name: project.name,
-        project_url: project.url,
-        variant,
-    })
+    posthog?.capture('project_link_clicked', { project_name: project.name, project_url: project.url, variant })
 }
 </script>
 
 <template>
-    <figure class="p-2 bg-white-100/50 dark:bg-gray-400/10 rounded group">
-        <div class="transition-opacity duration-300" :class="[
-            variant === 'large' ? 'flex flex-col gap-4' : 'flex gap-4 items-start',
-            {
-                'opacity-40': hoveredIndex !== null && hoveredIndex !== index,
-                'opacity-100': hoveredIndex === null || hoveredIndex === index
-            }
-        ]" @mouseenter="emit('hover')" @mouseleave="emit('unhover')">
-            <a v-if="project.url" :href="project.url" target="_blank" rel="noopener noreferrer"
-                class="block overflow-hidden rounded" :class="variant === 'large' ? 'w-full' : 'min-w-32'"
-                @click="trackProjectClick">
-                <img :src="project.image" :alt="project.name"
-                    class="object-cover rounded transition-transform duration-300 group-hover:scale-105"
-                    :class="variant === 'large' ? 'w-full h-48' : 'min-w-32 h-20'" />
-            </a>
-            <div v-else class="overflow-hidden rounded" :class="variant === 'large' ? 'w-full' : 'min-w-32'">
-                <img :src="project.image" :alt="project.name" class="object-cover rounded"
-                    :class="variant === 'large' ? 'w-full h-48' : 'min-w-32 h-20'" />
-            </div>
-
-            <div class="flex flex-col justify-between gap-1">
-                <a v-if="project.url" :href="project.url" target="_blank" rel="noopener noreferrer"
-                    class="inline-flex items-baseline font-medium leading-tight text-title group-hover:text-black dark:group-hover:text-orange focus-visible:text-orange group/link text-base">
-                    {{ project.name }}
-                    <span v-if="variant === 'large'" class="ml-1 text-xs">↗</span>
-                </a>
-                <h3 v-else
-                    class="inline-flex items-baseline font-medium leading-tight text-title group-hover:text-black dark:group-hover:text-orange focus-visible:text-orange group/link text-base">
-                    {{ project.name }}
-                </h3>
-                <p class="mt-2 text-sm text-title/60 leading-normal">
-                    {{ project.description }}
-                </p>
-                <ul class="mt-2 flex flex-wrap gap-0.5">
-                    <li v-for="tag in project.tags" :key="tag">
-                        <AtTag>{{ tag }}</AtTag>
-                    </li>
-                </ul>
-            </div>
+    <article class="portfolio-card project-card" :class="{ 'project-card-featured': featured, 'project-card-compact': variant === 'compact' }" @mouseenter="emit('hover')" @mouseleave="emit('unhover')">
+        <component :is="project.url ? 'a' : 'div'" :href="project.url || undefined" :target="project.url ? '_blank' : undefined" :rel="project.url ? 'noopener noreferrer' : undefined" class="project-image-link" @click="project.url && trackProjectClick()">
+            <div class="project-preview-bar" aria-hidden="true"><i /><i /><i /><span>{{ project.name }}</span></div>
+            <NuxtImg :src="project.image" :alt="project.name" width="960" height="600" :sizes="featured ? '100vw lg:700px' : '100vw sm:50vw lg:560px'" loading="lazy" decoding="async" class="project-image" />
+            <span v-if="project.url" class="project-image-arrow" aria-hidden="true"><AtMotionArrow /></span>
+        </component>
+        <div class="project-card-body">
+            <p v-if="featured" class="eyebrow">Featured project</p>
+            <h3 class="card-title"><a v-if="project.url" :href="project.url" target="_blank" rel="noopener noreferrer" @click="trackProjectClick">{{ project.name }}</a><template v-else>{{ project.name }}</template></h3>
+            <p class="text-paragraph leading-relaxed">{{ project.description }}</p>
+            <ul class="flex flex-wrap gap-2" aria-label="Technologies and topics">
+                <li v-for="tag in project.tags" :key="tag"><AtTag :label="tag" /></li>
+            </ul>
         </div>
-    </figure>
+    </article>
 </template>
